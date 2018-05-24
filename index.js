@@ -14,10 +14,11 @@ module.exports = {
 
   rules: {
     // base
-    'object-curly-spacing': ['error', 'always'],
     'arrow-parens': ['error', 'always'],
     'nonblock-statement-body-position': ['error', 'beside'],
     'computed-property-spacing': ['error', 'never'],
+    'array-bracket-spacing': ['error', 'never'],
+    'object-curly-spacing': ['error', 'always'],
     'func-name-matching': ['error', 'always'],
     'consistent-return': 'error',
     'multiline-ternary': ['error', 'never'],
