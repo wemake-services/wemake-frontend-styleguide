@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-wemake",
+  "version": "0.1.0",
+  "description": "Shareable configuration for Eslint that we use in wemake.services",
+  "main": "index.js",
+  "repository": "https://github.com/wemake-services/eslint-config-wemake.git",
+  "author": "sobolevn <mail@sobolevn.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "dependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-unicorn": "^4.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1"
+  },
+  "keywords": [
+    "wemake.services",
+    "eslint",
+    "eslint-config",
+    "eslint config"
+  ]
+}
