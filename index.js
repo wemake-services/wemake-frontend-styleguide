@@ -13,20 +13,37 @@ module.exports = {
   ],
 
   rules: {
-    // base
+    // parens, spaces, new lines, and styling
     'arrow-parens': ['error', 'always'],
     'nonblock-statement-body-position': ['error', 'beside'],
     'computed-property-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
-    'func-name-matching': ['error', 'always'],
-    'consistent-return': 'error',
+
+    // ternary expressions
     'multiline-ternary': ['error', 'never'],
     'no-nested-ternary': 'error',
-    'getter-return': 'error',
+
+    // control statements
     'for-direction': 'error',
     'no-lonely-if': 'error',
+
+    // naming
     'no-shadow': 'error',
+    'func-name-matching': ['error', 'always'],
+    'no-native-reassign': 'error',
+    'consistent-this': ['error', 'self'],
+
+    // returns
+    'consistent-return': 'error',
+    'getter-return': 'error',
+
+    // strings
+    'prefer-template': 'error',
+    'no-useless-concat': 'error',
+
+    // generators
+    'require-yield': 'error',
 
     // warn about using console or debugger in development, fail in production
     'no-console': process.env.NODE_ENV !== 'production' ? 1 : 2,
@@ -45,20 +62,21 @@ module.exports = {
 
     // use new syntax
     'prefer-arrow-callback': 'error',
+    'no-confusing-arrow': ['error', { 'allowParens': false }],
     'prefer-rest-params': 'error',
     'object-shorthand': 'error',
-    'require-yield': 'error',
-
-    'func-style': ['error', 'declaration', {
-      'allowArrowFunctions': true
-    }],
+    'func-style': ['error', 'declaration', { 'allowArrowFunctions': true }],
     'no-var': 'error',
     'semi': ['error', 'never'],
-    'prefer-const': ['error', {
-      'ignoreReadBeforeAssign': false
-    }],
+    'prefer-const': ['error', { 'ignoreReadBeforeAssign': false }],
+
+    // best practices
+    'dot-notation': 'error',
+    'guard-for-in': 'error',
+    'radix': 'error',
 
     // security hardening
+    'no-script-url': 'error',
     'security/detect-buffer-noassert': 'error',
     'security/detect-child-process': 'error',
     'security/detect-disable-mustache-escape': 'error',

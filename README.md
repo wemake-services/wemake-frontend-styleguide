@@ -12,6 +12,8 @@ The main idea of this configuration is to be:
 2. Secure by default
 3. Restrictive about modifications
 
+The ultimate goal of this project is to become the strictest config available.
+
 
 ## Installation
 
