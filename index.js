@@ -53,29 +53,29 @@ module.exports = {
 
     // raise errors on long lines
     'max-len': ['error', {
-      'code': 80,
-      'ignoreComments': false,
-      'ignoreTrailingComments': false,
-      'ignoreUrls': false,
-      'ignoreStrings': false,
-      'ignoreTemplateLiterals': false,
-      'ignoreRegExpLiterals': false
+      code: 80,
+      ignoreComments: false,
+      ignoreTrailingComments: false,
+      ignoreUrls: false,
+      ignoreStrings: false,
+      ignoreTemplateLiterals: false,
+      ignoreRegExpLiterals: false
     }],
 
     // use new syntax
     'prefer-arrow-callback': 'error',
-    'no-confusing-arrow': ['error', { 'allowParens': false }],
+    'no-confusing-arrow': ['error', { allowParens: false }],
     'prefer-rest-params': 'error',
     'object-shorthand': 'error',
-    'func-style': ['error', 'declaration', { 'allowArrowFunctions': true }],
+    'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'no-var': 'error',
-    'semi': ['error', 'never'],
-    'prefer-const': ['error', { 'ignoreReadBeforeAssign': false }],
+    semi: ['error', 'never'],
+    'prefer-const': ['error', { ignoreReadBeforeAssign: false }],
 
     // best practices
     'dot-notation': 'error',
     'guard-for-in': 'error',
-    'radix': 'error',
+    radix: 'error',
 
     // promises
     'promise/prefer-await-to-then': 'error',
