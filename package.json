@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wemake",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shareable configuration for Eslint that we use in wemake.services",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/eslint-config-wemake.git",
@@ -18,7 +18,7 @@
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^3.1.0",
     "eslint-plugin-unicorn": "^4.0.3"

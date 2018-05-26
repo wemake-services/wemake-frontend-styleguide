@@ -3,8 +3,9 @@
 module.exports = {
   root: true,
   extends: [
-    'standard',
-    'plugin:unicorn/recommended'
+    'plugin:unicorn/recommended',
+    'plugin:promise/recommended',
+    'standard'
   ],
 
   plugins: [
@@ -19,6 +20,7 @@ module.exports = {
     'computed-property-spacing': ['error', 'never'],
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
+    'quote-props': ['error', 'as-needed'],
 
     // ternary expressions
     'multiline-ternary': ['error', 'never'],
@@ -75,6 +77,12 @@ module.exports = {
     'guard-for-in': 'error',
     'radix': 'error',
 
+    // promises
+    'promise/prefer-await-to-then': 'error',
+    'promise/prefer-await-to-callbacks': 'error',
+    'promise/no-nesting': 'error',
+    'promise/no-return-in-finally': 'error',
+
     // security hardening
     'no-script-url': 'error',
     'security/detect-buffer-noassert': 'error',
@@ -83,11 +91,11 @@ module.exports = {
     'security/detect-eval-with-expression': 'error',
     'security/detect-new-buffer': 'error',
     'security/detect-no-csrf-before-method-override': 'error',
-    'security/detect-non-literal-fs-filename': 'error',
     'security/detect-non-literal-regexp': 'error',
     'security/detect-non-literal-require': 'error',
-    // this plugin is too overwhelming:
+    // these plugins are too overwhelming:
     // security/detect-object-injection': 'error',
+    // 'security/detect-non-literal-fs-filename': 'error',
     'security/detect-possible-timing-attacks': 'error',
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'error'
