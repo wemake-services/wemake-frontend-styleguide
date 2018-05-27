@@ -21,20 +21,35 @@ module.exports = {
     'array-bracket-spacing': ['error', 'never'],
     'object-curly-spacing': ['error', 'always'],
     'quote-props': ['error', 'as-needed'],
+    'implicit-arrow-linebreak': ['error', 'beside'],
+    semi: ['error', 'never'],
 
     // ternary expressions
     'multiline-ternary': ['error', 'never'],
     'no-nested-ternary': 'error',
 
+    // operators
+    'operator-assignment': ['error', 'always'],
+
     // control statements
     'for-direction': 'error',
     'no-lonely-if': 'error',
+    'no-else-return': ['error', { allowElseIf: false }],
+    'no-empty': 'error',
+    'no-labels': 'error',
+    'no-extra-label': 'error',
+    'no-loop-func': 'error',
+    'no-bitwise': 'error',
+    'no-multi-assign': 'error',
+    'no-plusplus': 'error',
 
     // naming
     'no-shadow': 'error',
     'func-name-matching': ['error', 'always'],
     'no-native-reassign': 'error',
     'consistent-this': ['error', 'self'],
+    'no-catch-shadow': 'error',
+    'no-underscore-dangle': 'error',
 
     // returns
     'consistent-return': 'error',
@@ -47,9 +62,14 @@ module.exports = {
     // generators
     'require-yield': 'error',
 
+    // switch/case
+    'no-case-declarations': 'error',
+    'default-case': ['error', { commentPattern: '^no default$' }],
+
     // warn about using console or debugger in development, fail in production
     'no-console': process.env.NODE_ENV !== 'production' ? 1 : 2,
     'no-debugger': process.env.NODE_ENV !== 'production' ? 1 : 2,
+    'no-alert': process.env.NODE_ENV !== 'production' ? 1 : 2,
 
     // raise errors on long lines
     'max-len': ['error', {
@@ -63,19 +83,30 @@ module.exports = {
     }],
 
     // use new syntax
+    'no-void': 'error',
     'prefer-arrow-callback': 'error',
     'no-confusing-arrow': ['error', { allowParens: false }],
     'prefer-rest-params': 'error',
     'object-shorthand': 'error',
     'func-style': ['error', 'declaration', { allowArrowFunctions: true }],
     'no-var': 'error',
-    semi: ['error', 'never'],
     'prefer-const': ['error', { ignoreReadBeforeAssign: false }],
 
     // best practices
+    'vars-on-top': 'error',
+    'no-implicit-coercion': 'error',
+    complexity: ['error', { max: 8 }],
     'dot-notation': 'error',
     'guard-for-in': 'error',
     radix: 'error',
+    'no-div-regex': 'error',
+    'no-empty-function': ['error', {
+      allow: [
+        'arrowFunctions',
+        'functions',
+        'methods'
+      ]
+    }],
 
     // promises
     'promise/prefer-await-to-then': 'error',

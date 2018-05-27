@@ -1,5 +1,10 @@
 # Version history
 
+## Version 0.4.0
+
+- Adds multiple rules from `eslint-config-airbnb`
+
+
 ## Version 0.3.0
 
 - Adds `quote-props: as-needed`
