@@ -6,7 +6,8 @@ cache:
   directories:
     - node_modules
 
-node_js: 9
+node_js:
+  - 10.8
 
 install:
   - yarn install

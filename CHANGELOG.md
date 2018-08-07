@@ -1,5 +1,25 @@
 # Version history
 
+## Version 0.5.0
+
+### Style changes
+
+- We now always enforce key quotes with `quote-props` rule
+- We now enforce trailing commas, the same way we do it in our `python` code
+- We now enforce to name unused variables with `_` prefix
+- We now enforce to name variables longer than `1` symbol
+- We now restrict to use names for variables from a blacklist
+- New multiline rules: `lines-between-class-members` and `function-paren-newline`
+- Now we track a bunch of complexity rules, look for `complexity` section in `index.js`
+- We now also check some of `regex` related stuff: `require-unicode-regexp`, `no-misleading-character-class`
+- We now use some more `async` related rules: `no-async-promise-executor`, `require-atomic-updates`
+- We now use some more comment-related rules: `multiline-comment-style`, ``
+
+### Misc
+
+- Updated peer dependencies to `eslint@5`
+
+
 ## Version 0.4.0
 
 - Adds multiple rules from `eslint-config-airbnb`
