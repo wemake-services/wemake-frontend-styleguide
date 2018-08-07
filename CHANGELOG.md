@@ -13,7 +13,7 @@
 - Now we track a bunch of complexity rules, look for `complexity` section in `index.js`
 - We now also check some of `regex` related stuff: `require-unicode-regexp`, `no-misleading-character-class`
 - We now use some more `async` related rules: `no-async-promise-executor`, `require-atomic-updates`
-- We now use some more comment-related rules: `multiline-comment-style`, ``
+- We now use some more comment-related rules: `multiline-comment-style`
 
 ### Misc
 
