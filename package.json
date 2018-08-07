@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wemake",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Shareable configuration for Eslint that we use in wemake.services",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/eslint-config-wemake.git",
