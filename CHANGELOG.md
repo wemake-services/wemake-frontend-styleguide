@@ -1,5 +1,16 @@
 # Version history
 
+## Version 0.5.1
+
+### Style changes
+
+- Fixes `multiline-comment-style` value to be `separate-lines` 
+
+### Misc
+
+- Updated peer dependencies to match not exact, but `>=` versions
+
+
 ## Version 0.5.0
 
 ### Style changes

@@ -102,7 +102,7 @@ module.exports = {
     'no-misleading-character-class': 'error',
 
     // comments
-    'multiline-comment-style': ['error', 'starred-block'],
+    'multiline-comment-style': ['error', 'separate-lines'],
 
     // warn about using console or debugger in development, fail in production
     'no-console': process.env.NODE_ENV !== 'production' ? 1 : 2,
