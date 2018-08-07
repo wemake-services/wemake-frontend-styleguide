@@ -1,5 +1,12 @@
 # Version history
 
+## Version 0.5.2
+
+### Style changes
+
+- Fixes `no-unused-vars` to ignore `catch` errors and function arguments names
+
+
 ## Version 0.5.1
 
 ### Style changes

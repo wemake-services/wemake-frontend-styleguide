@@ -74,7 +74,11 @@ module.exports = {
     'consistent-this': ['error', 'self'],
     'no-catch-shadow': 'error',
     'no-underscore-dangle': 'error',
-    'no-unused-vars': ['error', { 'varsIgnorePattern': '^_' }],
+    'no-unused-vars': ['error', {
+      'varsIgnorePattern': '^_',
+      'caughtErrorsIgnorePattern': '^_',
+      'argsIgnorePattern': '^_',
+    }],
     'id-blacklist': ['error', ...variableNamesBlacklist],
     'id-length': ['error', { 'min': 2 }],
 
