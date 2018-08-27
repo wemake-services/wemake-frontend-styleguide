@@ -33,7 +33,7 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^3.1.0",
-    "eslint-plugin-unicorn": "^4.0.3"
+    "eslint-plugin-unicorn": "^6.0.0"
   },
   "keywords": [
     "wemake.services",
