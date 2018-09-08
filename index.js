@@ -18,7 +18,12 @@ const variableNamesBlacklist = [
   'handle',
   'handler',
   'file',
-  'klass',
+  'obj',
+  'objects',
+  'objs',
+  'foo',
+  'bar',
+  'baz',
 ]
 
 module.exports = {

@@ -1,5 +1,16 @@
 # Version history
 
+## Version 0.6.0
+
+### Style changes
+
+- Updated the variables blacklist
+
+### Misc
+
+- Updated `eslint-config-standard` to `@12.0`
+
+
 ## Version 0.5.2
 
 ### Style changes
