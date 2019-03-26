@@ -1,0 +1,29 @@
+p {
+  & a {
+    display: flex;
+  }
+}
+
+* * {
+  box-sizing: border-box;
+}
+
+.over .max .compound .selectors {
+  width: 150px;
+}
+
+#widget #price {
+  visibility: hidden;
+}
+
+div input label span {
+  float: left;
+}
+
+[target="_blank"] {
+  display: none;
+}
+
+[target=_self] {
+  display: none;
+}

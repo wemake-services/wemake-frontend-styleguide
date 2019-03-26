@@ -1,0 +1,12 @@
+@mixin custom-padding ($padding: 16px) {
+  margin: $padding;
+  padding: $padding;
+}
+
+p {
+  @include custom-padding();
+}
+
+pre {
+  @include custom-padding($padding: 5px);
+}

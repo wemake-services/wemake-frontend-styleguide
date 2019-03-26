@@ -1,0 +1,8 @@
+@function pxToEm($size, $base-font: 16px) {
+  @return $size * 1em / $base-font;
+}
+
+a {
+  font-size: pxToEm(14px);
+  padding: pxToEm(5px, $base-font: 10px);
+}

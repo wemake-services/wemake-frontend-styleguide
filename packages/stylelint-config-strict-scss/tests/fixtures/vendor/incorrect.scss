@@ -1,0 +1,18 @@
+a {
+  display: -webkit-flex;
+  -webkit-transform: scale(1);
+}
+
+input::-moz-placeholder {
+  color: rgb(13, 19, 122);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1) {
+  display: none;
+}
+
+@-webkit-keyframes test {
+  0% {
+    top: 0;
+  }
+}

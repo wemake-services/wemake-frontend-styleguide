@@ -1,0 +1,25 @@
+{
+  "name": "@wemake-services/eslint-config-jsdoc-essential",
+  "version": "0.1.2",
+  "description": "Essential rules for eslint-plugin-jsdoc",
+  "main": "index.js",
+  "repository": "https://github.com/wemake-services/eslint-config-jsdoc-essential.git",
+  "author": "sobolevn <mail@sobolevn.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint-plugin-jsdoc",
+    "jsdoc",
+    "eslint",
+    "documentation",
+    "linting"
+  ],
+  "dependencies": {
+    "eslint-plugin-jsdoc": "^3.6.3"
+  }
+}

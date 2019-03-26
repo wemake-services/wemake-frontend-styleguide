@@ -1,0 +1,13 @@
+$mobile: 450px;
+
+@media screen and (min-width: 450px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-with: $mobile) {
+  .placeholder {
+    visibility: hidden;
+  }
+}

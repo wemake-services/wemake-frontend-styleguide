@@ -1,39 +1,42 @@
-# eslint-config-wemake
+# wemake-frontend-styleguide
 
-[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](https://wemake.services) [![Build Status](https://travis-ci.org/wemake-services/eslint-config-wemake.svg?branch=master)](https://travis-ci.org/wemake-services/eslint-config-wemake)
+[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](http://wemake.services) 
+[![wemake-frontend-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-frontend-styleguide)
 
-Shareable configuration for [`eslint`](https://github.com/eslint/eslint).
+Set of tools that we use to make our frontend awesome!
 
-[![JavaScript Style Guide - Standard Style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
+## Packages
 
-The main idea of this configuration is to be:
+We develop all our tools inside a single repository to make the process easier.
+This repo includes several `eslint` configurations:
 
-1. Highly opinionated (!)
-2. Strict about syntax and secure by default
-3. Enforces best-practices
+- `eslint-config-wemake` which is the strictest `eslint` configuration
+- `eslint-config-jsdoc-essential` which is a bare minimum to write beautiful `jsdoc` comments
+- `eslint-config-flowtype-essential` which is a bare minimum to write beautiful `flow` annotations
+- `eslint-config-typescript-essential` WIP
+- `eslint-config-vue-essential` WIP
 
-The ultimate goal of this project is to become the strictest config available.
+And several `stylelint` configurations:
 
+- `stylelint-config-strict-scss` which is the strictest `stylelint` configuration for `scss`
 
-## Installation
+## Show your style
 
-```bash
-npm install --save-dev eslint-config-wemake
+If you use our linter - it means that your code is awesome. 
+You can be proud of it! 
+And you should share your accomplishment 
+with others by including a badge to your `README` file.
+
+It looks like this:
+
+[![wemake-frontend-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-frontend-styleguide)
+
+### Markdown
+
+```markdown
+[![wemake-frontend-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-frontend-styleguide)
 ```
-
-Then, modify your `eslint` configuration:
-
-```json
-{
-  "extends": [
-    "wemake"
-  ]
-}
-```
-
-Done! Later you can modify your configuration to include 
-any extra rules you need.
 
 ## License
 
-MIT.
+MIT

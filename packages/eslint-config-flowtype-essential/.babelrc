@@ -1,0 +1,6 @@
+{
+  "presets": [
+    ["env", { "useBuiltIns": true }],
+    "flow"
+  ]
+}

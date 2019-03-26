@@ -1,0 +1,25 @@
+p {
+  a {
+    display: flex;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.max .compound .selectors {
+  width: 150px;
+}
+
+#widget .detail span {
+  visibility: hidden;
+}
+
+div input label {
+  float: left;
+}
+
+[target='_blank'] {
+  display: none;
+}

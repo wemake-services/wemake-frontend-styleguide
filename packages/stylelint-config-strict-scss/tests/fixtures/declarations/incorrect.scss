@@ -1,0 +1,17 @@
+.with-nested-declarations {
+  margin: {
+    top: 10px;
+    bottom: 5px;
+  }
+}
+
+.with-empty-line {
+  display: inline;
+  width: 100px;
+  height: 100px;
+
+  color: green;
+  background: #333;
+  font-weight: bold;
+  font-family: serif;
+}

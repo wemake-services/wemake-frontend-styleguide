@@ -1,0 +1,36 @@
+%base {
+  display: block;
+}
+
+@mixin without-block () {
+  padding: 10px;
+}
+
+@mixin with-block () {
+  .child {
+    @content;
+  }
+}
+
+.namespaced {
+  $color: rgba(12, 14, 122, 0.2);
+  $mobile: 400px;
+
+  @extend %base;
+
+  @include without-block();
+
+  color: $color;
+
+  @include with-block() {
+    margin: 0;
+  }
+
+  .custom-rule {
+    color: rgb(12, 12, 12);
+  }
+
+  @media screen and (min-width: $mobile) {
+    width: 40px;
+  }
+}

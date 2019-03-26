@@ -1,0 +1,20 @@
+a {
+  display: flex;
+  transform: scale(1);
+}
+
+input::placeholder {
+  color: rgb(13, 19, 122);
+}
+
+$resolution: 900dpi;
+
+@media (max-resolution: $resolution) {
+  display: none;
+}
+
+@keyframes test {
+  0% {
+    top: 0;
+  }
+}

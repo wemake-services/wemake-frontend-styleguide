@@ -1,0 +1,7 @@
+$mobile: 450px;
+
+@media screen and (min-width: $mobile) {
+  .container {
+    width: 100%;
+  }
+}

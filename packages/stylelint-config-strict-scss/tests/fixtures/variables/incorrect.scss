@@ -1,0 +1,8 @@
+$a:1;
+$a : 1;
+
+$animation_name: 'custom-animation';
+
+a {
+  animation: $animation_name 3s;
+}

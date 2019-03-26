@@ -1,44 +1,35 @@
 {
-  "name": "eslint-config-wemake",
-  "version": "0.6.0",
-  "description": "Shareable configuration for Eslint that we use in wemake.services",
-  "main": "index.js",
-  "repository": "https://github.com/wemake-services/eslint-config-wemake.git",
-  "author": "sobolevn <mail@sobolevn.me>",
-  "license": "MIT",
-  "private": false,
-  "scripts": {
-    "lint": "eslint *.js"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "peerDependencies": {
-    "eslint": ">=5.0.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": ">=2.12.0",
-    "eslint-plugin-node": ">=7.0.0",
-    "eslint-plugin-promise": ">=3.8.0",
-    "eslint-plugin-security": ">=1.4.0",
-    "eslint-plugin-standard": ">=3.1.0",
-    "eslint-plugin-unicorn": ">=5.0.0"
-  },
-  "dependencies": {},
+  "name": "root",
+  "private": true,
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.0.1",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-jest": "^23.0.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.12.0",
+    "eslint-config-wemake": "^0.4.0",
+    "eslint-plugin-flowtype-errors": "^3.5.1",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jest": "^21.15.1",
     "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^6.0.0"
+    "eslint-plugin-standard": "^3.1.0",
+    "eslint-plugin-unicorn": "^4.0.3",
+    "flow-bin": "^0.80.0",
+    "flow-typed": "^2.4.0",
+    "jest": "^23.0.1",
+    "jest-preset-stylelint": "^1.3.0",
+    "lerna": "^3.13.1"
   },
-  "keywords": [
-    "wemake.services",
-    "eslint",
-    "eslint-config",
-    "eslint config"
-  ]
+  "dependencies": {
+    "@wemake-services/eslint-config-flowtype-essential": "file:packages/eslint-config-flowtype-essential",
+    "@wemake-services/eslint-config-jsdoc-essential": "file:packages/eslint-config-jsdoc-essential",
+    "@wemake-services/eslint-config-wemake": "file:packages/eslint-config-wemake",
+    "@wemake-services/stylelint-config-strict-scss": "file:packages/stylelint-config-strict-scss"
+  }
 }

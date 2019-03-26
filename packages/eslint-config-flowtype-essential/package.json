@@ -1,0 +1,29 @@
+{
+  "name": "@wemake-services/eslint-config-flowtype-essential",
+  "version": "1.0.0",
+  "description": "Essential rules for eslint-plugin-flowtype",
+  "main": "index.js",
+  "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
+  "author": "sobolevn <mail@sobolevn.me>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "jest"
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint-plugin-flowtype",
+    "flow",
+    "flow-typed",
+    "eslint"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "dependencies": {
+    "eslint-plugin-flowtype": "^2.49.0"
+  }
+}
