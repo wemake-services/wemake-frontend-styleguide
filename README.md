@@ -15,6 +15,7 @@ This repo includes several `eslint` configurations:
 - `eslint-config-flowtype-essential` which is a bare minimum to write beautiful `flow` annotations
 - `eslint-config-typescript-essential` WIP
 - `eslint-config-vue-essential` WIP
+- `eslint-config-jest-essential` WIP
 
 And several `stylelint` configurations:
 
