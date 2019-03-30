@@ -7,7 +7,7 @@ function fixtureFile (name) {
   return path.resolve(__dirname, 'fixtures', name)
 }
 
-describe('eslint-config-flowtype-essential', () => {
+describe('eslint-config-flowtype', () => {
   let cli
 
   beforeAll(() => {

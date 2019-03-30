@@ -27,9 +27,9 @@
     "lerna": "^3.13.1"
   },
   "dependencies": {
-    "@wemake-services/eslint-config-flowtype-essential": "file:packages/eslint-config-flowtype-essential",
-    "@wemake-services/eslint-config-jsdoc-essential": "file:packages/eslint-config-jsdoc-essential",
-    "@wemake-services/eslint-config-wemake": "file:packages/eslint-config-wemake",
-    "@wemake-services/stylelint-config-strict-scss": "file:packages/stylelint-config-strict-scss"
+    "@wemake-services/eslint-config-flowtype": "file:packages/eslint-config-flowtype",
+    "@wemake-services/eslint-config-javascript": "file:packages/eslint-config-javascript",
+    "@wemake-services/eslint-config-jsdoc": "file:packages/eslint-config-jsdoc",
+    "@wemake-services/stylelint-config-scss": "file:packages/stylelint-config-scss"
   }
 }

@@ -1,6 +1,8 @@
-# eslint-config-jsdoc-essential
+# eslint-config-jsdoc
 
-[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](http://wemake.services) [![Build Status](https://travis-ci.org/wemake-services/eslint-config-jsdoc-essential.svg?branch=master)](https://travis-ci.org/wemake-services/eslint-config-jsdoc-essential)
+[![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](http://wemake.services) 
+[![wemake-frontend-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-frontend-styleguide)
+[![Build Status](https://travis-ci.org/wemake-services/wemake-frontend-styleguide.svg?branch=master)](https://travis-ci.org/wemake-services/wemake-frontend-styleguide)
 
 Shareable configuration for [`eslint-plugin-jsdoc`](https://github.com/gajus/eslint-plugin-jsdoc).
 
@@ -14,7 +16,7 @@ The main idea of this configuration is to be:
 ## Installation
 
 ```bash
-npm install --save-dev eslint-config-jsdoc-essential
+npm install --save-dev @wemake-services/eslint-config-jsdoc
 ```
 
 Then, modify your `eslint` configuration:
@@ -22,7 +24,7 @@ Then, modify your `eslint` configuration:
 ```json
 {
   "extends": [
-    "jsdoc-essential"
+    "@wemake-services/jsdoc"
   ]
 }
 ```

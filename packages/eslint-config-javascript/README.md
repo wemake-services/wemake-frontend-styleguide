@@ -18,7 +18,7 @@ The ultimate goal of this project is to become the strictest config available.
 ## Installation
 
 ```bash
-npm install --save-dev eslint-config-wemake
+npm install --save-dev @wemake-services/eslint-config-javascript
 ```
 
 Then, modify your `eslint` configuration:
@@ -26,7 +26,7 @@ Then, modify your `eslint` configuration:
 ```json
 {
   "extends": [
-    "wemake"
+    "@wemake-services/javascript"
   ]
 }
 ```

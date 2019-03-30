@@ -1,5 +1,5 @@
 {
-  "name": "@wemake-services/stylelint-config-strict-scss",
+  "name": "@wemake-services/stylelint-config-scss",
   "version": "0.5.0",
   "description": "Strict shareable config for stylelint and SCSS",
   "main": "index.js",
