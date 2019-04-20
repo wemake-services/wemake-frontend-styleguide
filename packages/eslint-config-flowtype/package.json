@@ -23,6 +23,6 @@
     }
   },
   "dependencies": {
-    "eslint-plugin-flowtype": "^2.49.0"
+    "eslint-plugin-flowtype": "^3.6.1"
   }
 }
