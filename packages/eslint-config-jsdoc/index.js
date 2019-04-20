@@ -8,20 +8,20 @@
 'use strict'
 
 module.exports = {
-  plugins: [
+  'plugins': [
     'jsdoc'
   ],
 
-  settings: {
-    jsdoc: {
-      tagNamePreference: {
-        param: 'param',
-        returns: 'returns'
+  'settings': {
+    'jsdoc': {
+      'tagNamePreference': {
+        'param': 'param',
+        'returns': 'returns'
       }
     }
   },
 
-  rules: {
+  'rules': {
     // general validation
     'jsdoc/check-tag-names': 2,
 

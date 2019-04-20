@@ -1,4 +1,4 @@
-'use strict'
+/* eslint-disable max-lines-per-function */
 
 import path from 'path'
 import stylelint from 'stylelint'
@@ -6,35 +6,35 @@ import stylelint from 'stylelint'
 // eslint-disable-next-line unicorn/import-index
 import config from '../'
 
-const fixturesDir = path.resolve(__dirname, 'fixtures')
+const fixturesDirectory = path.resolve(__dirname, 'fixtures')
 
 const checks = {
-  declarations: {
-    errors: 9,
-    messages: [
+  'declarations': {
+    'errors': 9,
+    'messages': [
       'scale-unlimited/declaration-strict-value',
       'plugin/declaration-block-no-ignored-properties',
       'declaration-empty-line-before',
       'scss/declaration-nested-properties',
       'font-weight-notation',
       'color-format/format',
-      'color-named'
-    ]
+      'color-named',
+    ],
   },
 
-  functions: {
-    errors: 6,
-    messages: [
+  'functions': {
+    'errors': 6,
+    'messages': [
       'function-name-case',
       'scss/at-function-parentheses-space-before',
       'scss/at-function-pattern',
-      'scss/at-function-named-arguments'
-    ]
+      'scss/at-function-named-arguments',
+    ],
   },
 
   'if-else-loop': {
-    errors: 12,
-    messages: [
+    'errors': 12,
+    'messages': [
       'at-rule-empty-line-before',
       'at-rule-name-space-after',
       'block-opening-brace-space-before',
@@ -44,150 +44,152 @@ const checks = {
       'scss/at-else-closing-brace-space-after',
       'block-opening-brace-space-before',
       'block-opening-brace-space-after',
-      'block-closing-brace-space-before'
-    ]
+      'block-closing-brace-space-before',
+    ],
   },
 
-  imports: {
-    errors: 2,
-    messages: [
+  'imports': {
+    'errors': 2,
+    'messages': [
       'scss/at-import-no-partial-leading-underscore',
-      'scss/at-import-partial-extension-blacklist'
-    ]
+      'scss/at-import-partial-extension-blacklist',
+    ],
   },
 
   'media-queries': {
-    errors: 2,
-    messages: [
+    'errors': 2,
+    'messages': [
       'scss/media-feature-value-dollar-variable',
-      'media-feature-name-no-unknown'
-    ]
+      'media-feature-name-no-unknown',
+    ],
   },
 
-  mixins: {
-    errors: 5,
-    messages: [
+  'mixins': {
+    'errors': 5,
+    'messages': [
       'scss/at-mixin-parentheses-space-before',
       'scss/at-mixin-pattern',
       'block-opening-brace-space-before',
       'scss/at-mixin-argumentless-call-parentheses',
-      'scss/at-mixin-named-arguments'
-    ]
+      'scss/at-mixin-named-arguments',
+    ],
   },
 
-  operators: {
-    errors: 5,
-    messages: [
+  'operators': {
+    'errors': 5,
+    'messages': [
       'scss/operator-no-newline-before',
       'scss/operator-no-newline-after',
-      'scss/operator-no-unspaced'
-    ]
+      'scss/operator-no-unspaced',
+    ],
   },
 
-  order: true,
+  'order': true,
 
-  placeholders: {
-    errors: 2,
-    messages: [
+  'placeholders': {
+    'errors': 2,
+    'messages': [
       'scss/percent-placeholder-pattern',
-      'scss/at-extend-no-missing-placeholder'
-    ]
+      'scss/at-extend-no-missing-placeholder',
+    ],
   },
 
-  selectors: {
-    errors: 7,
-    messages: [
+  'selectors': {
+    'errors': 7,
+    'messages': [
       'string-quotes',
       'selector-attribute-quotes',
       'scss/selector-no-redundant-nesting-selector',
       'selector-max-universal',
       'selector-max-compound-selectors',
-      'selector-max-specificity'
-    ]
+      'selector-max-specificity',
+    ],
   },
 
-  url: {
-    errors: 2,
-    messages: [
+  'url': {
+    'errors': 2,
+    'messages': [
       'function-url-quotes',
-      'function-url-no-scheme-relative'
-    ]
+      'function-url-no-scheme-relative',
+    ],
   },
 
-  variables: {
-    errors: 5,
-    messages: [
+  'variables': {
+    'errors': 5,
+    'messages': [
       'scss/dollar-variable-colon-space-after',
       'scss/no-duplicate-dollar-variables',
       'scss/dollar-variable-colon-space-before',
       'scss/dollar-variable-pattern',
-      'scss/dollar-variable-no-missing-interpolation'
-    ]
+      'scss/dollar-variable-no-missing-interpolation',
+    ],
   },
 
-  vendor: {
-    errors: 5,
-    messages: [
+  'vendor': {
+    'errors': 5,
+    'messages': [
       'value-no-vendor-prefix',
       'property-no-vendor-prefix',
       'selector-no-vendor-prefix',
       'media-feature-name-no-vendor-prefix',
-      'at-rule-no-vendor-prefix'
-    ]
-  }
+      'at-rule-no-vendor-prefix',
+    ],
+  },
 }
 
 function runStylelint (fixtureName, filename) {
   return stylelint.lint({
-    files: path.join(fixturesDir, fixtureName, filename),
-    config
+    'files': path.join(fixturesDirectory, fixtureName, filename),
+    config,
   })
 }
 
-function createCorrectStyleCheck (name, rule) {
+function createCorrectStyleCheck (name) {
   describe('correct style', () => {
-    let result
+    let lintResult
 
     beforeAll(() => {
-      result = runStylelint(name, 'correct.scss')
+      lintResult = runStylelint(name, 'correct.scss')
     })
 
     test('flags no warnings', async () => {
       expect.hasAssertions()
       expect.assertions(2)
 
-      const data = await result
+      const lintData = await lintResult
 
-      expect(data.results[0].warnings).toHaveLength(0)
-      expect(data.errored).toBeFalsy()
+      expect(lintData.lintResults[0].warnings).toHaveLength(0)
+      expect(lintData.errored).toBeFalsy()
     }, 15000) // some tasks are executed for a long time
   })
 }
 
 function createIncorrectStyleCheck (name, rule) {
   describe('incorrect style', () => {
-    let result
+    let lintResult
 
     beforeAll(() => {
-      result = runStylelint(name, 'incorrect.scss')
+      lintResult = runStylelint(name, 'incorrect.scss')
     })
 
     test('flags correct number of warnings', async () => {
       expect.hasAssertions()
       expect.assertions(2)
 
-      const data = await result
+      const lintData = await lintResult
 
-      expect(data.results[0].warnings).toHaveLength(rule.errors)
-      expect(data.errored).toBeTruthy()
+      expect(lintData.lintResults[0].warnings).toHaveLength(rule.errors)
+      expect(lintData.errored).toBeTruthy()
     })
 
     test('flags correct rule warnings', async () => {
       expect.hasAssertions()
       expect.assertions(rule.messages.length)
 
-      const data = await result
-      const received = data.results[0].warnings.map((warning) => warning.rule)
+      const lintData = await lintResult
+      const received = lintData.lintResults[0].warnings.map((warning) => {
+        return warning.rule
+      })
 
       for (const warning of rule.messages) {
         expect(received).toContain(warning)

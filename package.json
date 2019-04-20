@@ -1,35 +1,30 @@
 {
   "name": "root",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "./packages/eslint-config-javascript/index.js"
+    ]
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-eslint": "^8.2.3",
-    "babel-jest": "^23.0.1",
+    "babel-jest": "^24.7.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-flow": "^6.23.0",
     "coveralls": "^3.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-config-wemake": "^0.4.0",
-    "eslint-plugin-flowtype-errors": "^3.5.1",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-jest": "^21.15.1",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "eslint-plugin-unicorn": "^4.0.3",
+    "eslint": "^5.16.0",
     "flow-bin": "^0.80.0",
     "flow-typed": "^2.4.0",
-    "jest": "^23.0.1",
+    "jest": "^24.7.1",
     "jest-preset-stylelint": "^1.3.0",
     "lerna": "^3.13.1"
-  },
-  "dependencies": {
-    "@wemake-services/eslint-config-flowtype": "file:packages/eslint-config-flowtype",
-    "@wemake-services/eslint-config-javascript": "file:packages/eslint-config-javascript",
-    "@wemake-services/eslint-config-jsdoc": "file:packages/eslint-config-jsdoc",
-    "@wemake-services/stylelint-config-scss": "file:packages/stylelint-config-scss"
   }
 }

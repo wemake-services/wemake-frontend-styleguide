@@ -12,19 +12,19 @@ const publicNamePattern = `^${namePattern}`
 const privateNamePattern = `^[_]?${namePattern}`
 
 module.exports = {
-  extends: [
+  'extends': [
     'stylelint-config-standard',
-    'stylelint-config-recommended-scss'
+    'stylelint-config-recommended-scss',
   ],
 
-  plugins: [
+  'plugins': [
     'stylelint-order',
     'stylelint-declaration-strict-value',
     'stylelint-declaration-block-no-ignored-properties',
-    'stylelint-color-format'
+    'stylelint-color-format',
   ],
 
-  rules: {
+  'rules': {
     // base
     'max-nesting-depth': 3, // just google 'the-inception-rule'
     'max-line-length': 80,
@@ -36,23 +36,23 @@ module.exports = {
         'custom-properties',
         'dollar-variables',
         {
-          type: 'at-rule',
-          name: 'extend'
+          'type': 'at-rule',
+          'name': 'extend',
         },
         {
-          type: 'at-rule',
-          name: 'include',
-          hasBlock: false
+          'type': 'at-rule',
+          'name': 'include',
+          'hasBlock': false,
         },
         'declarations',
         {
-          type: 'at-rule',
-          name: 'include',
-          hasBlock: true
+          'type': 'at-rule',
+          'name': 'include',
+          'hasBlock': true,
         },
         'rules',
-        'at-rules'
-      ]
+        'at-rules',
+      ],
     ],
 
     // url() function
@@ -83,11 +83,11 @@ module.exports = {
     'scale-unlimited/declaration-strict-value': [
       ['/color/', 'z-index', 'font-size', 'font-family'],
       {
-        ignoreKeywords: {
+        'ignoreKeywords': {
           '': ['inherit'],
-          '/color/': ['currentColor', 'transparent', 'inherit']
-        }
-      }
+          '/color/': ['currentColor', 'transparent', 'inherit'],
+        },
+      },
     ],
 
     // scss variables
@@ -131,16 +131,16 @@ module.exports = {
     // scss if-else
     'at-rule-empty-line-before': [
       'always', {
-        ignoreAtRules: ['else'],
-        except: [
+        'ignoreAtRules': ['else'],
+        'except': [
           'blockless-after-same-name-blockless',
-          'first-nested'
+          'first-nested',
         ],
-        ignore: ['after-comment']
-      }
+        'ignore': ['after-comment'],
+      },
     ],
     'block-closing-brace-newline-after': [
-      'always', { ignoreAtRules: ['if', 'else'] }
+      'always', { 'ignoreAtRules': ['if', 'else'] },
     ],
 
     'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
@@ -152,6 +152,6 @@ module.exports = {
 
     // using only rgb colors
     'color-named': 'never',
-    'color-format/format': { format: 'rgb' }
-  }
+    'color-format/format': { 'format': 'rgb' },
+  },
 }

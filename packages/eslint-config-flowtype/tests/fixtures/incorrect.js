@@ -1,4 +1,5 @@
 // @flow
+/* eslint-disable */
 
 type Client <T> = {
   name: String;
