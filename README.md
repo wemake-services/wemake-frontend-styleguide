@@ -13,7 +13,6 @@ This repo includes several `eslint` configurations:
 
 - `@wemake-services/eslint-config-javascript` is the strictest `eslint` configuration for `javascript`
 - `@wemake-services/eslint-config-jsdoc` to write beautiful `jsdoc` comments
-- `@wemake-services/eslint-config-flowtype` to write beautiful `flow` annotations
 - `@wemake-services/eslint-config-jest` to write consistent `jest` tests
 - `@wemake-services/eslint-config-typescript` WIP
 - `@wemake-services/eslint-config-vue` WIP

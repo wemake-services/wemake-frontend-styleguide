@@ -27,3 +27,11 @@ div input label span {
 [target=_self] {
   display: none;
 }
+
+.element {
+  position: relative;
+}
+
+.element .nested {
+  position: absolute;
+}

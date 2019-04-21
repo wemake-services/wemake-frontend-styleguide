@@ -12,14 +12,22 @@ p {
   width: 150px;
 }
 
-#widget .detail span {
+#widget .detail .elem {
   visibility: hidden;
 }
 
-div input label {
+div.class input label {
   float: left;
 }
 
 [target='_blank'] {
   display: none;
+}
+
+.element {
+  position: relative;
+
+  .nested {
+    position: absolute;
+  }
 }

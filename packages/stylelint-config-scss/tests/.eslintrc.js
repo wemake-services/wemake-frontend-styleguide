@@ -1,17 +1,3 @@
 module.exports = {
-  extends: ['plugin:jest/recommended'],
-
-  rules: {
-    'jest/consistent-test-it': ['error', { fn: 'test' }],
-    'jest/lowercase-name': 'error',
-    'jest/valid-describe': 'error',
-    'jest/no-jest-import': 'error',
-    'jest/prefer-to-have-length': 'error',
-    'jest/prefer-to-be-null': 'error',
-    'jest/prefer-to-be-undefined': 'error',
-    'jest/valid-expect-in-promise': 'error',
-    'jest/no-jasmine-globals': 'error',
-    
-    'jest/prefer-expect-assertions': 'error'
-  }
+  'extends': ['@wemake-services/eslint-config-jest'],
 }

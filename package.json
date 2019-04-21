@@ -5,7 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "lerna run test"
   },
   "eslintConfig": {
     "extends": [
@@ -13,18 +14,16 @@
     ]
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.3",
+    "@babel/core": "^7.4.3",
+    "@babel/polyfill": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^24.7.1",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-flow": "^6.23.0",
-    "coveralls": "^3.0.0",
     "eslint": "^5.16.0",
     "flow-bin": "^0.80.0",
     "flow-typed": "^2.4.0",
     "jest": "^24.7.1",
     "jest-preset-stylelint": "^1.3.0",
-    "lerna": "^3.13.1"
+    "lerna": "^3.13.3"
   }
 }

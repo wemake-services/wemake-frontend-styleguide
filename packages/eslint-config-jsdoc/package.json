@@ -7,9 +7,6 @@
   "author": "sobolevn <mail@sobolevn.me>",
   "license": "MIT",
   "private": false,
-  "scripts": {
-    "test": "jest"
-  },
   "keywords": [
     "eslint-config",
     "eslint-plugin-jsdoc",

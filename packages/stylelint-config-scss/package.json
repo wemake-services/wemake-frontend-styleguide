@@ -18,9 +18,10 @@
     "test": "jest"
   },
   "babel": {
-    "presets": "env"
+    "presets": ["@babel/env"]
   },
   "jest": {
+    "rootDir": "../..",
     "preset": "jest-preset-stylelint",
     "transform": {
       "^.+\\.js$": "babel-jest"
@@ -34,14 +35,17 @@
   },
   "dependencies": {
     "style-search": "^0.1.0",
-    "stylelint": "^9.2.0",
+    "stylelint": "^10.0.0",
     "stylelint-color-format": "^0.1.1",
     "stylelint-config-recommended-scss": "^3.2.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
     "stylelint-declaration-strict-value": "^1.0.4",
     "stylelint-high-performance-animation": "^1.2.0",
+    "stylelint-no-indistinguishable-colors": "^1.2.1",
     "stylelint-order": "^0.8.1",
-    "stylelint-scss": "^3.1.0"
+    "stylelint-scss": "^3.1.0",
+    "stylelint-selector-tag-no-without-class": "^2.0.0",
+    "stylelint-use-nesting": "^1.2.1"
   }
 }

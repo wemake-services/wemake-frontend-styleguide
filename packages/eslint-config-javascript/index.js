@@ -31,12 +31,14 @@ module.exports = {
   'extends': [
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
+    'plugin:sonarjs/recommended',
     'standard',
   ],
 
   'plugins': [
     'security',
     'unicorn',
+    'sonarjs',
   ],
 
   'rules': {

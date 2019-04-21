@@ -1,5 +1,7 @@
 /* eslint-disable max-lines-per-function */
 
+import '@babel/polyfill'
+
 import path from 'path'
 import stylelint from 'stylelint'
 
@@ -37,7 +39,6 @@ const checks = {
     'messages': [
       'at-rule-empty-line-before',
       'at-rule-name-space-after',
-      'block-opening-brace-space-before',
       'scss/at-else-if-parentheses-space-before',
       'scss/at-if-closing-brace-space-after',
       'scss/at-else-closing-brace-newline-after',
@@ -94,8 +95,16 @@ const checks = {
     ],
   },
 
+  'plugins': {
+    'errors': 2,
+    'messages': [
+      'plugin/no-low-performance-animation-properties',
+      'plugin/stylelint-no-indistinguishable-colors',
+    ]
+  },
+
   'selectors': {
-    'errors': 7,
+    'errors': 10,
     'messages': [
       'string-quotes',
       'selector-attribute-quotes',
@@ -103,6 +112,8 @@ const checks = {
       'selector-max-universal',
       'selector-max-compound-selectors',
       'selector-max-specificity',
+      'plugin/selector-tag-no-without-class',
+      'csstools/use-nesting',
     ],
   },
 
@@ -157,9 +168,8 @@ function createCorrectStyleCheck (name) {
       expect.assertions(2)
 
       const lintData = await lintResult
-
-      expect(lintData.lintResults[0].warnings).toHaveLength(0)
-      expect(lintData.errored).toBeFalsy()
+      expect(lintData.results[0].warnings).toHaveLength(0)
+      expect(lintData.errored).toBe(false)
     }, 15000) // some tasks are executed for a long time
   })
 }
@@ -178,8 +188,8 @@ function createIncorrectStyleCheck (name, rule) {
 
       const lintData = await lintResult
 
-      expect(lintData.lintResults[0].warnings).toHaveLength(rule.errors)
-      expect(lintData.errored).toBeTruthy()
+      expect(lintData.results[0].warnings).toHaveLength(rule.errors)
+      expect(lintData.errored).toBe(true)
     })
 
     test('flags correct rule warnings', async () => {
@@ -187,7 +197,7 @@ function createIncorrectStyleCheck (name, rule) {
       expect.assertions(rule.messages.length)
 
       const lintData = await lintResult
-      const received = lintData.lintResults[0].warnings.map((warning) => {
+      const received = lintData.results[0].warnings.map((warning) => {
         return warning.rule
       })
 
@@ -203,7 +213,7 @@ describe('stylelint-config-strict-scss', () => {
     const rule = checks[feature]
 
     describe(`feature ${feature}`, () => {
-      createCorrectStyleCheck(feature, rule)
+      createCorrectStyleCheck(feature)
 
       if (rule !== true) { // This means that rule only has correct styles
         createIncorrectStyleCheck(feature, rule)

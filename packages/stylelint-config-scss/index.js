@@ -22,6 +22,10 @@ module.exports = {
     'stylelint-declaration-strict-value',
     'stylelint-declaration-block-no-ignored-properties',
     'stylelint-color-format',
+    'stylelint-high-performance-animation',
+    'stylelint-no-indistinguishable-colors',
+    'stylelint-selector-tag-no-without-class',
+    'stylelint-use-nesting',
   ],
 
   'rules': {
@@ -153,5 +157,17 @@ module.exports = {
     // using only rgb colors
     'color-named': 'never',
     'color-format/format': { 'format': 'rgb' },
+
+    // use performant animationss
+    'plugin/no-low-performance-animation-properties': true,
+
+    // use different colors
+    'plugin/stylelint-no-indistinguishable-colors': true,
+
+    // forbids to use `div` and `span` without class names
+    'plugin/selector-tag-no-without-class': ['div', 'span'],
+
+    // always use nesting where possible
+    'csstools/use-nesting': 'always',
   },
 }
