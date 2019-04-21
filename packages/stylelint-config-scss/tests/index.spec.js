@@ -100,7 +100,7 @@ const checks = {
     'messages': [
       'plugin/no-low-performance-animation-properties',
       'plugin/stylelint-no-indistinguishable-colors',
-    ]
+    ],
   },
 
   'selectors': {
