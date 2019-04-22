@@ -1,22 +1,23 @@
-const fs = require('fs')
-const path = require('path')
+import fs from 'fs'
+import path from 'path'
 
-const eslint = require('eslint')
+import eslint from 'eslint'
 
 const defaultConfig = require('..')
 const packagePath = path.resolve(__dirname, '..')
 
 const readFixtureFile = (fixtureName) => {
-  const path = `${packagePath}/tests/fixtures/${fixtureName}`
-  return String(fs.readFileSync(path))
+  const fixturePath = `${packagePath}/tests/fixtures/${fixtureName}`
+  return String(fs.readFileSync(fixturePath))
 }
 
 function eslintConfigTester (fixtureName) {
   const cli = new eslint.CLIEngine({
     'cwd': packagePath,
-    'baseConfig': Object.assign({
+    'baseConfig': {
+      ...defaultConfig,
       'root': true,
-    }, defaultConfig),
+    },
     'useEslintrc': false,
   })
   return cli.executeOnText(readFixtureFile(fixtureName))
