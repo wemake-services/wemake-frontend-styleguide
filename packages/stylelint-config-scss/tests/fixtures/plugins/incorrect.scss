@@ -1,6 +1,10 @@
 $color1: rgb(1, 1, 1);
 $color2: rgb(2, 2, 2);
 
+.selector {
+  display: missing;
+}
+
 @keyframes test {
   0% {
     top: 0;

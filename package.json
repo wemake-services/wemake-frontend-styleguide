@@ -9,8 +9,10 @@
     "test": "lerna run test"
   },
   "eslintConfig": {
+    "root": true,
     "extends": [
-      "./packages/eslint-config-javascript/index.js"
+      "./packages/eslint-config-javascript/index.js",
+      "./packages/eslint-config-jsdoc/index.js"
     ]
   },
   "devDependencies": {
@@ -22,6 +24,7 @@
     "eslint": "^5.16.0",
     "jest": "^24.7.1",
     "jest-preset-stylelint": "^1.3.0",
-    "lerna": "^3.13.3"
+    "lerna": "^3.13.3",
+    "vue-eslint-parser": "^6.0.4"
   }
 }

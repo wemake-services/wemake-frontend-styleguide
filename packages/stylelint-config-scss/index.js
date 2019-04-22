@@ -26,6 +26,7 @@ module.exports = {
     'stylelint-no-indistinguishable-colors',
     'stylelint-selector-tag-no-without-class',
     'stylelint-use-nesting',
+    'stylelint-csstree-validator',
   ],
 
   'rules': {
@@ -158,7 +159,7 @@ module.exports = {
     'color-named': 'never',
     'color-format/format': { 'format': 'rgb' },
 
-    // use performant animationss
+    // use performant animations
     'plugin/no-low-performance-animation-properties': true,
 
     // use different colors
@@ -169,5 +170,8 @@ module.exports = {
 
     // always use nesting where possible
     'csstools/use-nesting': 'always',
+
+    // use valid css
+    'csstree/validator': true,
   },
 }

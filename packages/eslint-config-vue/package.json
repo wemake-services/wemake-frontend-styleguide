@@ -1,0 +1,34 @@
+{
+  "name": "@wemake-services/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Strict shareable config for ESLint and Vue",
+  "main": "index.js",
+  "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
+  "author": "Nikita Sobolev <mail@sobolevn.me>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "wemake.services",
+    "eslint",
+    "eslint-config",
+    "eslint config"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "babel": {
+    "presets": [
+      "@babel/env"
+    ]
+  },
+  "peerDependencies": {
+    "eslint": ">=5.0.0",
+    "eslint-plugin-vue": ">=5.2.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-vue": "^5.2.2"
+  },
+  "dependencies": {
+    "is-arrayish": "^0.3.2"
+  }
+}

@@ -1,5 +1,6 @@
 /* eslint-disable max-lines-per-function */
 
+// TODO: this can be moved to the `jest.global-setup.js`
 import '@babel/polyfill'
 
 import path from 'path'
@@ -25,12 +26,13 @@ const checks = {
   },
 
   'functions': {
-    'errors': 6,
+    'errors': 7,
     'messages': [
       'function-name-case',
       'scss/at-function-parentheses-space-before',
       'scss/at-function-pattern',
       'scss/at-function-named-arguments',
+      'csstree/validator',
     ],
   },
 
@@ -77,7 +79,7 @@ const checks = {
   },
 
   'operators': {
-    'errors': 5,
+    'errors': 7,
     'messages': [
       'scss/operator-no-newline-before',
       'scss/operator-no-newline-after',
@@ -96,10 +98,11 @@ const checks = {
   },
 
   'plugins': {
-    'errors': 2,
+    'errors': 3,
     'messages': [
       'plugin/no-low-performance-animation-properties',
       'plugin/stylelint-no-indistinguishable-colors',
+      'csstree/validator',
     ],
   },
 

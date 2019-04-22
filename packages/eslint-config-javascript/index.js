@@ -1,7 +1,8 @@
 'use strict'
 
 const variableNamesBlacklist = [
-  'data',
+  // TODO: remove this identifier from `eslint-config-vue`:
+  // 'data',
   'result',
   'results',
   'item',
@@ -27,7 +28,6 @@ const variableNamesBlacklist = [
 ]
 
 module.exports = {
-  'root': true,
   'extends': [
     'plugin:unicorn/recommended',
     'plugin:promise/recommended',
@@ -36,8 +36,8 @@ module.exports = {
   ],
 
   'plugins': [
-    'security',
     'unicorn',
+    'security',
     'sonarjs',
   ],
 
@@ -192,5 +192,8 @@ module.exports = {
     'security/detect-possible-timing-attacks': 'error',
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'error',
+
+    // disable filename checks, we use `fs-lint` on top
+    'unicorn/filename-case': 'off',
   },
 }
