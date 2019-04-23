@@ -9,16 +9,16 @@
 
 module.exports = {
   'plugins': [
-    'jsdoc'
+    'jsdoc',
   ],
 
   'settings': {
     'jsdoc': {
       'tagNamePreference': {
         'param': 'param',
-        'returns': 'returns'
-      }
-    }
+        'returns': 'returns',
+      },
+    },
   },
 
   'rules': {
@@ -37,6 +37,6 @@ module.exports = {
     'jsdoc/require-param-description': 2,
 
     // @return tag validation
-    'jsdoc/require-returns-description': 2
-  }
+    'jsdoc/require-returns-description': 2,
+  },
 }

@@ -195,5 +195,8 @@ module.exports = {
 
     // disable filename checks, we use `fs-lint` on top
     'unicorn/filename-case': 'off',
+
+    // too restrictive on abbreviations, they are part of API
+    'unicorn/prevent-abbreviations': 'off',
   },
 }
