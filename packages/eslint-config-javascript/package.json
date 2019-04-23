@@ -7,6 +7,9 @@
   "author": "sobolevn <mail@sobolevn.me>",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "eslint": ">=5.0.0",
     "eslint-config-standard": "^12.0.0",
@@ -35,5 +38,5 @@
     "eslint-config",
     "eslint config"
   ],
-  "gitHead": "4dde88dc99458f3171ace73284e567a1d08e49a8"
+  "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
 }

@@ -7,6 +7,9 @@
   "author": "sobolevn <mail@sobolevn.me>",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "eslint-config",
     "eslint-plugin-jsdoc",
@@ -15,8 +18,11 @@
     "documentation",
     "linting"
   ],
-  "dependencies": {
+  "peerDependencies": {
+    "eslint-plugin-jsdoc": ">=4.8.0"
+  },
+  "devDependencies": {
     "eslint-plugin-jsdoc": "^4.8.3"
   },
-  "gitHead": "4dde88dc99458f3171ace73284e567a1d08e49a8"
+  "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
 }

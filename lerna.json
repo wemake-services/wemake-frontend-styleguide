@@ -4,8 +4,5 @@
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "independent",
-  "publishConfig": {
-    "access": "public"
-  }
+  "version": "independent"
 }

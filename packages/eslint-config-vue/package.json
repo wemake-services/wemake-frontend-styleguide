@@ -7,6 +7,9 @@
   "author": "Nikita Sobolev <mail@sobolevn.me>",
   "license": "MIT",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "wemake.services",
     "eslint",
@@ -31,5 +34,5 @@
   "dependencies": {
     "is-arrayish": "^0.3.2"
   },
-  "gitHead": "4dde88dc99458f3171ace73284e567a1d08e49a8"
+  "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
 }
