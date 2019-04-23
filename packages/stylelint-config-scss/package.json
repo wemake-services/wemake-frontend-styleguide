@@ -37,5 +37,6 @@
     "stylelint-scss": "^3.1.0",
     "stylelint-selector-tag-no-without-class": "^2.0.0",
     "stylelint-use-nesting": "^1.2.1"
-  }
+  },
+  "gitHead": "c2c6efa72e9be7addc93878f30b23b780c47f37a"
 }
