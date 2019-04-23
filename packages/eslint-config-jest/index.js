@@ -3,7 +3,7 @@ module.exports = {
     'plugin:jest/recommended',
   ],
   'rules': {
-    // warnings to errors from recommended:
+    // warnings to errors from recommended
     'jest/no-disabled-tests': 'error',
     'jest/no-jasmine-globals': 'error',
     'jest/no-alias-methods': 'error',
@@ -23,21 +23,23 @@ module.exports = {
     'jest/prefer-expect-assertions': 'error',
     'jest/prefer-todo': 'error',
 
-    // Style:
+    // style
     'jest/prefer-to-have-length': 'error',
     'jest/prefer-to-be-null': 'error',
     'jest/prefer-to-be-undefined': 'error',
     'jest/prefer-to-contain': 'error',
-    'jest/prefer-spy-on': 'error',
     'jest/prefer-strict-equal': 'error',
 
     // warn users about too large snapshots:
     'jest/no-large-snapshots': ['warn', { 'maxSize': 50 }],
 
-    // allows to use long functions inside tests:
+    // sometimes `fn()` works better because of types
+    'jest/prefer-spy-on': 'off',
+
+    // allows to use long functions inside tests
     'max-lines-per-function': 'off',
 
-    // Is not suitable to be used with Vuex actions:
+    // Is not suitable to be used with Vuex actions
     // 'jest/prefer-called-with': 'error',
   },
 }
