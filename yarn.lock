@@ -6626,9 +6626,9 @@ style-search@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/style-search/-/style-search-0.1.0.tgz#7958c793e47e32e07d2b5cafe5c0bf8e12e77902"
 
-stylelint-color-format@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/stylelint-color-format/-/stylelint-color-format-0.1.1.tgz#47f19bba4711d12f3e8b25fc6e97a3b2ffebf723"
+stylelint-color-format@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-color-format/-/stylelint-color-format-0.2.0.tgz#b0bb2ce504d66da98564bead3f6c170d8d7b1284"
   dependencies:
     color "^3.0.0"
 
