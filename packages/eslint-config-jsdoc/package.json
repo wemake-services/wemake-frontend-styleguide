@@ -16,6 +16,6 @@
     "linting"
   ],
   "dependencies": {
-    "eslint-plugin-jsdoc": "^3.6.3"
+    "eslint-plugin-jsdoc": "^4.8.3"
   }
 }
