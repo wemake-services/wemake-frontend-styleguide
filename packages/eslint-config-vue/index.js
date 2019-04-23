@@ -34,6 +34,17 @@ const mergedRules = Object.assign(
 const customRules = {
   // sometimes has false-positives
   'vue/comment-directive': 'off',
+
+  'vue/html-closing-bracket-newline': ['error', {
+    'singleline': 'never',
+    'multiline': 'always',
+  }],
+  'vue/html-closing-bracket-spacing': ['error', {
+    'startTag': 'never',
+    'endTag': 'never',
+    'selfClosingTag': 'always',
+  }],
+  'vue/prop-name-casing': ['error', 'camelCase'],
 }
 
 module.exports = {
