@@ -6667,8 +6667,8 @@ stylelint-declaration-block-no-ignored-properties@^2.0.0:
     postcss "^7.0.14"
 
 stylelint-declaration-strict-value@^1.0.4:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.2.tgz#f524dd4a666327d0810e7dbc612fc441dad2bfae"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.3.tgz#5afaf44019c08ddca76975dbd66f1f4f77abbb0d"
 
 stylelint-high-performance-animation@^1.2.0:
   version "1.2.0"
