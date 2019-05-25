@@ -2766,9 +2766,9 @@ eslint-plugin-jest@^22.4.1:
   version "22.6.4"
   resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.6.4.tgz#2895b047dd82f90f43a58a25cf136220a21c9104"
 
-eslint-plugin-jsdoc@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-5.0.2.tgz#3387a116511ce188008670bbea598dec1de11549"
+eslint-plugin-jsdoc@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-7.0.2.tgz#d1c1bf04f65c121a50928a87658a7508a7cdd57f"
   dependencies:
     comment-parser "^0.5.4"
     jsdoctypeparser "3.1.0"
