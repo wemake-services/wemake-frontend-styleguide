@@ -4,7 +4,7 @@
 // only uses AST that is fast and cheap.
 
 module.exports = {
-  'extends': './configs/base.js',
+  'extends': './base.js',
   'rules': {
     // naming
     '@typescript-eslint/no-this-alias': [

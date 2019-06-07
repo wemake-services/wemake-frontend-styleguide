@@ -5,7 +5,7 @@
 // Since, it might take a lot of time to actually compile stuff.
 
 module.exports = {
-  'extends': './configs/recommended.js',
+  'extends': './recommended.js',
   'rules': {
     // naming
     '@typescript-eslint/no-unnecessary-qualifier': 'error',

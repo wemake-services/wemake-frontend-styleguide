@@ -1,8 +1,8 @@
 'use strict'
 
-const base = require('./configs/base')
-const recommended = require('./configs/recommended')
-const strict = require('./configs/strict')
+const base = require('./base')
+const recommended = require('./recommended')
+const strict = require('./strict')
 
 module.exports = {
   'configs': {
