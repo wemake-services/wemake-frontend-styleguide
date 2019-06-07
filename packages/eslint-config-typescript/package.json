@@ -11,6 +11,7 @@
   "author": "sobolevn <mail@sobolevn.me>",
   "homepage": "https://github.com/wemake-services/wemake-frontend-styleguide#readme",
   "license": "MIT",
+  "private": false,
   "main": "src/index.js",
   "files": [
     "src"
@@ -24,5 +25,6 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0"
-  }
+  },
+  "gitHead": "6ce842a50f97de5618261423fc451cbaa2929fa9"
 }
