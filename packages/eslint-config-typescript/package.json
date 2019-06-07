@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Strict shareable config for ESLint and TypeScript",
   "keywords": [
     "wemake.services",
