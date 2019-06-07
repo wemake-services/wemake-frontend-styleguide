@@ -16,9 +16,6 @@
     "access": "public"
   },
   "main": "src/index.js",
-  "files": [
-    "src"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wemake-services/wemake-frontend-styleguide.git"
