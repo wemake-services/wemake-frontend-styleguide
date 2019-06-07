@@ -19,7 +19,7 @@
     "linting"
   ],
   "peerDependencies": {
-    "eslint-plugin-jsdoc": ">=4.8.0"
+    "eslint-plugin-jsdoc": ">=7.0.0"
   },
   "devDependencies": {
     "eslint-plugin-jsdoc": "^7.0.2"

@@ -1,8 +1,6 @@
 'use strict'
 
 const variableNamesBlacklist = [
-  // TODO: remove this identifier from `eslint-config-vue`:
-  // 'data',
   'result',
   'results',
   'item',
@@ -88,6 +86,7 @@ module.exports = {
     }],
     'id-blacklist': ['error', ...variableNamesBlacklist],
     'id-length': ['error', { 'min': 2 }],
+    'unicorn/filename-case': ['error', { 'case': 'kebabCase' }],
 
     // returns
     'consistent-return': 'error',
@@ -193,10 +192,14 @@ module.exports = {
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'error',
 
-    // disable filename checks, we use `fs-lint` on top
-    'unicorn/filename-case': 'off',
-
     // too restrictive on abbreviations, they are part of API
     'unicorn/prevent-abbreviations': 'off',
   },
+  'overrides': [{
+    // We use slightly different rules in .vue files:
+    'files': ['*.vue'],
+    'rules': {
+      'unicorn/filename-case': ['error', { 'case': 'pascalCase' }],
+    },
+  }],
 }

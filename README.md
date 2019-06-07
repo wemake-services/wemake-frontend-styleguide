@@ -10,15 +10,15 @@ Set of tools that we use to make our frontend awesome!
 
 We develop all our tools inside a single repository to make the process easier.
 
-This repo includes several `eslint` configurations:
+This repository includes several `eslint` configurations:
 
 - [`@wemake-services/eslint-config-javascript`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/eslint-config-javascript) is the strictest `eslint` configuration for `javascript`
 - [`@wemake-services/eslint-config-jsdoc`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/eslint-config-jsdoc) to write beautiful `jsdoc` comments
 - [`@wemake-services/eslint-config-jest`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/eslint-config-jest) to write consistent `jest` tests
 - [`@wemake-services/eslint-config-vue`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/eslint-config-vue) to write consistent and correct `vue` single file components
-- `@wemake-services/eslint-config-typescript` WIP
+- [`@wemake-services/eslint-config-typescript`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/eslint-config-typescript) to write consistent `typescript` code
 
-And several `stylelint` configurations:
+And `stylelint` configurations:
 
 - [`@wemake-services/stylelint-config-scss`](https://github.com/wemake-services/wemake-frontend-styleguide/tree/master/packages/stylelint-config-scss) which is the strictest `stylelint` configuration for `scss`
 
