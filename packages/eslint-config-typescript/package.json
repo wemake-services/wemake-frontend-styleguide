@@ -26,5 +26,5 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0"
   },
-  "gitHead": "6ce842a50f97de5618261423fc451cbaa2929fa9"
+  "gitHead": "54a5e6baa4165cf51fe85ed6ba4825edb1b97ed0"
 }
