@@ -50,7 +50,7 @@ module.exports = {
     'implicit-arrow-linebreak': ['error', 'beside'],
     'semi': ['error', 'never'],
     'comma-dangle': ['error', 'always-multiline'],
-    'function-paren-newline': ['error', 'multiline'],
+    'function-paren-newline': ['error', 'consistent'],
     'lines-between-class-members': ['error', 'always'],
 
     // ternary expressions
