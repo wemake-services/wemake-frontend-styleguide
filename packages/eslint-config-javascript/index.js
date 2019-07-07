@@ -1,3 +1,10 @@
+/**
+ * Copyright (c) 2018-present, wemake.services company.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
 'use strict'
 
 const variableNamesBlacklist = [
@@ -182,11 +189,9 @@ module.exports = {
     'security/detect-no-csrf-before-method-override': 'error',
     'security/detect-non-literal-regexp': 'error',
     'security/detect-non-literal-require': 'error',
-    /**
-     * these plugins are too overwhelming:
-     * 'security/detect-object-injection': 'error',
-     * 'security/detect-non-literal-fs-filename': 'error',
-     */
+    // These plugins are too overwhelming:
+    // 'security/detect-object-injection': 'error',
+    // 'security/detect-non-literal-fs-filename': 'error',
     'security/detect-possible-timing-attacks': 'error',
     'security/detect-pseudoRandomBytes': 'error',
     'security/detect-unsafe-regex': 'error',

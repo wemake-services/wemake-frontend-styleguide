@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 'error'018-present, wemake.services
+ * Copyright (c) 2018-present, wemake.services company.
  *
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
