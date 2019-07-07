@@ -22,7 +22,7 @@
     "eslint-plugin-jsdoc": ">=7.0.0"
   },
   "devDependencies": {
-    "eslint-plugin-jsdoc": "^8.0.1"
+    "eslint-plugin-jsdoc": "^13.0.0"
   },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975"
 }
