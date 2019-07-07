@@ -5,7 +5,6 @@ const variableNamesBlacklist = [
   'results',
   'item',
   'items',
-  'value',
   'values',
   'val',
   'vals',
