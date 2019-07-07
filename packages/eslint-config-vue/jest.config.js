@@ -1,3 +1,5 @@
+'use strict'
+
 const base = require('../../jest.config.base.js')
 const pack = require('./package')
 
