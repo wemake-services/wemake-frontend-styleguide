@@ -4,8 +4,10 @@ module.exports = {
   ],
   'transform': {
     '^.+\\.js$': 'babel-jest',
+    '^.+\\.ts$': 'ts-jest',
   },
   'moduleFileExtensions': [
+    'ts',
     'js',
     'jsx',
     'json',
