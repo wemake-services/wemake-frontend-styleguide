@@ -36,7 +36,7 @@
     "stylelint-declaration-strict-value": "^1.0.4",
     "stylelint-high-performance-animation": "^1.2.0",
     "stylelint-no-indistinguishable-colors": "^1.2.1",
-    "stylelint-order": "^0.8.1",
+    "stylelint-order": "^3.0.1",
     "stylelint-scss": "^3.1.0",
     "stylelint-selector-tag-no-without-class": "^2.0.0",
     "stylelint-use-nesting": "^1.2.1"
