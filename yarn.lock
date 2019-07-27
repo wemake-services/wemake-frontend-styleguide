@@ -1607,14 +1607,7 @@
     regexpp "^2.0.1"
     tsutils "^3.7.0"
 
-"@typescript-eslint/experimental-utils@1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-1.12.0.tgz#98417ee2e0c6fe8d1e50d934a6535d9c0f4277b6"
-  dependencies:
-    "@typescript-eslint/typescript-estree" "1.12.0"
-    eslint-scope "^4.0.0"
-
-"@typescript-eslint/experimental-utils@1.13.0":
+"@typescript-eslint/experimental-utils@1.13.0", "@typescript-eslint/experimental-utils@^1.13.0":
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-1.13.0.tgz#b08c60d780c0067de2fb44b04b432f540138301e"
   dependencies:
@@ -1630,13 +1623,6 @@
     "@typescript-eslint/experimental-utils" "1.13.0"
     "@typescript-eslint/typescript-estree" "1.13.0"
     eslint-visitor-keys "^1.0.0"
-
-"@typescript-eslint/typescript-estree@1.12.0":
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-1.12.0.tgz#d8dd0a7cffb5e3c0c3e98714042d83e316dfc9a9"
-  dependencies:
-    lodash.unescape "4.0.1"
-    semver "5.5.0"
 
 "@typescript-eslint/typescript-estree@1.13.0":
   version "1.13.0"
@@ -2939,8 +2925,10 @@ eslint-plugin-import@^2.17.2:
     resolve "^1.11.0"
 
 eslint-plugin-jest@^22.4.1:
-  version "22.11.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.11.1.tgz#04b586e2fddd07e55900a381255d6b3d9242ae87"
+  version "22.14.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jest/-/eslint-plugin-jest-22.14.0.tgz#f9b09837f665cfe360b55c08866904255294cc16"
+  dependencies:
+    "@typescript-eslint/experimental-utils" "^1.13.0"
 
 eslint-plugin-jsdoc@^15.5.3:
   version "15.5.3"
