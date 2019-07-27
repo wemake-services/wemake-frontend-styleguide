@@ -30,7 +30,7 @@
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-sonarjs": "^0.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^9.0.0"
+    "eslint-plugin-unicorn": "^10.0.0"
   },
   "keywords": [
     "wemake.services",
