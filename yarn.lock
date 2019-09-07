@@ -2968,8 +2968,8 @@ eslint-plugin-jest@^22.4.1:
     "@typescript-eslint/experimental-utils" "^1.13.0"
 
 eslint-plugin-jsdoc@^15.5.3:
-  version "15.8.4"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.8.4.tgz#993c2175a2dfab8b3bcac4a916cfc9bc44e2fde4"
+  version "15.9.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-15.9.1.tgz#5cc09ddd7e4568169a710cf5748a0ac8fc1c9af5"
   dependencies:
     comment-parser "^0.6.2"
     debug "^4.1.1"
