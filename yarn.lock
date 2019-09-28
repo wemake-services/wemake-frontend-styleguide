@@ -7921,9 +7921,9 @@ stylelint-scss@^3.11.0:
     postcss-value-parser "^4.0.2"
 
 stylelint-selector-tag-no-without-class@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/stylelint-selector-tag-no-without-class/-/stylelint-selector-tag-no-without-class-2.0.1.tgz#4eda69a563933a0abe5e5e8269b4433333bd3c36"
-  integrity sha512-W7uMCakg3nuPyaI/ezFx5mpg/paU897QFc4EBx6SD8F+Z2rb4qq3VsIzmA758+Q2Kb9TVA7l0BvuvS0fbm2V9g==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/stylelint-selector-tag-no-without-class/-/stylelint-selector-tag-no-without-class-2.0.2.tgz#376a2a71d414cbb88b975311478549f6690b0c0f"
+  integrity sha512-W7fXf+ndNNSH3fu83hQQCQlMRhswNLDETaxXoUKLzm8pQ/tmMgGoD+YbMw9t2uaf1SGfBsSKoYdi2gz0Fq0YwA==
   dependencies:
     lodash "^4.17.5"
 
