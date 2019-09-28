@@ -7883,9 +7883,9 @@ stylelint-declaration-block-no-ignored-properties@^2.1.0:
     postcss "^7.0.14"
 
 stylelint-declaration-strict-value@^1.1.3:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.5.tgz#e58f3361941e468ebb07d815cde9934f28efbe43"
-  integrity sha512-6rP2C/rcs04pBvx1g7ad20AmLgLrIW/M792CtZgJ8VQVC7bJLfaeCANxGkCw8TaURKU/kbyD/brEfPFrZymh2A==
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.1.6.tgz#72abec29651b302533e0da636741bf01a7ceace5"
+  integrity sha512-ob8NaECSuzXMvKEn5L9FA86oyILICDoSJM7fb/isXwP+wB0OEc1dzDDXp4rK7jra3VE87eZLxTJmYqQmSGPdQw==
 
 stylelint-high-performance-animation@^1.2.1:
   version "1.2.1"
