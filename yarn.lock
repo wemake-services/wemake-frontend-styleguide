@@ -3354,9 +3354,9 @@ eslint-plugin-standard@^4.0.0:
   integrity sha512-v/KBnfyaOMPmZc/dmc6ozOdWqekGp7bBGq4jLAecEfPGmfKiWS4sA8sC0LqiV9w5qmXAtXVn4M3p1jSyhY85SQ==
 
 eslint-plugin-unicorn@^12.0.2:
-  version "12.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-12.0.2.tgz#3c6ef6ff00797b21ac92afbe2e0784b375c5cb28"
-  integrity sha512-h23uR/lzNfiKOoXpfUqykPfrSroM255HuzYf/Y+Zkt4bddmZpTDHgBFW49/R5NHbJytW02tyTu95wDFSI7fZDw==
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-12.1.0.tgz#6ebff6c90ecf4df7ce1615e18928d10bb50c2ff5"
+  integrity sha512-DkPRrjaZaKa8GDjEyWGms/sqp2DcmVCcbwVi9WQXwN6+Sn0/joTC14SfA+BsCuxTaGPRm/7wa8NC8o5mNDyZpQ==
   dependencies:
     ci-info "^2.0.0"
     clean-regexp "^1.0.0"
