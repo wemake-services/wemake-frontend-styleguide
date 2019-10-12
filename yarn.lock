@@ -2818,10 +2818,10 @@ css-color-names@0.0.3:
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.3.tgz#de0cef16f4d8aa8222a320d5b6d7e9bbada7b9f6"
   integrity sha1-3gzvFvTYqoIioyDVttfpu62nufY=
 
-css-tree@1.0.0-alpha.33:
-  version "1.0.0-alpha.33"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha.33.tgz#970e20e5a91f7a378ddd0fc58d0b6c8d4f3be93e"
-  integrity sha512-SPt57bh5nQnpsTBsx/IXbO14sRc9xXu5MtMAVuo0BaQQmyf0NupNPPSoMaqiAF5tDFafYsTkfeH4Q/HCKXkg4w==
+css-tree@1.0.0-alpha.34:
+  version "1.0.0-alpha.34"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha.34.tgz#9b3a774cce553391604e62276670518e670c0b27"
+  integrity sha512-JMKJi4h8WkQ+HPjsCUvFnIhGF0I7Jr+J4a+NcHOApyGIBjvx4/hbhk+oKMXydv+OCmVyKBp0hqhHpj5Z61tyMg==
   dependencies:
     mdn-data "2.0.4"
     source-map "^0.5.3"
@@ -7947,11 +7947,11 @@ stylelint-config-standard@^19.0.0:
     stylelint-config-recommended "^3.0.0"
 
 stylelint-csstree-validator@^1.5.2:
-  version "1.5.2"
-  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.5.2.tgz#31cceacae2a1f22bd2655ca1bd0018fc075e4886"
-  integrity sha512-EweV7qnGyymZ95HYosX+nEi0ummTqxgox8icjp+R5dgaPLkXEWSmwFOrj2jtofkFkUOhm4ZCAO58QnJGTMggwA==
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.6.1.tgz#c2ceee2977b461861377fafda63427aee1af3176"
+  integrity sha512-z2ckCjSkqAzoMOXADbl6BCWtWpi64n9j6ySLV3u2EiA46E3K3xgmEGZ+GaczN36Xg5bkDOaj+Ohp5/lUHIiYAQ==
   dependencies:
-    css-tree "1.0.0-alpha.33"
+    css-tree "1.0.0-alpha.34"
 
 stylelint-declaration-block-no-ignored-properties@^2.1.0:
   version "2.1.0"
