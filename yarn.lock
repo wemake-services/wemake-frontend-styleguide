@@ -8003,11 +8003,11 @@ stylelint-csstree-validator@^1.5.2:
     css-tree "1.0.0-alpha.34"
 
 stylelint-declaration-block-no-ignored-properties@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.1.0.tgz#3481ad47783441637165b0b15f0f01cc4fa21211"
-  integrity sha512-uz9aPLJc5cLHWmrEgXOxxobjjhuJFFO2a4XKGgVooL4Ip4OagLl9HaDlDJwr8vzbs0ZRhotaUJh+zrZcK19z/g==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.2.0.tgz#fdde13fdd53b2f7e8930e5986e768f41649a576e"
+  integrity sha512-SUq40z02Cu0SHF7tY4TLQG88qSPE55R2AZlczHOt/j6IEN8vk2o1mEr+HIWVqOS31sK2JtdvCQzvGSM7R5nOWw==
   dependencies:
-    postcss "^7.0.14"
+    postcss "^7.0.17"
 
 stylelint-declaration-strict-value@^1.1.3:
   version "1.1.7"
