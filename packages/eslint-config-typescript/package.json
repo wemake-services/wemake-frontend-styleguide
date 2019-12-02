@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-typescript",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Strict shareable config for ESLint and TypeScript",
   "keywords": [
     "wemake.services",
@@ -24,10 +24,10 @@
     "url": "https://github.com/wemake-services/wemake-frontend-styleguide/issues"
   },
   "devDependencies": {
-    "typescript": "^3.7.0",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.8.0",
-    "eslint-import-resolver-typescript": "^1.1.1"
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "typescript": "^3.7.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=2.9.0",
