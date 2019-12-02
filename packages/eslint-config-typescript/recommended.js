@@ -30,12 +30,16 @@ module.exports = {
     }],
 
     // design
-    '@typescript-eslint/no-angle-bracket-type-assertion': 'error',
     '@typescript-eslint/no-extraneous-class': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/unified-signatures': 'error',
+
+    '@typescript-eslint/consistent-type-assertions': ['error', {
+      'assertionStyle': 'as',
+      'objectLiteralTypeAssertions': 'allow-as-parameter'
+    }],
 
     // overrides of recommended config
     '@typescript-eslint/explicit-function-return-type': ['error', {

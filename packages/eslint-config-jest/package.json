@@ -21,5 +21,12 @@
     "type": "git",
     "url": "git+https://github.com/wemake-services/wemake-frontend-styleguide.git"
   },
-  "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
+  "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8",
+  "peerDependencies": {
+    "eslint": ">=5.0.0",
+    "eslint-plugin-jest": ">=23.1.0"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": ">=23.1.0"
+  }
 }

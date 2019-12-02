@@ -14,9 +14,9 @@ module.exports = {
     'jest/lowercase-name': 'error',
     'jest/valid-describe': 'error',
     'jest/valid-expect-in-promise': 'error',
+    'jest/valid-title': 'error',
     'jest/expect-expect': 'error',
 
-    'jest/no-empty-title': 'error',
     'jest/no-test-prefixes': 'error',
     'jest/no-test-return-statement': 'error',
     'jest/no-test-callback': 'error',
