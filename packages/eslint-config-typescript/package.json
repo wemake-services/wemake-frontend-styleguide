@@ -25,15 +25,15 @@
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.9.0",
-    "@typescript-eslint/parser": "^2.8.0",
-    "eslint-import-resolver-typescript": "^1.1.1",
+    "@typescript-eslint/parser": "^2.9.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "typescript": "^3.7.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">=2.9.0",
     "@typescript-eslint/parser": ">=2.9.0",
     "eslint": ">=5.0.0",
-    "eslint-import-resolver-typescript": "^1.1.1"
+    "eslint-import-resolver-typescript": ">=2.0.0"
   },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975"
 }
