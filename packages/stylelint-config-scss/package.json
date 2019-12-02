@@ -43,8 +43,5 @@
     "stylelint-selector-tag-no-without-class": "^2.0.1",
     "stylelint-use-nesting": "^1.2.1"
   },
-  "devDependencies": {
-    "stylelint": "^11.1.0"
-  },
   "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
 }

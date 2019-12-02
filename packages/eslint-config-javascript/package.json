@@ -21,17 +21,6 @@
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-unicorn": ">=14.0.0"
   },
-  "devDependencies": {
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-jest": "^23.1.0",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-sonarjs": "^0.5.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-unicorn": "^14.0.0"
-  },
   "keywords": [
     "wemake.services",
     "eslint",

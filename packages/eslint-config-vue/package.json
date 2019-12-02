@@ -28,9 +28,6 @@
     "eslint": ">=5.0.0",
     "eslint-plugin-vue": ">=6.0.0"
   },
-  "devDependencies": {
-    "eslint-plugin-vue": "^6.0.0"
-  },
   "dependencies": {
     "is-arrayish": "^0.3.2"
   },
