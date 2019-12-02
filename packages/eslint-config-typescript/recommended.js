@@ -38,7 +38,7 @@ module.exports = {
 
     '@typescript-eslint/consistent-type-assertions': ['error', {
       'assertionStyle': 'as',
-      'objectLiteralTypeAssertions': 'allow-as-parameter'
+      'objectLiteralTypeAssertions': 'allow-as-parameter',
     }],
 
     // overrides of recommended config

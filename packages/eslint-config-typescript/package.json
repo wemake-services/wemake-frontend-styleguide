@@ -24,6 +24,7 @@
     "url": "https://github.com/wemake-services/wemake-frontend-styleguide/issues"
   },
   "devDependencies": {
+    "typescript": "^3.7.0",
     "@typescript-eslint/eslint-plugin": "^2.9.0",
     "@typescript-eslint/parser": "^2.8.0",
     "eslint-import-resolver-typescript": "^1.1.1"
