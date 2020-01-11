@@ -12,23 +12,6 @@ module.exports = {
     ],
     '@typescript-eslint/generic-type-naming': ['error', '^T[A-Z][a-zA-Z]+$'],
 
-    // indentation and spacing
-    '@typescript-eslint/indent': ['error', 2],
-    'func-call-spacing': 'off',
-    '@typescript-eslint/func-call-spacing': ['error', 'never'],
-
-    // parens and semicolons
-    'no-extra-parens': 'off',
-    '@typescript-eslint/no-extra-parens': 'error',
-
-    'semi': 'off',
-    '@typescript-eslint/semi': ['error', 'never'],
-
-    '@typescript-eslint/member-delimiter-style': ['error', {
-      'multiline': { 'delimiter': 'none', 'requireLast': false },
-      'singleline': { 'delimiter': 'comma', 'requireLast': false },
-    }],
-
     // design
     '@typescript-eslint/no-extraneous-class': 'error',
     '@typescript-eslint/no-for-in-array': 'error',
@@ -39,11 +22,6 @@ module.exports = {
     '@typescript-eslint/consistent-type-assertions': ['error', {
       'assertionStyle': 'as',
       'objectLiteralTypeAssertions': 'allow-as-parameter',
-    }],
-
-    // overrides of recommended config
-    '@typescript-eslint/explicit-function-return-type': ['error', {
-      'allowTypedFunctionExpressions': true,
     }],
   },
 }

@@ -6,7 +6,7 @@ import eslint from 'eslint'
 const defaultConfig = require('..')
 const packagePath = path.resolve(__dirname, '..')
 
-const readFixtureFile = (fixtureName) => {
+function readFixtureFile (fixtureName) {
   const fixturePath = `${packagePath}/tests/fixtures/${fixtureName}`
   return String(fs.readFileSync(fixturePath))
 }
@@ -23,7 +23,7 @@ function eslintConfigTester (fixtureName) {
   return cli.executeOnText(readFixtureFile(fixtureName))
 }
 
-describe('correct fixture', () => {
+describe('eslint-config-vue e2e tests', () => {
   test('correct fixture', () => {
     expect.hasAssertions()
 
