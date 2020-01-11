@@ -5944,7 +5944,7 @@ postcss@^5.0.0, postcss@^5.0.4, postcss@^5.2.16:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^7.0.0, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.23, postcss@^7.0.7:
+postcss@^7.0.0, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.18, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.23, postcss@^7.0.26, postcss@^7.0.7:
   version "7.0.26"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.26.tgz#5ed615cfcab35ba9bbb82414a4fa88ea10429587"
   dependencies:
@@ -6972,12 +6972,12 @@ stylelint-no-indistinguishable-colors@^1.2.1:
     colorguard "^1.2.1"
     postcss "^7.0.18"
 
-stylelint-order@^3.1.1:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-3.1.1.tgz#ba9ea6844d1482f97f31204e7c9605c7b792c294"
+stylelint-order@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-order/-/stylelint-order-4.0.0.tgz#2a945c2198caac3ff44687d7c8582c81d044b556"
   dependencies:
     lodash "^4.17.15"
-    postcss "^7.0.17"
+    postcss "^7.0.26"
     postcss-sorting "^5.0.1"
 
 stylelint-scss@^3.11.0:
