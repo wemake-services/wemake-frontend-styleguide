@@ -1,15 +1,5 @@
 'use strict'
 
-const typescriptExtensions = ['.ts', '.tsx', '.d.ts']
-const vueExtensions = ['.vue']
-const javascriptExtensions = ['.js', '.jsx']
-
-const allExtensions = [
-  ...typescriptExtensions,
-  ...vueExtensions,
-  ...javascriptExtensions,
-]
-
 module.exports = {
   'extends': [
     'plugin:@typescript-eslint/eslint-recommended',
@@ -19,20 +9,6 @@ module.exports = {
   'plugins': [
     'import',
   ],
-
-  'settings': {
-    'import/extensions': allExtensions,
-    'import/parsers': {
-      '@typescript-eslint/parser': [
-        ...typescriptExtensions,
-        ...vueExtensions,
-      ],
-    },
-    'import/resolver': {
-      // See: https://www.npmjs.com/package/eslint-import-resolver-typescript
-      'typescript': {},
-    },
-  },
 
   'rules': {
     // overrides of recommended config
@@ -65,10 +41,6 @@ module.exports = {
     'import/no-self-import': 'error',
     'import/no-cycle': 'error',
     'import/no-useless-path-segments': 'error',
-
-    // Related:
-    // https://github.com/typescript-eslint/typescript-eslint/issues/1333
-    // 'import/no-unused-modules': ['error', { 'unusedExports': true }],
 
     'import/export': 'error',
     'import/no-mutable-exports': 'error',
