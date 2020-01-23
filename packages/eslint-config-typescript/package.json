@@ -35,6 +35,7 @@
     "@typescript-eslint/eslint-plugin": ">=2.9.0",
     "@typescript-eslint/parser": ">=2.9.0",
     "eslint": ">=5.0.0",
+    "eslint-import-resolver-typescript": ">=2.0.0",
     "eslint-plugin-import": ">=2.20.0"
   },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975"

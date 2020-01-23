@@ -10,6 +10,13 @@ module.exports = {
     'import',
   ],
 
+  'settings': {
+    'import/resolver': {
+      // See: https://www.npmjs.com/package/eslint-import-resolver-typescript
+      'typescript': {},
+    },
+  },
+
   'rules': {
     // overrides of recommended config
     '@typescript-eslint/explicit-function-return-type': ['error', {
