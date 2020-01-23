@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-vue",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Strict shareable config for ESLint and Vue",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
