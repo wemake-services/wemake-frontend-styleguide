@@ -3235,8 +3235,8 @@ eslint-plugin-jest@^23.1.0:
     micromatch "^4.0.2"
 
 eslint-plugin-jsdoc@^20.1.0:
-  version "20.3.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.3.1.tgz#919366d1ab3342f90321975249833db1ff751472"
+  version "20.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.4.0.tgz#ea6725c3d1e68cd1ac0e633d935aa7e932b624c2"
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
