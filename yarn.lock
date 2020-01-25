@@ -7388,8 +7388,8 @@ stylelint-config-standard@^19.0.0:
     stylelint-config-recommended "^3.0.0"
 
 stylelint-csstree-validator@^1.5.2:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.7.0.tgz#e4338525966156af668605f386e3fe5a5b4e39d3"
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.8.0.tgz#f8e0179ba115b82249344b16f737968dc21cd408"
   dependencies:
     css-tree "1.0.0-alpha.38"
 
