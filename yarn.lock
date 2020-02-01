@@ -1712,14 +1712,6 @@
     regexpp "^3.0.0"
     tsutils "^3.17.1"
 
-"@typescript-eslint/experimental-utils@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.16.0.tgz#bba65685728c532e0ddc811a0376e8d38e671f77"
-  dependencies:
-    "@types/json-schema" "^7.0.3"
-    "@typescript-eslint/typescript-estree" "2.16.0"
-    eslint-scope "^5.0.0"
-
 "@typescript-eslint/experimental-utils@2.17.0", "@typescript-eslint/experimental-utils@^2.5.0":
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-2.17.0.tgz#12ed4a5d656e02ff47a93efc7d1ce1b8f1242351"
@@ -1736,18 +1728,6 @@
     "@typescript-eslint/experimental-utils" "2.17.0"
     "@typescript-eslint/typescript-estree" "2.17.0"
     eslint-visitor-keys "^1.1.0"
-
-"@typescript-eslint/typescript-estree@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.16.0.tgz#b444943a76c716ed32abd08cbe96172d2ca0ab75"
-  dependencies:
-    debug "^4.1.1"
-    eslint-visitor-keys "^1.1.0"
-    glob "^7.1.6"
-    is-glob "^4.0.1"
-    lodash "^4.17.15"
-    semver "^6.3.0"
-    tsutils "^3.17.1"
 
 "@typescript-eslint/typescript-estree@2.17.0":
   version "2.17.0"
@@ -3127,15 +3107,14 @@ eslint-plugin-jest@^23.1.0:
     "@typescript-eslint/experimental-utils" "^2.5.0"
     micromatch "^4.0.2"
 
-eslint-plugin-jsdoc@^20.1.0:
-  version "20.4.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-20.4.0.tgz#ea6725c3d1e68cd1ac0e633d935aa7e932b624c2"
+eslint-plugin-jsdoc@^21.0.0:
+  version "21.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-jsdoc/-/eslint-plugin-jsdoc-21.0.0.tgz#36bc215c5d22b320312a633dda6dfe81c34393af"
   dependencies:
     comment-parser "^0.7.2"
     debug "^4.1.1"
     jsdoctypeparser "^6.1.0"
     lodash "^4.17.15"
-    object.entries-ponyfill "^1.0.1"
     regextras "^0.7.0"
     semver "^6.3.0"
     spdx-expression-parse "^3.0.0"
@@ -5666,10 +5645,6 @@ object.assign@^4.1.0:
     function-bind "^1.1.1"
     has-symbols "^1.0.0"
     object-keys "^1.0.11"
-
-object.entries-ponyfill@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/object.entries-ponyfill/-/object.entries-ponyfill-1.0.1.tgz#29abdf77cbfbd26566dd1aa24e9d88f65433d256"
 
 object.getownpropertydescriptors@^2.0.3:
   version "2.1.0"
