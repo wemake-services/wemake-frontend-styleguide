@@ -7210,9 +7210,9 @@ stylelint-selector-tag-no-without-class@^2.0.1:
   dependencies:
     lodash "^4.17.5"
 
-stylelint-use-nesting@^1.2.1:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-1.2.1.tgz#6a71baeb36766d3ea66aecd5fbb3ab8942921a25"
+stylelint-use-nesting@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-2.0.0.tgz#b660145d824cf8206562dc0e497c19c308c39012"
 
 stylelint@^11.1.0:
   version "11.1.1"
