@@ -47,6 +47,46 @@ const customRules = {
     'selfClosingTag': 'always',
   }],
   'vue/prop-name-casing': ['error', 'camelCase'],
+
+  'vue/padding-line-between-blocks': ['error', 'always'],
+  'vue/component-name-in-template-casing': ['error', 'kebab-case', {
+    'registeredComponentsOnly': false,
+  }],
+  'vue/no-restricted-syntax': 'error',
+  'vue/no-static-inline-styles': ['error', {
+    'allowBinding': false,
+  }],
+  'vue/require-direct-export': 'error',
+  'vue/v-on-function-call': ['error', 'never'],
+
+  // See standard-js rules to be compatible with our Vue ones:
+  // https://github.com/standard/eslint-config-standard
+  // All our `wemake` rules overrides are more important than standard-js ones.
+  'vue/array-bracket-spacing': ['error', 'never'],
+  'vue/arrow-spacing': 'error',
+  'vue/block-spacing': ['error', 'always'],
+  'vue/brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+  // 'vue/camelcase' is ignored for now:
+  // https://eslint.vuejs.org/rules/camelcase.html
+  'vue/comma-dangle': ['error', 'always'],
+  'vue/dot-location': ['error', 'property'],
+  'vue/eqeqeq': ['error', 'always', { 'null': 'ignore' }],
+  'vue/key-spacing': ['error', { 'beforeColon': false, 'afterColon': true }],
+  'vue/keyword-spacing': ['error', { 'before': true, 'after': true }],
+  'vue/max-len': ['error', {
+    'code': 80,
+    'template': 80,
+    'tabWidth': 2,
+    'comments': 80,
+    'ignoreUrls': true,
+    'ignoreStrings': true,
+    'ignoreTemplateLiterals': true,
+  }],
+  'vue/no-empty-pattern': 'error',
+  'vue/no-irregular-whitespace': 'error',
+  'vue/object-curly-spacing': ['error', 'always'],
+  'vue/space-infix-ops': 'error',
+  'vue/space-unary-ops': ['error', { 'words': true, 'nonwords': false }],
 }
 
 module.exports = {

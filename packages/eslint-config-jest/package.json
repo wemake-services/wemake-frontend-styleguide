@@ -23,7 +23,7 @@
   },
   "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8",
   "peerDependencies": {
-    "eslint": ">=5.0.0",
+    "eslint": ">=6.7.0",
     "eslint-plugin-jest": ">=23.1.0"
   }
 }
