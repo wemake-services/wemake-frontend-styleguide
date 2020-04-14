@@ -56,7 +56,7 @@ const customRules = {
   'vue/no-static-inline-styles': ['error', {
     'allowBinding': false,
   }],
-  'vue/require-direct-export': 'error',
+  // 'vue/require-direct-export' does not work well with class components.
   'vue/v-on-function-call': ['error', 'never'],
 
   // See standard-js rules to be compatible with our Vue ones:
