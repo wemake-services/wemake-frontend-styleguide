@@ -7332,8 +7332,8 @@ stylelint-declaration-strict-value@^1.1.3:
   resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.2.3.tgz#380fc87a62de571e56981720ed893f1d1d7923e9"
 
 stylelint-high-performance-animation@^1.2.1:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.5.0.tgz#63aea9f175a0dbd3b18556e9927a6504fbdab74b"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.5.1.tgz#055e66d4618d8f6b731d595e338df68a5fb92418"
 
 stylelint-no-indistinguishable-colors@^1.2.1:
   version "1.3.0"
