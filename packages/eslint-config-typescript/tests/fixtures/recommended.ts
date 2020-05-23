@@ -1,3 +1,3 @@
-interface SimpleMap<TValue> {
-  [key: string]: TValue
+interface SimpleMap<ValueType> {
+  [key: string]: ValueType
 }

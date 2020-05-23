@@ -1,5 +1,5 @@
 import fs from 'fs'
 
-interface SimpleMap<T> {
-  [key: string]: T;
+interface SimpleMap<t> {
+  [key: string]: t;
 }

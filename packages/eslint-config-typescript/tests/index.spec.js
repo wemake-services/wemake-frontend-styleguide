@@ -11,16 +11,18 @@ function readFixtureFile (fixtureName) {
 }
 
 function eslintConfigTester (fixtureName, configType) {
+  // eslint-disable-next-line security/detect-non-literal-require
+  const rootConfig = require(`${packagePath}/index.js`)
+
   const cli = new eslint.CLIEngine({
     'cwd': packagePath,
     'baseConfig': {
-      // eslint-disable-next-line security/detect-non-literal-require
-      ...require(`../${configType}.js`),
+      ...rootConfig.configs[configType],
       'root': true,
     },
     'useEslintrc': false,
   })
-  return cli.executeOnText(readFixtureFile(fixtureName))
+  return cli.executeOnText(readFixtureFile(fixtureName), fixtureName)
 }
 
 describe('eslint-config-typescript e2e tests', () => {
