@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-jsdoc",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "Essential rules for eslint-plugin-jsdoc",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/eslint-config-jsdoc.git",
