@@ -166,7 +166,7 @@ function createCorrectStyleCheck(name) {
       lintResult = runStylelint(name, 'correct.scss')
     })
 
-    test('flags no warnings', async() => {
+    test('flags no warnings', async () => {
       expect.hasAssertions()
       expect.assertions(2)
 
@@ -185,7 +185,7 @@ function createIncorrectStyleCheck(name, rule) {
       lintResult = runStylelint(name, 'incorrect.scss')
     })
 
-    test('flags correct number of warnings', async() => {
+    test('flags correct number of warnings', async () => {
       expect.hasAssertions()
       expect.assertions(2)
 
@@ -195,7 +195,7 @@ function createIncorrectStyleCheck(name, rule) {
       expect(lintData.errored).toBe(true)
     })
 
-    test('flags correct rule warnings', async() => {
+    test('flags correct rule warnings', async () => {
       expect.hasAssertions()
       expect.assertions(rule.messages.length)
 
