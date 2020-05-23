@@ -133,11 +133,6 @@ module.exports = {
     'max-depth': ['error', { 'max': 4 }],
     'max-params': ['error', { 'max': 5 }],
     'max-nested-callbacks': ['error', { 'max': 3 }],
-    'max-lines-per-function': ['error', {
-      'max': 20,
-      'skipBlankLines': true,
-      'skipComments': true,
-    }],
     'max-classes-per-file': ['error', 3],
 
     // use new syntax
