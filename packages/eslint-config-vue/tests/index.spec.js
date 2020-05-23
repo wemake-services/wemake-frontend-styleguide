@@ -6,12 +6,12 @@ import eslint from 'eslint'
 const defaultConfig = require('..')
 const packagePath = path.resolve(__dirname, '..')
 
-function readFixtureFile (fixtureName) {
+function readFixtureFile(fixtureName) {
   const fixturePath = `${packagePath}/tests/fixtures/${fixtureName}`
   return String(fs.readFileSync(fixturePath))
 }
 
-function eslintConfigTester (fixtureName) {
+function eslintConfigTester(fixtureName) {
   const cli = new eslint.CLIEngine({
     'cwd': packagePath,
     'baseConfig': {

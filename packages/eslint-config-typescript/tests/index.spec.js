@@ -5,12 +5,12 @@ import eslint from 'eslint'
 
 const packagePath = path.resolve(__dirname, '..')
 
-function readFixtureFile (fixtureName) {
+function readFixtureFile(fixtureName) {
   const fixturePath = `${packagePath}/tests/fixtures/${fixtureName}`
   return String(fs.readFileSync(fixturePath))
 }
 
-function eslintConfigTester (fixtureName, configType) {
+function eslintConfigTester(fixtureName, configType) {
   // eslint-disable-next-line security/detect-non-literal-require
   const rootConfig = require(`${packagePath}/index.js`)
 

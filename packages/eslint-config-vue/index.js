@@ -15,7 +15,7 @@ const isWarning = (configValue) => configValue === 'warn' || configValue === 1
  *
  * @param config - Configuration to monkeypatch.
  */
-function warningsToErrors (config) {
+function warningsToErrors(config) {
   for (const ruleName of Object.keys(config.rules)) {
     const rule = config.rules[ruleName]
     if (isArrayish(rule) && isWarning(rule[0])) {

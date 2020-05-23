@@ -151,14 +151,14 @@ const checks = {
   },
 }
 
-function runStylelint (fixtureName, filename) {
+function runStylelint(fixtureName, filename) {
   return stylelint.lint({
     'files': path.join(fixturesDirectory, fixtureName, filename),
     config,
   })
 }
 
-function createCorrectStyleCheck (name) {
+function createCorrectStyleCheck(name) {
   describe('correct style', () => {
     let lintResult
 
@@ -166,7 +166,7 @@ function createCorrectStyleCheck (name) {
       lintResult = runStylelint(name, 'correct.scss')
     })
 
-    test('flags no warnings', async () => {
+    test('flags no warnings', async() => {
       expect.hasAssertions()
       expect.assertions(2)
 
@@ -177,7 +177,7 @@ function createCorrectStyleCheck (name) {
   })
 }
 
-function createIncorrectStyleCheck (name, rule) {
+function createIncorrectStyleCheck(name, rule) {
   describe('incorrect style', () => {
     let lintResult
 
@@ -185,7 +185,7 @@ function createIncorrectStyleCheck (name, rule) {
       lintResult = runStylelint(name, 'incorrect.scss')
     })
 
-    test('flags correct number of warnings', async () => {
+    test('flags correct number of warnings', async() => {
       expect.hasAssertions()
       expect.assertions(2)
 
@@ -195,7 +195,7 @@ function createIncorrectStyleCheck (name, rule) {
       expect(lintData.errored).toBe(true)
     })
 
-    test('flags correct rule warnings', async () => {
+    test('flags correct rule warnings', async() => {
       expect.hasAssertions()
       expect.assertions(rule.messages.length)
 

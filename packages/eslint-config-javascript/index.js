@@ -51,6 +51,7 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
     'function-paren-newline': ['error', 'consistent'],
     'lines-between-class-members': ['error', 'always'],
+    'space-before-function-paren': ['error', 'never'],
 
     // ternary expressions
     'multiline-ternary': ['error', 'never'],
