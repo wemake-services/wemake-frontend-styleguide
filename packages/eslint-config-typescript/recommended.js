@@ -9,16 +9,6 @@ module.exports = {
   'rules': {
     // naming
     '@typescript-eslint/naming-convention': ['error', {
-      'selector': 'default',
-      'format': ['camelCase'],
-      'leadingUnderscore': 'allow',
-      'trailingUnderscore': 'allow',
-    }, {
-      'selector': 'variable',
-      'format': ['camelCase', 'UPPER_CASE'],
-      'leadingUnderscore': 'allow',
-      'trailingUnderscore': 'allow',
-    }, {
       'selector': 'typeLike',
       'format': ['PascalCase'],
     }, {
