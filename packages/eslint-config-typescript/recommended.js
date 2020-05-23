@@ -2,6 +2,7 @@
 
 // This configuration does not require your code to compile,
 // only uses AST that is fast and cheap.
+// It also does not require your `parserOptions.project` to be set.
 
 module.exports = {
   'extends': './base.js',
@@ -32,7 +33,6 @@ module.exports = {
 
     // design
     '@typescript-eslint/no-extraneous-class': 'error',
-    '@typescript-eslint/no-for-in-array': 'error',
     '@typescript-eslint/prefer-for-of': 'error',
     '@typescript-eslint/no-useless-constructor': 'error',
     '@typescript-eslint/unified-signatures': 'error',
