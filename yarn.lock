@@ -4762,12 +4762,9 @@ jest-pnp-resolver@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.1.tgz#ecdae604c077a7fbc70defb6d517c3c1c898923a"
 
-jest-preset-stylelint@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-stylelint/-/jest-preset-stylelint-1.3.0.tgz#4e511ab95149a660cc73b2a9da32a5a1ef76c06f"
-  dependencies:
-    lodash "^4.17.5"
-    postcss-less "^1.1.5"
+jest-preset-stylelint@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/jest-preset-stylelint/-/jest-preset-stylelint-3.0.0.tgz#c0a31e4145229ac87dbda4a8792e54f924f2bd35"
 
 jest-regex-util@^26.0.0:
   version "26.0.0"
@@ -6192,12 +6189,6 @@ postcss-jsx@^0.36.3:
   dependencies:
     "@babel/core" ">=7.2.2"
 
-postcss-less@^1.1.5:
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/postcss-less/-/postcss-less-1.1.5.tgz#a6f0ce180cf3797eeee1d4adc0e9e6d6db665609"
-  dependencies:
-    postcss "^5.2.16"
-
 postcss-less@^3.1.4:
   version "3.1.4"
   resolved "https://registry.yarnpkg.com/postcss-less/-/postcss-less-3.1.4.tgz#369f58642b5928ef898ffbc1a6e93c958304c5ad"
@@ -6287,7 +6278,7 @@ postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
 
-postcss@^5.0.0, postcss@^5.0.4, postcss@^5.2.16:
+postcss@^5.0.0, postcss@^5.0.4:
   version "5.2.18"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-5.2.18.tgz#badfa1497d46244f6390f58b319830d9107853c5"
   dependencies:
