@@ -1816,10 +1816,10 @@
     "@types/yargs-parser" "*"
 
 "@typescript-eslint/eslint-plugin@^3.0.0":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.0.2.tgz#4a114a066e2f9659b25682ee59d4866e15a17ec3"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.1.0.tgz#4ac00ecca3bbea740c577f1843bc54fa69c3def2"
   dependencies:
-    "@typescript-eslint/experimental-utils" "3.0.2"
+    "@typescript-eslint/experimental-utils" "3.1.0"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
     semver "^7.3.2"
