@@ -696,8 +696,8 @@
     "@babel/helper-plugin-utils" "^7.10.1"
 
 "@babel/polyfill@^7.7.0":
-  version "7.10.1"
-  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.10.1.tgz#d56d4c8be8dd6ec4dce2649474e9b707089f739f"
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/polyfill/-/polyfill-7.10.4.tgz#915e5bfe61490ac0199008e35ca9d7d151a8e45a"
   dependencies:
     core-js "^2.6.5"
     regenerator-runtime "^0.13.4"
