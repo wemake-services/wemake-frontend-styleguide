@@ -1803,10 +1803,10 @@
     "@types/yargs-parser" "*"
 
 "@typescript-eslint/eslint-plugin@^3.0.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.6.0.tgz#ba2b6cae478b8fca3f2e58ff1313e4198eea2d8a"
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-3.6.1.tgz#5ced8fd2087fbb83a76973dea4a0d39d9cb4a642"
   dependencies:
-    "@typescript-eslint/experimental-utils" "3.6.0"
+    "@typescript-eslint/experimental-utils" "3.6.1"
     debug "^4.1.1"
     functional-red-black-tree "^1.0.1"
     regexpp "^3.0.0"
@@ -1820,6 +1820,16 @@
     "@types/json-schema" "^7.0.3"
     "@typescript-eslint/types" "3.6.0"
     "@typescript-eslint/typescript-estree" "3.6.0"
+    eslint-scope "^5.0.0"
+    eslint-utils "^2.0.0"
+
+"@typescript-eslint/experimental-utils@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/experimental-utils/-/experimental-utils-3.6.1.tgz#b5a2738ebbceb3fa90c5b07d50bb1225403c4a54"
+  dependencies:
+    "@types/json-schema" "^7.0.3"
+    "@typescript-eslint/types" "3.6.1"
+    "@typescript-eslint/typescript-estree" "3.6.1"
     eslint-scope "^5.0.0"
     eslint-utils "^2.0.0"
 
@@ -1846,6 +1856,10 @@
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-3.6.0.tgz#4bd6eee55d2f9d35a4b36c4804be1880bf68f7bc"
 
+"@typescript-eslint/types@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-3.6.1.tgz#87600fe79a1874235d3cc1cf5c7e1a12eea69eee"
+
 "@typescript-eslint/typescript-estree@2.34.0":
   version "2.34.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-2.34.0.tgz#14aeb6353b39ef0732cc7f1b8285294937cf37d5"
@@ -1871,9 +1885,28 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@typescript-eslint/typescript-estree@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-3.6.1.tgz#a5c91fcc5497cce7922ff86bc37d5e5891dcdefa"
+  dependencies:
+    "@typescript-eslint/types" "3.6.1"
+    "@typescript-eslint/visitor-keys" "3.6.1"
+    debug "^4.1.1"
+    glob "^7.1.6"
+    is-glob "^4.0.1"
+    lodash "^4.17.15"
+    semver "^7.3.2"
+    tsutils "^3.17.1"
+
 "@typescript-eslint/visitor-keys@3.6.0":
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-3.6.0.tgz#44185eb0cc47651034faa95c5e2e8b314ecebb26"
+  dependencies:
+    eslint-visitor-keys "^1.1.0"
+
+"@typescript-eslint/visitor-keys@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@typescript-eslint/visitor-keys/-/visitor-keys-3.6.1.tgz#5c57a7772f4dd623cfeacc219303e7d46f963b37"
   dependencies:
     eslint-visitor-keys "^1.1.0"
 
