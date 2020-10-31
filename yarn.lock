@@ -2996,11 +2996,11 @@ css-shorthand-properties@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/css-shorthand-properties/-/css-shorthand-properties-1.1.1.tgz#1c808e63553c283f289f2dd56fcee8f3337bd935"
 
-css-tree@1.0.0-alpha.38:
-  version "1.0.0-alpha.38"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0-alpha.38.tgz#a75431f4162da84dbdb3c4804e79ad784aa7593c"
+css-tree@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0.tgz#21993fa270d742642a90409a2c0cb3ac0298adf6"
   dependencies:
-    mdn-data "2.0.6"
+    mdn-data "2.0.12"
     source-map "^0.6.1"
 
 css-values@^0.1.0:
@@ -5565,9 +5565,9 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdn-data@2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.6.tgz#852dc60fcaa5daa2e8cf6c9189c440ed3e042978"
+mdn-data@2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.12.tgz#bbb658d08b38f574bbb88f7b83703defdcc46844"
 
 meow@^3.3.0:
   version "3.7.0"
@@ -7614,10 +7614,10 @@ stylelint-config-standard@^20.0.0:
     stylelint-config-recommended "^3.0.0"
 
 stylelint-csstree-validator@^1.5.2:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.8.0.tgz#f8e0179ba115b82249344b16f737968dc21cd408"
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.9.0.tgz#9f7971d87bf525f54e20434329fa5e27ee4e9491"
   dependencies:
-    css-tree "1.0.0-alpha.38"
+    css-tree "^1.0.0"
 
 stylelint-declaration-block-no-ignored-properties@^2.1.0:
   version "2.3.0"
