@@ -8320,8 +8320,8 @@ vfile@^3.0.0:
     vfile-message "^1.0.0"
 
 vue-eslint-parser@^7.0.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.2.0.tgz#1e17ae94ca71e617025e05143c8ac5593aacb6ef"
+  version "7.3.0"
+  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-7.3.0.tgz#894085839d99d81296fa081d19643733f23d7559"
   dependencies:
     debug "^4.1.1"
     eslint-scope "^5.0.0"
