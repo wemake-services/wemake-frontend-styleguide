@@ -1,4 +1,4 @@
-# @wemake-services/stylelint-config-strict-scss
+# @wemake-services/stylelint-config-scss
 
 [![wemake.services](https://img.shields.io/badge/style-wemake.services-green.svg?label=&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA8xXANAL%2Bv0SAAAADNJREFUGNNjYCAIOJjRBdBFWMkVQeGzcHAwksJnAPPZGOGAASzPzAEHEGVsLExQwE7YswCb7AFZSF3bbAAAAABJRU5ErkJggg%3D%3D)](http://wemake.services) 
 [![Build Status](https://travis-ci.com/wemake-services/wemake-frontend-styleguide.svg?branch=master)](https://travis-ci.com/wemake-services/wemake-frontend-styleguide)
@@ -17,7 +17,7 @@ Strict shareable config for [`stylelint`](https://github.com/stylelint/stylelint
 - Also checks `@imports`, declarations, `url()`s, and other minor things
 - Enforces to use `autoprefixer` by restricting vendor prefixes
 - Maintains consistent declarations order with [`stylelint-order`](https://github.com/hudochenkov/stylelint-order)
-- Has [sensible defaults](https://github.com/wemake-services/stylelint-config-strict-scss/blob/master/index.js)
+- Has [sensible defaults](https://github.com/wemake-services/wemake-frontend-styleguide/blob/master/packages/stylelint-config-scss/index.js)
 - Is opened for further extension!
 
 

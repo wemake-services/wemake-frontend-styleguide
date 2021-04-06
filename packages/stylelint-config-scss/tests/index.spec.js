@@ -211,7 +211,7 @@ function createIncorrectStyleCheck(name, rule) {
   })
 }
 
-describe('stylelint-config-strict-scss', () => {
+describe('stylelint-config-scss', () => {
   for (const feature of Object.keys(checks)) {
     const rule = checks[feature]
 
