@@ -26,7 +26,7 @@
     ]
   },
   "peerDependencies": {
-    "stylelint": "^11.1.0"
+    "stylelint": ">=11.1.0"
   },
   "dependencies": {
     "style-search": "^0.1.0",
