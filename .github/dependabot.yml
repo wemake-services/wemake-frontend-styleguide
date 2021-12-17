@@ -3,30 +3,55 @@ updates:
 - package-ecosystem: npm
   directory: "/"
   schedule:
-    interval: weekly
-    day: saturday
+    interval: daily
     time: "02:00"
   open-pull-requests-limit: 10
-  ignore:
-  - dependency-name: eslint-plugin-jest
-    versions:
-    - 24.1.3
-    - 24.1.5
-    - 24.2.1
-    - 24.3.2
-    - 24.3.3
-    - 24.3.4
-  - dependency-name: eslint-plugin-vue
-    versions:
-    - 7.6.0
-    - 7.7.0
-    - 7.7.0
-    - 7.8.0
-    - 7.8.0
-  - dependency-name: eslint
-    versions:
-    - 7.20.0
-    - 7.21.0
-    - 7.22.0
-    - 7.23.0
-    - 7.24.0
+
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-javascript"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-jest"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+  
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-jsdoc"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-typescript"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-vue"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/packages/eslint-config-javascript"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
+
+- package-ecosystem: npm
+  directory: "/packages/stylelint-config-scss"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
