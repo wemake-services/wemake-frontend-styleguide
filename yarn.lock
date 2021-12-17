@@ -3026,12 +3026,12 @@ css-shorthand-properties@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/css-shorthand-properties/-/css-shorthand-properties-1.1.1.tgz#1c808e63553c283f289f2dd56fcee8f3337bd935"
 
-css-tree@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.0.0.tgz#21993fa270d742642a90409a2c0cb3ac0298adf6"
+css-tree@^2.0.1:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-2.0.4.tgz#be44314f17e9ac85fe894a5888941782e1123c29"
   dependencies:
-    mdn-data "2.0.12"
-    source-map "^0.6.1"
+    mdn-data "2.0.23"
+    source-map-js "^1.0.1"
 
 css-values@^0.1.0:
   version "0.1.0"
@@ -5599,9 +5599,9 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdn-data@2.0.12:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.12.tgz#bbb658d08b38f574bbb88f7b83703defdcc46844"
+mdn-data@2.0.23:
+  version "2.0.23"
+  resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-2.0.23.tgz#dfb6c41e50a0edb808cf340973ab29321b70808e"
 
 meow@^3.3.0:
   version "3.7.0"
@@ -7330,6 +7330,10 @@ sort-keys@^2.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+source-map-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.1.tgz#a1741c131e3c77d048252adfa24e23b908670caf"
+
 source-map-resolve@^0.5.0:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/source-map-resolve/-/source-map-resolve-0.5.3.tgz#190866bece7553e1f8f267a2ee82c606b5509a1a"
@@ -7631,11 +7635,11 @@ stylelint-config-standard@^20.0.0:
   dependencies:
     stylelint-config-recommended "^3.0.0"
 
-stylelint-csstree-validator@^1.5.2:
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-1.9.0.tgz#9f7971d87bf525f54e20434329fa5e27ee4e9491"
+stylelint-csstree-validator@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-csstree-validator/-/stylelint-csstree-validator-2.0.0.tgz#1bd0b609596e3d5d78c3f4f0e1fe35e184f7e774"
   dependencies:
-    css-tree "^1.0.0"
+    css-tree "^2.0.1"
 
 stylelint-declaration-block-no-ignored-properties@^2.1.0:
   version "2.3.0"
