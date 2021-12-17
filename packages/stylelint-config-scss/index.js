@@ -165,6 +165,15 @@ module.exports = {
     'csstools/use-nesting': 'always',
 
     // use valid css
-    'csstree/validator': true,
+    'csstree/validator': {
+      'syntaxExtensions': ['sass'],
+      'ignoreAtrules': ['else'],
+    },
+
+    // eslint-disable-next-line max-len
+    // https://sass-lang.com/documentation/operators/numeric#slash-separated-values
+    'color-function-notation': 'legacy',
+
+    'alpha-value-notation': 'number',
   },
 }
