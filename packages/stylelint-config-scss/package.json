@@ -31,7 +31,7 @@
   "dependencies": {
     "style-search": "^0.1.0",
     "stylelint-color-format": "^1.1.0",
-    "stylelint-config-recommended-scss": "^4.0.0",
+    "stylelint-config-recommended-scss": "^5.0.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.5.2",
     "stylelint-declaration-block-no-ignored-properties": "^2.1.0",
