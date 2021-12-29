@@ -34,7 +34,6 @@ module.exports = {
 
   'plugins': [
     'unicorn',
-    'security',
     'sonarjs',
   ],
 
@@ -171,23 +170,6 @@ module.exports = {
     'promise/prefer-await-to-callbacks': 'error',
     'promise/no-nesting': 'error',
     'promise/no-return-in-finally': 'error',
-
-    // security hardening
-    'no-script-url': 'error',
-    'security/detect-buffer-noassert': 'error',
-    'security/detect-child-process': 'error',
-    'security/detect-disable-mustache-escape': 'error',
-    'security/detect-eval-with-expression': 'error',
-    'security/detect-new-buffer': 'error',
-    'security/detect-no-csrf-before-method-override': 'error',
-    'security/detect-non-literal-regexp': 'error',
-    'security/detect-non-literal-require': 'error',
-    // These plugins are too overwhelming:
-    // 'security/detect-object-injection': 'error',
-    // 'security/detect-non-literal-fs-filename': 'error',
-    'security/detect-possible-timing-attacks': 'error',
-    'security/detect-pseudoRandomBytes': 'error',
-    'security/detect-unsafe-regex': 'error',
 
     // too restrictive on abbreviations, they are part of API
     'unicorn/prevent-abbreviations': 'off',
