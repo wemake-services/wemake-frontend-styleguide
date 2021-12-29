@@ -99,6 +99,11 @@ module.exports = {
     'prefer-template': 'error',
     'no-useless-concat': 'error',
 
+    // numbers
+    'unicorn/numeric-separators-style': ['error', {
+      'onlyIfContainsSeparator': true,
+    }],
+
     // generators
     'require-yield': 'error',
 
@@ -173,6 +178,9 @@ module.exports = {
 
     // too restrictive on abbreviations, they are part of API
     'unicorn/prevent-abbreviations': 'off',
+
+    // modules
+    'unicorn/prefer-module': 'off',
   },
   'overrides': [{
     // We use slightly different rules in .vue files:

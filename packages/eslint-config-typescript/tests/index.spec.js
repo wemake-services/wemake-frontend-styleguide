@@ -1,5 +1,5 @@
-import fs from 'fs'
-import path from 'path'
+import fs from 'node:fs'
+import path from 'node:path'
 
 import eslint from 'eslint'
 
@@ -11,7 +11,6 @@ function readFixtureFile(fixtureName) {
 }
 
 function eslintConfigTester(fixtureName, configType) {
-  // eslint-disable-next-line security/detect-non-literal-require
   const rootConfig = require(`${packagePath}/index.js`)
 
   const cli = new eslint.CLIEngine({
