@@ -1,8 +1,5 @@
 /* eslint-disable max-lines-per-function, sonarjs/no-duplicate-string */
 
-// TODO: this can be moved to the `jest.global-setup.js`
-import '@babel/polyfill'
-
 import path from 'path'
 import stylelint from 'stylelint'
 
