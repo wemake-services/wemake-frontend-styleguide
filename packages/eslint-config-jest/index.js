@@ -3,6 +3,7 @@
 module.exports = {
   'extends': [
     'plugin:jest/recommended',
+    'plugin:jest/style',
   ],
   'rules': {
     // warnings to errors from recommended
@@ -11,25 +12,20 @@ module.exports = {
     'jest/no-alias-methods': 'error',
 
     'jest/consistent-test-it': ['error', { 'fn': 'test' }],
-    'jest/lowercase-name': 'error',
-    'jest/valid-describe': 'error',
+    'jest/prefer-lowercase-title': 'error',
+    'jest/valid-describe-callback': 'error',
     'jest/valid-expect-in-promise': 'error',
     'jest/valid-title': 'error',
     'jest/expect-expect': 'error',
 
     'jest/no-test-prefixes': 'error',
     'jest/no-test-return-statement': 'error',
-    'jest/no-test-callback': 'error',
-    'jest/no-truthy-falsy': 'error',
+    'jest/no-done-callback': 'error',
 
     'jest/prefer-expect-assertions': 'error',
     'jest/prefer-todo': 'error',
 
     // style
-    'jest/prefer-to-have-length': 'error',
-    'jest/prefer-to-be-null': 'error',
-    'jest/prefer-to-be-undefined': 'error',
-    'jest/prefer-to-contain': 'error',
     'jest/prefer-strict-equal': 'error',
 
     // warn users about too large snapshots:

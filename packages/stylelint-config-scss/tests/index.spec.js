@@ -1,6 +1,9 @@
 /* eslint-disable max-lines-per-function, sonarjs/no-duplicate-string */
 
-import path from 'path'
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
+
+import path from 'node:path'
 import stylelint from 'stylelint'
 
 // eslint-disable-next-line unicorn/import-index
