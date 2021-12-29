@@ -1,4 +1,4 @@
-/* eslint-disable max-lines-per-function */
+/* eslint-disable max-lines-per-function, sonarjs/no-duplicate-string */
 
 // TODO: this can be moved to the `jest.global-setup.js`
 import '@babel/polyfill'
@@ -37,7 +37,7 @@ const checks = {
   },
 
   'if-else-loop': {
-    'errors': 12,
+    'errors': 13,
     'messages': [
       'at-rule-empty-line-before',
       'at-rule-name-space-after',
@@ -48,14 +48,16 @@ const checks = {
       'block-opening-brace-space-before',
       'block-opening-brace-space-after',
       'block-closing-brace-space-before',
+      'no-empty-first-line',
     ],
   },
 
   'imports': {
-    'errors': 2,
+    'errors': 3,
     'messages': [
       'scss/at-import-no-partial-leading-underscore',
       'scss/at-import-partial-extension-blacklist',
+      'scss/at-import-partial-extension',
     ],
   },
 
@@ -79,11 +81,12 @@ const checks = {
   },
 
   'operators': {
-    'errors': 7,
+    'errors': 6,
     'messages': [
       'scss/operator-no-newline-before',
       'scss/operator-no-newline-after',
       'scss/operator-no-unspaced',
+      'scss/dollar-variable-colon-space-after',
     ],
   },
 
