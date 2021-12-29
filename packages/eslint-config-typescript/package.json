@@ -32,11 +32,11 @@
     "url": "https://github.com/wemake-services/wemake-frontend-styleguide/issues"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">=3.0.0",
-    "@typescript-eslint/parser": ">=3.0.0",
-    "eslint": ">=6.7.0",
-    "eslint-import-resolver-typescript": ">=2.0.0",
-    "eslint-plugin-import": ">=2.20.0"
+    "@typescript-eslint/eslint-plugin": ">=5.8.0",
+    "@typescript-eslint/parser": ">=5.8.0",
+    "eslint": "^7.12.0",
+    "eslint-import-resolver-typescript": ">=2.5.0",
+    "eslint-plugin-import": ">=2.25.0"
   },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975"
 }
