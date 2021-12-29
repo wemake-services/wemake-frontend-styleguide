@@ -11,15 +11,13 @@
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": ">=6.7.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": ">=2.20.0",
+    "eslint": "^7.12.0",
+    "eslint-config-standard": "^16.0.0",
+    "eslint-plugin-import": ">=2.25.0",
     "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-promise": ">=4.2.0",
-    "eslint-plugin-security": ">=1.4.0",
-    "eslint-plugin-sonarjs": ">=0.4.0",
-    "eslint-plugin-standard": ">=4.0.0",
-    "eslint-plugin-unicorn": "^19.0.0"
+    "eslint-plugin-promise": "^5.0.0",
+    "eslint-plugin-sonarjs": ">=0.11.0",
+    "eslint-plugin-unicorn": ">=39.0.0"
   },
   "keywords": [
     "wemake.services",

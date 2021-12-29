@@ -29,7 +29,6 @@
     "stylelint": ">=14.0.0"
   },
   "dependencies": {
-    "style-search": "^0.1.0",
     "stylelint-color-format": "^1.1.0",
     "stylelint-config-recommended-scss": "^5.0.2",
     "stylelint-config-standard": "^24.0.0",
@@ -39,7 +38,7 @@
     "stylelint-high-performance-animation": "^1.6.0",
     "stylelint-no-indistinguishable-colors": "^1.2.1",
     "stylelint-order": "^5.0.0",
-    "stylelint-scss": "^4.0.1",
+    "stylelint-scss": "^4.1.0",
     "stylelint-selector-tag-no-without-class": "^2.0.5",
     "stylelint-use-nesting": "^3.0.0"
   },
