@@ -19,18 +19,18 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.16.8.tgz#31560f9f29fdf1868de8cb55049538a1b9732a60"
 
 "@babel/core@^7.1.0", "@babel/core@^7.12.3", "@babel/core@^7.16.5", "@babel/core@^7.7.2", "@babel/core@^7.8.0":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.16.7.tgz#db990f931f6d40cb9b87a0dc7d2adc749f1dcbcf"
+  version "7.16.10"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.16.10.tgz#ebd034f8e7ac2b6bfcdaa83a161141a646f74b50"
   dependencies:
     "@babel/code-frame" "^7.16.7"
-    "@babel/generator" "^7.16.7"
+    "@babel/generator" "^7.16.8"
     "@babel/helper-compilation-targets" "^7.16.7"
     "@babel/helper-module-transforms" "^7.16.7"
     "@babel/helpers" "^7.16.7"
-    "@babel/parser" "^7.16.7"
+    "@babel/parser" "^7.16.10"
     "@babel/template" "^7.16.7"
-    "@babel/traverse" "^7.16.7"
-    "@babel/types" "^7.16.7"
+    "@babel/traverse" "^7.16.10"
+    "@babel/types" "^7.16.8"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
     gensync "^1.0.0-beta.2"
@@ -46,15 +46,7 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.0"
 
-"@babel/generator@^7.16.7", "@babel/generator@^7.7.2":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.16.7.tgz#b42bf46a3079fa65e1544135f32e7958f048adbb"
-  dependencies:
-    "@babel/types" "^7.16.7"
-    jsesc "^2.5.1"
-    source-map "^0.5.0"
-
-"@babel/generator@^7.16.8":
+"@babel/generator@^7.16.8", "@babel/generator@^7.7.2":
   version "7.16.8"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.16.8.tgz#359d44d966b8cd059d543250ce79596f792f2ebe"
   dependencies:
@@ -266,13 +258,9 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.14.7", "@babel/parser@^7.16.7":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.7.tgz#d372dda9c89fcec340a82630a9f533f2fe15877e"
-
-"@babel/parser@^7.16.8":
-  version "7.16.8"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.8.tgz#61c243a3875f7d0b0962b0543a33ece6ff2f1f17"
+"@babel/parser@^7.1.0", "@babel/parser@^7.14.7", "@babel/parser@^7.16.10", "@babel/parser@^7.16.7":
+  version "7.16.10"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.16.10.tgz#aba1b1cb9696a24a19f59c41af9cf17d1c716a88"
 
 "@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression@^7.16.7":
   version "7.16.7"
@@ -824,24 +812,9 @@
     "@babel/parser" "^7.16.7"
     "@babel/types" "^7.16.7"
 
-"@babel/traverse@^7.13.0", "@babel/traverse@^7.16.7", "@babel/traverse@^7.7.2":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.16.7.tgz#dac01236a72c2560073658dd1a285fe4e0865d76"
-  dependencies:
-    "@babel/code-frame" "^7.16.7"
-    "@babel/generator" "^7.16.7"
-    "@babel/helper-environment-visitor" "^7.16.7"
-    "@babel/helper-function-name" "^7.16.7"
-    "@babel/helper-hoist-variables" "^7.16.7"
-    "@babel/helper-split-export-declaration" "^7.16.7"
-    "@babel/parser" "^7.16.7"
-    "@babel/types" "^7.16.7"
-    debug "^4.1.0"
-    globals "^11.1.0"
-
-"@babel/traverse@^7.16.8":
-  version "7.16.8"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.16.8.tgz#bab2f2b09a5fe8a8d9cad22cbfe3ba1d126fef9c"
+"@babel/traverse@^7.13.0", "@babel/traverse@^7.16.10", "@babel/traverse@^7.16.7", "@babel/traverse@^7.16.8", "@babel/traverse@^7.7.2":
+  version "7.16.10"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.16.10.tgz#448f940defbe95b5a8029975b051f75993e8239f"
   dependencies:
     "@babel/code-frame" "^7.16.7"
     "@babel/generator" "^7.16.8"
@@ -849,7 +822,7 @@
     "@babel/helper-function-name" "^7.16.7"
     "@babel/helper-hoist-variables" "^7.16.7"
     "@babel/helper-split-export-declaration" "^7.16.7"
-    "@babel/parser" "^7.16.8"
+    "@babel/parser" "^7.16.10"
     "@babel/types" "^7.16.8"
     debug "^4.1.0"
     globals "^11.1.0"
