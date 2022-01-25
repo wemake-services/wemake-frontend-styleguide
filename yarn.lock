@@ -8189,8 +8189,8 @@ verror@1.10.0:
     extsprintf "^1.2.0"
 
 vue-eslint-parser@^8.0.1, vue-eslint-parser@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.1.0.tgz#0ffc2488ca032043ac36b13a333401c48608bd82"
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-8.2.0.tgz#8c3990deb901b0d528d99f4d052a831cd1d0284c"
   dependencies:
     debug "^4.3.2"
     eslint-scope "^7.0.0"
