@@ -3086,6 +3086,10 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
+css-functions-list@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.0.0.tgz#faa770a0666aea11435efc0889935336cea564be"
+
 css-shorthand-properties@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/css-shorthand-properties/-/css-shorthand-properties-1.1.1.tgz#1c808e63553c283f289f2dd56fcee8f3337bd935"
@@ -6592,7 +6596,7 @@ postcss@^7.0.18:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.3.11, postcss@^8.4.5:
+postcss@^8.3.11, postcss@^8.4.5, postcss@^8.4.6:
   version "8.4.6"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.6.tgz#c5ff3c3c457a23864f32cb45ac9b741498a09ae1"
   dependencies:
@@ -7629,12 +7633,13 @@ stylelint-use-nesting@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-3.0.0.tgz#3215e3a2d4578b68331d5e250a63610604d02eac"
 
 stylelint@^14.2.0:
-  version "14.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.3.0.tgz#26b62730da7b3dc320021fc469d80048d7b77ebe"
+  version "14.4.0"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.4.0.tgz#9ac2fb3681c5e84046cc0d08b6c60a115d61b5a7"
   dependencies:
     balanced-match "^2.0.0"
     colord "^2.9.2"
     cosmiconfig "^7.0.1"
+    css-functions-list "^3.0.0"
     debug "^4.3.3"
     execall "^2.0.0"
     fast-glob "^3.2.11"
@@ -7656,7 +7661,7 @@ stylelint@^14.2.0:
     normalize-path "^3.0.0"
     normalize-selector "^0.2.0"
     picocolors "^1.0.0"
-    postcss "^8.4.5"
+    postcss "^8.4.6"
     postcss-media-query-parser "^0.2.3"
     postcss-resolve-nested-selector "^0.1.1"
     postcss-safe-parser "^6.0.0"
