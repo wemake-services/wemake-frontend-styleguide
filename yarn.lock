@@ -5100,8 +5100,8 @@ jest-pnp-resolver@^1.2.2:
   resolved "https://registry.yarnpkg.com/jest-pnp-resolver/-/jest-pnp-resolver-1.2.2.tgz#b704ac0ae028a89108a4d040b3f919dfddc8e33c"
 
 jest-preset-stylelint@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/jest-preset-stylelint/-/jest-preset-stylelint-5.0.0.tgz#6f3a63ab983ccdb3b4c0d6f51a581b42c3327bec"
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/jest-preset-stylelint/-/jest-preset-stylelint-5.0.1.tgz#a70328dd9b9de53e965700aa5bdeb38f1aae27e7"
 
 jest-regex-util@^27.5.1:
   version "27.5.1"
