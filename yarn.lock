@@ -7601,8 +7601,8 @@ stylelint-order@^5.0.0:
     postcss-sorting "^7.0.1"
 
 stylelint-scss@^4.0.0, stylelint-scss@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.1.0.tgz#39b808696f8152081163d970449257ff80b5c041"
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/stylelint-scss/-/stylelint-scss-4.2.0.tgz#e25fd390ee38a7e89fcfaec2a8f9dce2ec6ddee8"
   dependencies:
     lodash "^4.17.21"
     postcss-media-query-parser "^0.2.3"
