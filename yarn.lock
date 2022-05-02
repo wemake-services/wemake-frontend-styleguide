@@ -7808,8 +7808,8 @@ stylelint-use-nesting@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-3.0.0.tgz#3215e3a2d4578b68331d5e250a63610604d02eac"
 
 stylelint@^14.2.0:
-  version "14.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.0.tgz#506959bc1424610cdac9eaefca8fb2420292cf73"
+  version "14.8.1"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.1.tgz#86810ebbd7a3570519c6b11d63dc6e5ee3ff3057"
   dependencies:
     balanced-match "^2.0.0"
     colord "^2.9.2"
