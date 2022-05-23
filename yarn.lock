@@ -3170,8 +3170,8 @@ core-js-compat@^3.20.0, core-js-compat@^3.22.1:
     semver "7.0.0"
 
 core-js@^3.20.1:
-  version "3.22.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.5.tgz#a5f5a58e663d5c0ebb4e680cd7be37536fb2a9cf"
+  version "3.22.6"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.6.tgz#294dd824b4cae2c24725a36baa4a791ed00bb0de"
 
 core-util-is@1.0.2:
   version "1.0.2"
