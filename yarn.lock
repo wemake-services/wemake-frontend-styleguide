@@ -895,6 +895,10 @@
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
 
+"@csstools/selector-specificity@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.0.0.tgz#65b12f12db55188422070e34687bf3af09870922"
+
 "@es-joy/jsdoccomment@~0.20.1":
   version "0.20.1"
   resolved "https://registry.yarnpkg.com/@es-joy/jsdoccomment/-/jsdoccomment-0.20.1.tgz#fe89f435f045ae5aaf89c7a4df3616c03e9d106e"
@@ -3117,9 +3121,9 @@ css-color-names@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/css-color-names/-/css-color-names-0.0.4.tgz#808adc2e79cf84738069b646cb20ec27beb629e0"
 
-css-functions-list@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.0.1.tgz#1460df7fb584d1692c30b105151dbb988c8094f9"
+css-functions-list@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/css-functions-list/-/css-functions-list-3.1.0.tgz#cf5b09f835ad91a00e5959bcfc627cd498e1321b"
 
 css-shorthand-properties@^1.0.0:
   version "1.1.1"
@@ -6701,10 +6705,6 @@ spdx-license-ids@^3.0.0:
   version "3.0.11"
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.11.tgz#50c0d8c40a14ec1bf449bae69a0ea4685a9d9f95"
 
-specificity@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/specificity/-/specificity-0.4.1.tgz#aab5e645012db08ba182e151165738d00887b019"
-
 split-on-first@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/split-on-first/-/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
@@ -6923,13 +6923,14 @@ stylelint-use-nesting@^3.0.0:
   resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-3.0.0.tgz#3215e3a2d4578b68331d5e250a63610604d02eac"
 
 stylelint@^14.2.0:
-  version "14.8.5"
-  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.8.5.tgz#0fcbf5b6821283b5a249dde36d70f1158da0a2a3"
+  version "14.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint/-/stylelint-14.9.0.tgz#6d68fc69916f1df54798a6cc42f1c69e86fbfe1e"
   dependencies:
+    "@csstools/selector-specificity" "^2.0.0"
     balanced-match "^2.0.0"
     colord "^2.9.2"
     cosmiconfig "^7.0.1"
-    css-functions-list "^3.0.1"
+    css-functions-list "^3.1.0"
     debug "^4.3.4"
     execall "^2.0.0"
     fast-glob "^3.2.11"
@@ -6957,7 +6958,6 @@ stylelint@^14.2.0:
     postcss-selector-parser "^6.0.10"
     postcss-value-parser "^4.2.0"
     resolve-from "^5.0.0"
-    specificity "^0.4.1"
     string-width "^4.2.3"
     strip-ansi "^6.0.1"
     style-search "^0.1.0"
