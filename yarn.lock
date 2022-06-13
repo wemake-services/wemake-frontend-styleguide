@@ -3539,8 +3539,8 @@ eslint-plugin-unicorn@^40.0.0:
     strip-indent "^3.0.0"
 
 eslint-plugin-vue@^9.0.1:
-  version "9.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.1.0.tgz#b528941325e26a24bc5d5c5030c0a8996c36659c"
+  version "9.1.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.1.1.tgz#341f7533cb041958455138834341d5be01f9f327"
   dependencies:
     eslint-utils "^3.0.0"
     natural-compare "^1.4.0"
@@ -6861,11 +6861,15 @@ stylelint-config-recommended@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-7.0.0.tgz#7497372ae83ab7a6fffc18d7d7b424c6480ae15e"
 
-stylelint-config-standard@^25.0.0:
-  version "25.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-25.0.0.tgz#2c916984e6655d40d6e8748b19baa8603b680bff"
+stylelint-config-recommended@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-recommended/-/stylelint-config-recommended-8.0.0.tgz#7736be9984246177f017c39ec7b1cd0f19ae9117"
+
+stylelint-config-standard@^26.0.0:
+  version "26.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-config-standard/-/stylelint-config-standard-26.0.0.tgz#4701b8d582d34120eec7d260ba779e4c2d953635"
   dependencies:
-    stylelint-config-recommended "^7.0.0"
+    stylelint-config-recommended "^8.0.0"
 
 stylelint-csstree-validator@^2.0.0:
   version "2.0.0"
