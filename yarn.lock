@@ -6960,8 +6960,8 @@ stylelint-high-performance-animation@^1.6.0:
   resolved "https://registry.yarnpkg.com/stylelint-high-performance-animation/-/stylelint-high-performance-animation-1.6.0.tgz#c436726ef611099d2835ecf5c49245236e3c562d"
 
 stylelint-no-indistinguishable-colors@^1.2.1:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/stylelint-no-indistinguishable-colors/-/stylelint-no-indistinguishable-colors-1.3.0.tgz#e9b0bfd51c5bfdbcc0cfdfcd877b23d8fd725d75"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/stylelint-no-indistinguishable-colors/-/stylelint-no-indistinguishable-colors-1.3.2.tgz#95876ad91da1893c3178b167aa41dd4947a4d6a1"
   dependencies:
     colorguard "^1.2.1"
     postcss "^7.0.18"
