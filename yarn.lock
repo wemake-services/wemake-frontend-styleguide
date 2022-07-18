@@ -6842,8 +6842,8 @@ stylelint-declaration-block-no-ignored-properties@^2.5.0:
   resolved "https://registry.yarnpkg.com/stylelint-declaration-block-no-ignored-properties/-/stylelint-declaration-block-no-ignored-properties-2.5.0.tgz#7cfe61c118ef5aa89f2bfdc2a78aa34bd2dacb87"
 
 stylelint-declaration-strict-value@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.8.0.tgz#d14f368d5974085896d6573cab7c82ad4f415f57"
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/stylelint-declaration-strict-value/-/stylelint-declaration-strict-value-1.9.0.tgz#d7baeedd2d9f70c01ce43234ae0a6855c097c646"
   dependencies:
     css-values "^0.1.0"
     shortcss "^0.1.3"
