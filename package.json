@@ -35,7 +35,7 @@
     "eslint-plugin-jsdoc": "^37.4.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.0.0",
-    "eslint-plugin-sonarjs": "^0.13.0",
+    "eslint-plugin-sonarjs": "^0.14.0",
     "eslint-plugin-unicorn": "^40.0.0",
     "eslint-plugin-vue": "^9.0.1",
     "jest": "^27.4.0",
