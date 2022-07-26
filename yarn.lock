@@ -3678,8 +3678,8 @@ eslint-plugin-unicorn@^40.0.0:
     strip-indent "^3.0.0"
 
 eslint-plugin-vue@^9.0.1:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.2.0.tgz#b7ca02b2ce8218b7586346440fc61c2655db353a"
+  version "9.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vue/-/eslint-plugin-vue-9.3.0.tgz#c3f5ce515dae387e062428725c5cf96098d9da0b"
   dependencies:
     eslint-utils "^3.0.0"
     natural-compare "^1.4.0"
