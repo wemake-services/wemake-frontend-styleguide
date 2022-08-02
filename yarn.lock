@@ -3568,8 +3568,8 @@ eslint-import-resolver-node@^0.3.6:
     resolve "^1.20.0"
 
 eslint-import-resolver-typescript@^3.1.1:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.3.0.tgz#c2b9f420563bdcb4b84d550d81e579f8dc867d5b"
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.4.0.tgz#a7e334b86d638f49956f2b0dfbde29daa9c32dcd"
   dependencies:
     debug "^4.3.4"
     enhanced-resolve "^5.10.0"
@@ -7119,9 +7119,9 @@ stylelint-selector-tag-no-without-class@^2.0.5:
   dependencies:
     lodash "^4.17.5"
 
-stylelint-use-nesting@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-3.0.0.tgz#3215e3a2d4578b68331d5e250a63610604d02eac"
+stylelint-use-nesting@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-4.0.0.tgz#6641f3acb3875a0d70efe46df9b9f20e47993bf0"
 
 stylelint@^14.2.0:
   version "14.9.1"
