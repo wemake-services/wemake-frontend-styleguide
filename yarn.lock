@@ -2085,9 +2085,9 @@
     node-addon-api "^3.2.1"
     node-gyp-build "^4.3.0"
 
-"@pkgr/utils@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/@pkgr/utils/-/utils-2.3.0.tgz#3b8491f112a80839450498816767eb03b7db6139"
+"@pkgr/utils@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@pkgr/utils/-/utils-2.3.1.tgz#0a9b06ffddee364d6642b3cd562ca76f55b34a03"
   dependencies:
     cross-spawn "^7.0.3"
     is-glob "^4.0.3"
@@ -3568,16 +3568,16 @@ eslint-import-resolver-node@^0.3.6:
     resolve "^1.20.0"
 
 eslint-import-resolver-typescript@^3.1.1:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.3.0.tgz#c2b9f420563bdcb4b84d550d81e579f8dc867d5b"
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-import-resolver-typescript/-/eslint-import-resolver-typescript-3.5.1.tgz#c72634da072eebd04fe73007fa58a62c333c8147"
   dependencies:
     debug "^4.3.4"
     enhanced-resolve "^5.10.0"
     get-tsconfig "^4.2.0"
     globby "^13.1.2"
-    is-core-module "^2.9.0"
+    is-core-module "^2.10.0"
     is-glob "^4.0.3"
-    synckit "^0.8.1"
+    synckit "^0.8.3"
 
 eslint-module-utils@^2.7.3:
   version "2.7.3"
@@ -4510,9 +4510,9 @@ is-ci@^2.0.0:
   dependencies:
     ci-info "^2.0.0"
 
-is-core-module@^2.5.0, is-core-module@^2.8.1, is-core-module@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.9.0.tgz#e1c34429cd51c6dd9e09e0799e396e27b19a9c69"
+is-core-module@^2.10.0, is-core-module@^2.5.0, is-core-module@^2.8.1:
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.10.0.tgz#9012ede0a91c69587e647514e1d5277019e728ed"
   dependencies:
     has "^1.0.3"
 
@@ -7119,9 +7119,9 @@ stylelint-selector-tag-no-without-class@^2.0.5:
   dependencies:
     lodash "^4.17.5"
 
-stylelint-use-nesting@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-3.0.0.tgz#3215e3a2d4578b68331d5e250a63610604d02eac"
+stylelint-use-nesting@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/stylelint-use-nesting/-/stylelint-use-nesting-4.0.0.tgz#6641f3acb3875a0d70efe46df9b9f20e47993bf0"
 
 stylelint@^14.2.0:
   version "14.9.1"
@@ -7215,11 +7215,11 @@ symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/symbol-tree/-/symbol-tree-3.2.4.tgz#430637d248ba77e078883951fb9aa0eed7c63fa2"
 
-synckit@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.8.1.tgz#697111240114a15a393fcb92786a4218bfead47f"
+synckit@^0.8.3:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/synckit/-/synckit-0.8.4.tgz#0e6b392b73fafdafcde56692e3352500261d64ec"
   dependencies:
-    "@pkgr/utils" "^2.3.0"
+    "@pkgr/utils" "^2.3.1"
     tslib "^2.4.0"
 
 synesthesia@^1.0.1:
