@@ -1,7 +1,7 @@
-import fs from 'node:fs'
-import path from 'node:path'
+const fs = require('node:fs')
+const path = require('node:path')
 
-import eslint from 'eslint'
+const eslint = require('eslint')
 
 const packagePath = path.resolve(__dirname, '..')
 

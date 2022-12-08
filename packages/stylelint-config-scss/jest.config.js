@@ -7,7 +7,7 @@ module.exports = {
   ...base,
   'preset': 'jest-preset-stylelint',
   'displayName': pack.name,
-  'name': shortName,
+  'id': shortName,
   'rootDir': '../..',
   'testMatch': [`<rootDir>/packages/${shortName}/**/*.spec.js`],
 }

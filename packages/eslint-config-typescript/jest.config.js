@@ -8,7 +8,7 @@ const shortName = pack.name.split('/')[1]
 module.exports = {
   ...base,
   'displayName': pack.name,
-  'name': shortName,
+  'id': shortName,
   'rootDir': '../..',
   'testMatch': [`<rootDir>/packages/${shortName}/**/*.spec.js`],
 }
