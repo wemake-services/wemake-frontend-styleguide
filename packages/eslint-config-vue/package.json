@@ -30,5 +30,8 @@
   "dependencies": {
     "is-arrayish": "^0.3.2"
   },
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8"
 }

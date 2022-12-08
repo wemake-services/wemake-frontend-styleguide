@@ -24,5 +24,8 @@
     "eslint-config",
     "eslint config"
   ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975"
 }
