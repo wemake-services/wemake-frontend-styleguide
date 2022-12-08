@@ -6,7 +6,6 @@
   "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
   "author": "Nikita Sobolev <mail@sobolevn.me>",
   "license": "MIT",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -25,8 +24,8 @@
     ]
   },
   "peerDependencies": {
-    "eslint": "^7.12.0",
-    "eslint-plugin-vue": ">=8.2.0"
+    "eslint": "^7.0.0",
+    "eslint-plugin-vue": ">=8.0.0"
   },
   "dependencies": {
     "is-arrayish": "^0.3.2"

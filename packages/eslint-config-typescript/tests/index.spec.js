@@ -1,7 +1,7 @@
 const fs = require('node:fs')
 const path = require('node:path')
 
-const eslint = require('eslint')
+const { ESLint } = require('eslint')
 
 const packagePath = path.resolve(__dirname, '..')
 
@@ -10,10 +10,10 @@ function readFixtureFile(fixtureName) {
   return String(fs.readFileSync(fixturePath))
 }
 
-function eslintConfigTester(fixtureName, configType) {
+async function eslintConfigTester(fixtureName, configType) {
   const rootConfig = require(`${packagePath}/index.js`)
 
-  const cli = new eslint.CLIEngine({
+  const cli = new ESLint({
     'cwd': packagePath,
     'baseConfig': {
       ...rootConfig.configs[configType],
@@ -21,7 +21,9 @@ function eslintConfigTester(fixtureName, configType) {
     },
     'useEslintrc': false,
   })
-  return cli.executeOnText(readFixtureFile(fixtureName), fixtureName)
+  return await cli.lintText(readFixtureFile(fixtureName), {
+    'filePath': fixtureName,
+  })
 }
 
 describe('eslint-config-typescript e2e tests', () => {
@@ -30,17 +32,17 @@ describe('eslint-config-typescript e2e tests', () => {
     { 'filename': 'base.ts', 'config': 'base' },
     { 'filename': 'recommended.ts', 'config': 'base' },
     { 'filename': 'base.ts', 'config': 'recommended' },
-  ])('correct fixture: %p', ({ filename, config }) => {
+  ])('correct fixture: %p', async ({ filename, config }) => {
     expect.hasAssertions()
 
-    const lintResult = eslintConfigTester(filename, config)
-    expect(lintResult.errorCount).toBe(0)
+    const lintResult = await eslintConfigTester(filename, config)
+    expect(lintResult[0].errorCount).toBe(0)
   })
 
-  test('incorrect fixture', () => {
+  test('incorrect fixture', async () => {
     expect.hasAssertions()
 
-    const lintResult = eslintConfigTester('incorrect.ts', 'recommended')
-    expect(lintResult.errorCount).toBeGreaterThan(0)
+    const lintResult = await eslintConfigTester('incorrect.ts', 'recommended')
+    expect(lintResult[0].errorCount).toBeGreaterThan(0)
   })
 })

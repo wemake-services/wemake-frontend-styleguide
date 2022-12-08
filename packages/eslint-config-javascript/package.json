@@ -6,18 +6,17 @@
   "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
   "author": "sobolevn <mail@sobolevn.me>",
   "license": "MIT",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
   "peerDependencies": {
-    "eslint": "^7.12.0",
-    "eslint-config-standard": "^16.0.0",
-    "eslint-plugin-import": ">=2.25.0",
-    "eslint-plugin-node": ">=11.1.0",
-    "eslint-plugin-promise": "^5.0.0",
+    "eslint": ">=8.0.1",
+    "eslint-config-standard": ">=16.0.0",
+    "eslint-plugin-import": ">=2.25.2",
+    "eslint-plugin-n": ">=15.0.0",
+    "eslint-plugin-promise": ">=6.0.0",
     "eslint-plugin-sonarjs": ">=0.11.0",
-    "eslint-plugin-unicorn": ">=39.0.0"
+    "eslint-plugin-unicorn": ">=45.0.0"
   },
   "keywords": [
     "wemake.services",

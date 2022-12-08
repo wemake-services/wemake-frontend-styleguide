@@ -59,3 +59,12 @@ typings/
 
 # next.js build output
 .next
+
+# Yarn berry
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
