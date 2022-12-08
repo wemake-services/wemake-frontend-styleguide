@@ -3257,7 +3257,7 @@ __metadata:
     eslint-plugin-n: ">=15.0.0"
     eslint-plugin-promise: ">=6.0.0"
     eslint-plugin-sonarjs: ">=0.11.0"
-    eslint-plugin-unicorn: ">=45.0.0"
+    eslint-plugin-unicorn: ">=41.0.0"
   languageName: unknown
   linkType: soft
 
