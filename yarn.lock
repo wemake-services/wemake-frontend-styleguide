@@ -3274,7 +3274,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@wemake-services/eslint-config-jsdoc@workspace:packages/eslint-config-jsdoc"
   peerDependencies:
-    eslint: "*"
+    eslint: ">=7.0.0"
     eslint-plugin-jsdoc: ">=39.0.0"
   languageName: unknown
   linkType: soft
