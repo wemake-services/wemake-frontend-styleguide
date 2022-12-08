@@ -175,5 +175,7 @@ module.exports = {
     'color-function-notation': 'legacy',
 
     'alpha-value-notation': 'number',
+
+    'import-notation': 'string',
   },
 }

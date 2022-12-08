@@ -1,13 +1,13 @@
 /* eslint-disable max-lines-per-function, sonarjs/no-duplicate-string */
 
-import 'core-js/stable'
-import 'regenerator-runtime/runtime'
+require('core-js/stable')
+require('regenerator-runtime/runtime')
 
-import path from 'node:path'
-import stylelint from 'stylelint'
+const path = require('node:path')
+const stylelint = require('stylelint')
 
 // eslint-disable-next-line unicorn/import-index
-import config from '../'
+const config = require('..')
 
 const fixturesDirectory = path.resolve(__dirname, 'fixtures')
 
