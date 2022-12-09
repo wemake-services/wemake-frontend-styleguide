@@ -3755,9 +3755,10 @@ eslint-plugin-promise@^5.0.0:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-promise/-/eslint-plugin-promise-5.2.0.tgz#a596acc32981627eb36d9d75f9666ac1a4564971"
 
-eslint-plugin-sonarjs@^0.14.0:
-  version "0.14.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.14.0.tgz#112d159ba7516a2a69bb1a6d6cab782e23bca259"
+eslint-plugin-sonarjs@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sonarjs/-/eslint-plugin-sonarjs-0.17.0.tgz#e026065809e35d286f576ddea094727eeb9cdadd"
+  integrity sha512-jtGtxI49UbJJeJj7CVRLI3+LLH+y+hkR3GOOwM7vBbci9DEFIRGCWvEd2BJScrzltZ6D6iubukTAfc9cyG7sdw==
 
 eslint-plugin-unicorn@^40.0.0:
   version "40.1.0"
