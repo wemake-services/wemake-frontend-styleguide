@@ -21,6 +21,10 @@
     "eslint": ">=7.0.0",
     "eslint-plugin-jsdoc": ">=39.0.0"
   },
+  "devDependencies": {
+    "eslint": "^8.29.0",
+    "eslint-plugin-jsdoc": "^39.6.4"
+  },
   "engines": {
     "node": ">=14.0.0"
   },
