@@ -5,8 +5,7 @@ module.exports = {
     '<rootDir>/packages',
   ],
   'transform': {
-    '^.+\\.js$': 'babel-jest',
-    '^.+\\.ts$': 'ts-jest',
+    '^.+\\.(t|j)sx?$': ['@swc/jest'],
   },
   'moduleFileExtensions': [
     'ts',

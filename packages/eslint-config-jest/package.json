@@ -1,7 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-jest",
   "version": "1.0.0",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
@@ -23,7 +22,15 @@
   },
   "gitHead": "92ec9e371295d8f8957bc84223e9fcfe72c7eba8",
   "peerDependencies": {
-    "eslint": ">=6.7.0",
-    "eslint-plugin-jest": ">=23.1.0"
+    "eslint": ">=7.0.0",
+    "eslint-plugin-jest": ">=27.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.29.0",
+    "eslint-plugin-jest": "27.1.6",
+    "typescript": "4.9.4"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }

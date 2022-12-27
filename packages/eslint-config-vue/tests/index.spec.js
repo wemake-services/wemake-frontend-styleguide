@@ -1,7 +1,7 @@
 const fs = require('node:fs')
 const path = require('node:path')
 
-const eslint = require('eslint')
+const { ESLint } = require('eslint')
 
 const defaultConfig = require('..')
 const packagePath = path.resolve(__dirname, '..')
@@ -11,8 +11,8 @@ function readFixtureFile(fixtureName) {
   return String(fs.readFileSync(fixturePath))
 }
 
-function eslintConfigTester(fixtureName) {
-  const cli = new eslint.CLIEngine({
+async function eslintConfigTester(fixtureName) {
+  const cli = new ESLint({
     'cwd': packagePath,
     'baseConfig': {
       ...defaultConfig,
@@ -20,21 +20,21 @@ function eslintConfigTester(fixtureName) {
     },
     'useEslintrc': false,
   })
-  return cli.executeOnText(readFixtureFile(fixtureName))
+  return await cli.lintText(readFixtureFile(fixtureName))
 }
 
 describe('eslint-config-vue e2e tests', () => {
-  test('correct fixture', () => {
+  test('correct fixture', async () => {
     expect.hasAssertions()
 
-    const lintResult = eslintConfigTester('Correct.vue')
-    expect(lintResult.errorCount).toBe(0)
+    const lintResult = await eslintConfigTester('Correct.vue')
+    expect(lintResult[0].errorCount).toBe(0)
   })
 
-  test('incorrect fixture', () => {
+  test('incorrect fixture', async () => {
     expect.hasAssertions()
 
-    const lintResult = eslintConfigTester('Incorrect.vue')
-    expect(lintResult.errorCount).toBe(2)
+    const lintResult = await eslintConfigTester('Incorrect.vue')
+    expect(lintResult[0].errorCount).toBe(2)
   })
 })

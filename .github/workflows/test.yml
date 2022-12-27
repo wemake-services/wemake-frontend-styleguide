@@ -13,16 +13,19 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: ['16', '18']
+        node_version: ['14', '16', '18']
 
     steps:
     - uses: actions/checkout@v3
+    - uses: pnpm/action-setup@v2
+      with:
+        version: 7.18.2
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-
-    - name: yarn install, build, and test
+        cache: 'pnpm'
+    - name: pnpm install, build, and test
       run: |
-        yarn install 
-        yarn test
+        pnpm install --frozen-lockfile
+        pnpm test

@@ -123,9 +123,9 @@ module.exports = {
     'multiline-comment-style': ['error', 'separate-lines'],
 
     // warn about using console or debugger in development, fail in production
-    'no-console': process.env.NODE_ENV !== 'production' ? 1 : 2,
-    'no-debugger': process.env.NODE_ENV !== 'production' ? 1 : 2,
-    'no-alert': process.env.NODE_ENV !== 'production' ? 1 : 2,
+    'no-console': process.env.NODE_ENV === 'production' ? 2 : 1,
+    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 1,
+    'no-alert': process.env.NODE_ENV === 'production' ? 2 : 1,
 
     // complexity
     'complexity': ['error', { 'max': 6 }],
