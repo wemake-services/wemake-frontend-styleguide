@@ -23,7 +23,7 @@
     "@swc/core": "1.3.22",
     "@swc/jest": "0.2.24",
     "@types/node": "18.11.14",
-    "@typescript-eslint/eslint-plugin": "5.46.0",
+    "@typescript-eslint/eslint-plugin": "5.47.1",
     "@typescript-eslint/parser": "5.46.0",
     "core-js": "3.26.1",
     "eslint": "8.29.0",
