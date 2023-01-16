@@ -38,8 +38,8 @@
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975",
   "devDependencies": {
     "@types/node": "18.11.18",
-    "@typescript-eslint/eslint-plugin": "5.48.1",
-    "@typescript-eslint/parser": "5.48.1",
+    "@typescript-eslint/eslint-plugin": "5.48.2",
+    "@typescript-eslint/parser": "5.48.2",
     "@wemake-services/eslint-config-jest": "workspace:^",
     "eslint": "8.32.0",
     "eslint-import-resolver-typescript": "3.5.3",
