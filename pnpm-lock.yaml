@@ -18,7 +18,7 @@ importers:
       eslint-import-resolver-typescript: 3.5.3
       eslint-plugin-import: 2.27.5
       eslint-plugin-jest: 27.2.1
-      eslint-plugin-jsdoc: 39.6.8
+      eslint-plugin-jsdoc: 39.6.9
       eslint-plugin-n: 15.6.1
       eslint-plugin-promise: 6.1.1
       eslint-plugin-sonarjs: 0.18.0
@@ -50,7 +50,7 @@ importers:
       eslint-import-resolver-typescript: 3.5.3_ps7hf4l2dvbuxvtusmrfhmzsba
       eslint-plugin-import: 2.27.5_tto3jvfrcbe7ndbi56p7uxhaki
       eslint-plugin-jest: 27.2.1_wl3grtzdhpdbdokams7wq4d444
-      eslint-plugin-jsdoc: 39.6.8_eslint@8.32.0
+      eslint-plugin-jsdoc: 39.6.9_eslint@8.32.0
       eslint-plugin-n: 15.6.1_eslint@8.32.0
       eslint-plugin-promise: 6.1.1_eslint@8.32.0
       eslint-plugin-sonarjs: 0.18.0_eslint@8.32.0
@@ -99,10 +99,10 @@ importers:
   packages/eslint-config-jsdoc:
     specifiers:
       eslint: 8.32.0
-      eslint-plugin-jsdoc: 39.6.8
+      eslint-plugin-jsdoc: 39.6.9
     devDependencies:
       eslint: 8.32.0
-      eslint-plugin-jsdoc: 39.6.8_eslint@8.32.0
+      eslint-plugin-jsdoc: 39.6.9_eslint@8.32.0
 
   packages/eslint-config-typescript:
     specifiers:
@@ -4840,8 +4840,8 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-jsdoc/39.6.8_eslint@8.32.0:
-    resolution: {integrity: sha512-8W2B2vCfqXmV6AxhEO9u25zPqk7V/LxCsZBl0xDF1CSLDqabiQQtZXpWp19K53HMfFZMLeNRJRUFFhauWgMZrA==}
+  /eslint-plugin-jsdoc/39.6.9_eslint@8.32.0:
+    resolution: {integrity: sha512-GrESRfjT1jOaK1LC2DldMuh+Ajmex9OnRIVSKMXJ1t7lNDB+J2MA11afLPXfkTKWJpplxZohjo8prT8s5LOPgQ==}
     engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
