@@ -154,7 +154,7 @@ importers:
       postcss: 8.4.21
       stylelint: 15.1.0
       stylelint-color-format: 1.1.0
-      stylelint-config-recommended-scss: 8.0.0
+      stylelint-config-recommended-scss: 9.0.0
       stylelint-config-standard: 29.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.6.0
@@ -168,7 +168,7 @@ importers:
       typescript: 4.9.5
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.1.0
-      stylelint-config-recommended-scss: 8.0.0_6kmz6pqyyc6yqevihcpt7hoegq
+      stylelint-config-recommended-scss: 9.0.0_6kmz6pqyyc6yqevihcpt7hoegq
       stylelint-config-standard: 29.0.0_stylelint@15.1.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.1.0
       stylelint-declaration-block-no-ignored-properties: 2.6.0_stylelint@15.1.0
@@ -8582,11 +8582,11 @@ packages:
       stylelint: 15.1.0
     dev: false
 
-  /stylelint-config-recommended-scss/8.0.0_6kmz6pqyyc6yqevihcpt7hoegq:
-    resolution: {integrity: sha512-BxjxEzRaZoQb7Iinc3p92GS6zRdRAkIuEu2ZFLTxJK2e1AIcCb5B5MXY9KOXdGTnYFZ+KKx6R4Fv9zU6CtMYPQ==}
+  /stylelint-config-recommended-scss/9.0.0_6kmz6pqyyc6yqevihcpt7hoegq:
+    resolution: {integrity: sha512-5e9pn3Ztfncd8s9OqvvCW7tZpYe+vGmPi7VEXX7XEp+Kj38PnKCrvFCBL+hQ7rkD4d5QzjB3BxlFEyo/30UWUw==}
     peerDependencies:
       postcss: ^8.3.3
-      stylelint: ^14.10.0
+      stylelint: ^15.0.0
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -8594,8 +8594,16 @@ packages:
       postcss: 8.4.21
       postcss-scss: 4.0.6_postcss@8.4.21
       stylelint: 15.1.0
-      stylelint-config-recommended: 9.0.0_stylelint@15.1.0
+      stylelint-config-recommended: 10.0.1_stylelint@15.1.0
       stylelint-scss: 4.4.0_stylelint@15.1.0
+    dev: false
+
+  /stylelint-config-recommended/10.0.1_stylelint@15.1.0:
+    resolution: {integrity: sha512-TQ4xQ48tW4QSlODcti7pgSRqBZcUaBzuh0jPpfiMhwJKBPkqzTIAU+IrSWL/7BgXlOM90DjB7YaNgFpx8QWhuA==}
+    peerDependencies:
+      stylelint: ^15.0.0
+    dependencies:
+      stylelint: 15.1.0
     dev: false
 
   /stylelint-config-recommended/9.0.0_stylelint@15.1.0:
