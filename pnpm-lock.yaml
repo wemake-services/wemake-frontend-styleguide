@@ -154,7 +154,7 @@ importers:
       postcss: 8.4.21
       stylelint: 15.1.0
       stylelint-color-format: 1.1.0
-      stylelint-config-recommended-scss: 9.0.0
+      stylelint-config-recommended-scss: 9.0.1
       stylelint-config-standard: 29.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0
@@ -168,7 +168,7 @@ importers:
       typescript: 4.9.5
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.1.0
-      stylelint-config-recommended-scss: 9.0.0_6kmz6pqyyc6yqevihcpt7hoegq
+      stylelint-config-recommended-scss: 9.0.1_6kmz6pqyyc6yqevihcpt7hoegq
       stylelint-config-standard: 29.0.0_stylelint@15.1.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0_stylelint@15.1.0
@@ -8139,8 +8139,8 @@ packages:
       stylelint: 15.1.0
     dev: false
 
-  /stylelint-config-recommended-scss/9.0.0_6kmz6pqyyc6yqevihcpt7hoegq:
-    resolution: {integrity: sha512-5e9pn3Ztfncd8s9OqvvCW7tZpYe+vGmPi7VEXX7XEp+Kj38PnKCrvFCBL+hQ7rkD4d5QzjB3BxlFEyo/30UWUw==}
+  /stylelint-config-recommended-scss/9.0.1_6kmz6pqyyc6yqevihcpt7hoegq:
+    resolution: {integrity: sha512-qAmz/TdrqslwiMTuLM3QXeISUkfEDUXGMfRBCHm/xrkCJNnQefv+mzG2mWTsWkqcVk8HAyUkug10dwAcYp2fCQ==}
     peerDependencies:
       postcss: ^8.3.3
       stylelint: ^15.0.0
