@@ -158,7 +158,7 @@ importers:
       stylelint-config-standard: 29.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0
-      stylelint-declaration-strict-value: 1.9.1
+      stylelint-declaration-strict-value: 1.9.2
       stylelint-high-performance-animation: 1.8.0
       stylelint-no-indistinguishable-colors: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
       stylelint-order: 6.0.2
@@ -172,7 +172,7 @@ importers:
       stylelint-config-standard: 29.0.0_stylelint@15.1.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0_stylelint@15.1.0
-      stylelint-declaration-strict-value: 1.9.1_stylelint@15.1.0
+      stylelint-declaration-strict-value: 1.9.2_stylelint@15.1.0
       stylelint-high-performance-animation: 1.8.0_stylelint@15.1.0
       stylelint-no-indistinguishable-colors: github.com/bryanjtc/stylelint-no-indistinguishable-colors/b26a5eaecce9b0a096513e56a46bb49d63d0e97c_stylelint@15.1.0
       stylelint-order: 6.0.2_stylelint@15.1.0
@@ -8198,10 +8198,10 @@ packages:
       stylelint: 15.1.0
     dev: false
 
-  /stylelint-declaration-strict-value/1.9.1_stylelint@15.1.0:
-    resolution: {integrity: sha512-iIkMh2ukIfSTtJoEDgGq5cqUyYWP8NExPk2YSGcePtFikb7KmJoSi0QYajiZRxge/PTbYspci7nIcrtArJlAsw==}
+  /stylelint-declaration-strict-value/1.9.2_stylelint@15.1.0:
+    resolution: {integrity: sha512-Z/2yr7g4tq2iGOUWhZLzHL2g2GJYJGcPkfjDh++zI8ukLxW0tcLGJjo64XYCDjja6YcECPDUWbpN+OAoAtAYvw==}
     peerDependencies:
-      stylelint: '>=7 <=14'
+      stylelint: '>=7 <=15'
     dependencies:
       css-values: 0.1.0
       shortcss: 0.1.3
