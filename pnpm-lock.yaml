@@ -12,7 +12,7 @@ importers:
       '@types/node': 18.14.2
       '@typescript-eslint/eslint-plugin': 5.53.0
       '@typescript-eslint/parser': 5.53.0
-      core-js: 3.28.0
+      core-js: 3.29.0
       eslint: 8.35.0
       eslint-config-standard: 17.0.0
       eslint-import-resolver-typescript: 3.5.3
@@ -44,7 +44,7 @@ importers:
       '@types/node': 18.14.2
       '@typescript-eslint/eslint-plugin': 5.53.0_cjo54hduev4bqhpjw5znwiokqu
       '@typescript-eslint/parser': 5.53.0_ycpbpc6yetojsgtrx3mwntkhsu
-      core-js: 3.28.0
+      core-js: 3.29.0
       eslint: 8.35.0
       eslint-config-standard: 17.0.0_hwjsujmtoc7k47rjh5qfu7woty
       eslint-import-resolver-typescript: 3.5.3_yckic57kx266ph64dhq6ozvb54
@@ -3681,8 +3681,8 @@ packages:
       browserslist: 4.21.4
     dev: true
 
-  /core-js/3.28.0:
-    resolution: {integrity: sha512-GiZn9D4Z/rSYvTeg1ljAIsEqFm0LaN9gVtwDCrKL80zHtS31p9BAjmTxVqTQDMpwlMolJZOFntUG2uwyj7DAqw==}
+  /core-js/3.29.0:
+    resolution: {integrity: sha512-VG23vuEisJNkGl6XQmFJd3rEG/so/CNatqeE+7uZAwTSwFeB/qaO0be8xZYUNWprJ/GIwL8aMt9cj1kvbpTZhg==}
     requiresBuild: true
     dev: true
 
