@@ -161,7 +161,7 @@ importers:
       stylelint-declaration-strict-value: 1.9.2
       stylelint-high-performance-animation: 1.8.0
       stylelint-no-indistinguishable-colors: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
-      stylelint-order: 6.0.2
+      stylelint-order: 6.0.3
       stylelint-scss: 4.4.0
       stylelint-selector-tag-no-without-class: 2.0.5
       stylelint-use-nesting: 4.0.0
@@ -175,7 +175,7 @@ importers:
       stylelint-declaration-strict-value: 1.9.2_stylelint@15.2.0
       stylelint-high-performance-animation: 1.8.0_stylelint@15.2.0
       stylelint-no-indistinguishable-colors: github.com/bryanjtc/stylelint-no-indistinguishable-colors/b26a5eaecce9b0a096513e56a46bb49d63d0e97c_stylelint@15.2.0
-      stylelint-order: 6.0.2_stylelint@15.2.0
+      stylelint-order: 6.0.3_stylelint@15.2.0
       stylelint-scss: 4.4.0_stylelint@15.2.0
       stylelint-selector-tag-no-without-class: 2.0.5_stylelint@15.2.0
       stylelint-use-nesting: 4.0.0_stylelint@15.2.0
@@ -7472,8 +7472,8 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  /postcss-sorting/8.0.1_postcss@8.4.21:
-    resolution: {integrity: sha512-go9Zoxx7KQH+uLrJ9xa5wRErFeXu01ydA6O8m7koPXkmAN7Ts//eRcIqjo0stBR4+Nir2gMYDOWAOx7O5EPUZA==}
+  /postcss-sorting/8.0.2_postcss@8.4.21:
+    resolution: {integrity: sha512-M9dkSrmU00t/jK7rF6BZSZauA5MAaBW4i5EnJXspMwt4iqTh/L9j6fgMnbElEOfyRyfLfVbIHj/R52zHzAPe1Q==}
     peerDependencies:
       postcss: ^8.4.20
     dependencies:
@@ -8244,13 +8244,13 @@ packages:
       stylelint: 15.2.0
     dev: false
 
-  /stylelint-order/6.0.2_stylelint@15.2.0:
-    resolution: {integrity: sha512-yuac0BE6toHd27wUPvYVVQicAJthKFIv1HPQFH3Q0dExiO3Z6Uam7geoO0tUd5Z9ddsATYK++1qWNDX4RxMH5Q==}
+  /stylelint-order/6.0.3_stylelint@15.2.0:
+    resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0
     dependencies:
       postcss: 8.4.21
-      postcss-sorting: 8.0.1_postcss@8.4.21
+      postcss-sorting: 8.0.2_postcss@8.4.21
       stylelint: 15.2.0
     dev: false
 
