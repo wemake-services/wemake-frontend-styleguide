@@ -164,7 +164,7 @@ importers:
       stylelint-order: 6.0.3
       stylelint-scss: 4.4.0
       stylelint-selector-tag-no-without-class: 2.0.5
-      stylelint-use-nesting: 4.0.0
+      stylelint-use-nesting: 4.1.0
       typescript: 4.9.5
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.2.0
@@ -178,7 +178,7 @@ importers:
       stylelint-order: 6.0.3_stylelint@15.2.0
       stylelint-scss: 4.4.0_stylelint@15.2.0
       stylelint-selector-tag-no-without-class: 2.0.5_stylelint@15.2.0
-      stylelint-use-nesting: 4.0.0_stylelint@15.2.0
+      stylelint-use-nesting: 4.1.0_stylelint@15.2.0
     devDependencies:
       '@wemake-services/eslint-config-jest': link:../eslint-config-jest
       eslint: 8.35.0
@@ -8276,8 +8276,8 @@ packages:
       stylelint: 15.2.0
     dev: false
 
-  /stylelint-use-nesting/4.0.0_stylelint@15.2.0:
-    resolution: {integrity: sha512-v1DG1GsV2Ojy8y/yoWZGLxeZSLNenrpEGtFY6qq921G8ABni9XbBJRbD9jDQAsPPhOnLz7Cy9B2DfNk05IOKIw==}
+  /stylelint-use-nesting/4.1.0_stylelint@15.2.0:
+    resolution: {integrity: sha512-DDI+T/8kGIxdcfPClxp/oS2cFSWvd+hoV54clF7lnrlSvYHOQouaxgMOuPmkIQig0suss/PrAw5GwBYoSu8WoQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       stylelint: '>= 10'
