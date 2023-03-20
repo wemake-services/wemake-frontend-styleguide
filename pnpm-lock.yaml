@@ -21,7 +21,7 @@ importers:
       eslint-plugin-jsdoc: 40.1.0
       eslint-plugin-n: 15.6.1
       eslint-plugin-promise: 6.1.1
-      eslint-plugin-sonarjs: 0.18.0
+      eslint-plugin-sonarjs: 0.19.0
       eslint-plugin-unicorn: 46.0.0
       eslint-plugin-vue: 9.9.0
       jest: 29.5.0
@@ -53,7 +53,7 @@ importers:
       eslint-plugin-jsdoc: 40.1.0_eslint@8.36.0
       eslint-plugin-n: 15.6.1_eslint@8.36.0
       eslint-plugin-promise: 6.1.1_eslint@8.36.0
-      eslint-plugin-sonarjs: 0.18.0_eslint@8.36.0
+      eslint-plugin-sonarjs: 0.19.0_eslint@8.36.0
       eslint-plugin-unicorn: 46.0.0_eslint@8.36.0
       eslint-plugin-vue: 9.9.0_eslint@8.36.0
       jest: 29.5.0_oiy3x5k43bx2654bdavmfhyf2e
@@ -75,7 +75,7 @@ importers:
       eslint-plugin-import: 2.27.5
       eslint-plugin-n: 15.6.1
       eslint-plugin-promise: 6.1.1
-      eslint-plugin-sonarjs: 0.18.0
+      eslint-plugin-sonarjs: 0.19.0
       eslint-plugin-unicorn: 46.0.0
     devDependencies:
       eslint: 8.36.0
@@ -83,7 +83,7 @@ importers:
       eslint-plugin-import: 2.27.5_eslint@8.36.0
       eslint-plugin-n: 15.6.1_eslint@8.36.0
       eslint-plugin-promise: 6.1.1_eslint@8.36.0
-      eslint-plugin-sonarjs: 0.18.0_eslint@8.36.0
+      eslint-plugin-sonarjs: 0.19.0_eslint@8.36.0
       eslint-plugin-unicorn: 46.0.0_eslint@8.36.0
 
   packages/eslint-config-jest:
@@ -4360,8 +4360,8 @@ packages:
       eslint: 8.36.0
     dev: true
 
-  /eslint-plugin-sonarjs/0.18.0_eslint@8.36.0:
-    resolution: {integrity: sha512-DJ3osLnt6KFdT5e9ZuIDOjT5A6wUGSLeiJJT03lPgpdD+7CVWlYAw9Goe3bt7SmbFO3Xh89NOCZAuB9XA7bAUQ==}
+  /eslint-plugin-sonarjs/0.19.0_eslint@8.36.0:
+    resolution: {integrity: sha512-6+s5oNk5TFtVlbRxqZN7FIGmjdPCYQKaTzFPmqieCmsU1kBYDzndTeQav0xtQNwZJWu5awWfTGe8Srq9xFOGnw==}
     engines: {node: '>=14'}
     peerDependencies:
       eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
