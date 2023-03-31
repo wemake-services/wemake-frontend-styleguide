@@ -17,9 +17,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.21.3",
+    "@babel/core": "7.21.4",
     "@babel/eslint-parser": "7.21.3",
-    "@babel/preset-env": "7.20.2",
+    "@babel/preset-env": "7.21.4",
     "@swc/core": "1.3.44",
     "@swc/jest": "0.2.24",
     "@types/node": "18.15.11",
