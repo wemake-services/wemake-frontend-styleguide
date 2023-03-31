@@ -155,7 +155,7 @@ importers:
       stylelint: 15.3.0
       stylelint-color-format: 1.1.0
       stylelint-config-recommended-scss: 9.0.1
-      stylelint-config-standard: 29.0.0
+      stylelint-config-standard: 31.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0
       stylelint-declaration-strict-value: 1.9.2
@@ -169,7 +169,7 @@ importers:
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.3.0
       stylelint-config-recommended-scss: 9.0.1_xd434hbhlikjpobg3rgppuzh3e
-      stylelint-config-standard: 29.0.0_stylelint@15.3.0
+      stylelint-config-standard: 31.0.0_stylelint@15.3.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.3.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0_stylelint@15.3.0
       stylelint-declaration-strict-value: 1.9.2_stylelint@15.3.0
@@ -8705,21 +8705,21 @@ packages:
       stylelint: 15.3.0
     dev: false
 
-  /stylelint-config-recommended/9.0.0_stylelint@15.3.0:
-    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
+  /stylelint-config-recommended/11.0.0_stylelint@15.3.0:
+    resolution: {integrity: sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==}
     peerDependencies:
-      stylelint: ^14.10.0
+      stylelint: ^15.3.0
     dependencies:
       stylelint: 15.3.0
     dev: false
 
-  /stylelint-config-standard/29.0.0_stylelint@15.3.0:
-    resolution: {integrity: sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==}
+  /stylelint-config-standard/31.0.0_stylelint@15.3.0:
+    resolution: {integrity: sha512-CUGAmtROCvX0YgMY2+6P9tqSkHj5z/75XxrQ8bGxvkCa1xYdGDx4poM0pa7cXc3s74/PZLJH/okxZZouRfOSGw==}
     peerDependencies:
-      stylelint: ^14.14.0
+      stylelint: ^15.3.0
     dependencies:
       stylelint: 15.3.0
-      stylelint-config-recommended: 9.0.0_stylelint@15.3.0
+      stylelint-config-recommended: 11.0.0_stylelint@15.3.0
     dev: false
 
   /stylelint-csstree-validator/2.1.0_stylelint@15.3.0:
