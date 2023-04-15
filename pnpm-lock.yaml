@@ -155,7 +155,7 @@ importers:
       stylelint: 15.4.0
       stylelint-color-format: 1.1.0
       stylelint-config-recommended-scss: 10.0.0
-      stylelint-config-standard: 29.0.0
+      stylelint-config-standard: 32.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0
       stylelint-declaration-strict-value: 1.9.2
@@ -169,7 +169,7 @@ importers:
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.4.0
       stylelint-config-recommended-scss: 10.0.0_tph4hkwzrsfj3ry7iisngq3nvi
-      stylelint-config-standard: 29.0.0_stylelint@15.4.0
+      stylelint-config-standard: 32.0.0_stylelint@15.4.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.4.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0_stylelint@15.4.0
       stylelint-declaration-strict-value: 1.9.2_stylelint@15.4.0
@@ -8747,21 +8747,13 @@ packages:
       stylelint: 15.4.0
     dev: false
 
-  /stylelint-config-recommended/9.0.0_stylelint@15.4.0:
-    resolution: {integrity: sha512-9YQSrJq4NvvRuTbzDsWX3rrFOzOlYBmZP+o513BJN/yfEmGSr0AxdvrWs0P/ilSpVV/wisamAHu5XSk8Rcf4CQ==}
+  /stylelint-config-standard/32.0.0_stylelint@15.4.0:
+    resolution: {integrity: sha512-UnGJxYDyYFrIE9CjDMZRkrNh2o4lOtO+MVZ9qG5b8yARfsWho0GMx4YvhHfsv8zKKgHeWX2wfeyxmuoqcaYZ4w==}
     peerDependencies:
-      stylelint: ^14.10.0
+      stylelint: ^15.4.0
     dependencies:
       stylelint: 15.4.0
-    dev: false
-
-  /stylelint-config-standard/29.0.0_stylelint@15.4.0:
-    resolution: {integrity: sha512-uy8tZLbfq6ZrXy4JKu3W+7lYLgRQBxYTUUB88vPgQ+ZzAxdrvcaSUW9hOMNLYBnwH+9Kkj19M2DHdZ4gKwI7tg==}
-    peerDependencies:
-      stylelint: ^14.14.0
-    dependencies:
-      stylelint: 15.4.0
-      stylelint-config-recommended: 9.0.0_stylelint@15.4.0
+      stylelint-config-recommended: 11.0.0_stylelint@15.4.0
     dev: false
 
   /stylelint-csstree-validator/2.1.0_stylelint@15.4.0:
