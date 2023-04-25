@@ -154,7 +154,7 @@ importers:
       postcss: 8.4.23
       stylelint: 15.6.0
       stylelint-color-format: 1.1.0
-      stylelint-config-recommended-scss: 10.0.0
+      stylelint-config-recommended-scss: 11.0.0
       stylelint-config-standard: 29.0.0
       stylelint-csstree-validator: 2.1.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0
@@ -168,7 +168,7 @@ importers:
       typescript: 5.0.4
     dependencies:
       stylelint-color-format: 1.1.0_stylelint@15.6.0
-      stylelint-config-recommended-scss: 10.0.0_j46hagaq63ohsfn3p3f6qemnym
+      stylelint-config-recommended-scss: 11.0.0_j46hagaq63ohsfn3p3f6qemnym
       stylelint-config-standard: 29.0.0_stylelint@15.6.0
       stylelint-csstree-validator: 2.1.0_stylelint@15.6.0
       stylelint-declaration-block-no-ignored-properties: 2.7.0_stylelint@15.6.0
@@ -8731,11 +8731,11 @@ packages:
       stylelint: 15.6.0
     dev: false
 
-  /stylelint-config-recommended-scss/10.0.0_j46hagaq63ohsfn3p3f6qemnym:
-    resolution: {integrity: sha512-+YvPgUHi0W5mCJCKdupBCIsWPYNbWuJcRmFtSYujwNg+41ljFknhO9bpY6C+oahv659zW7W1AT7i6DQvJYYr1A==}
+  /stylelint-config-recommended-scss/11.0.0_j46hagaq63ohsfn3p3f6qemnym:
+    resolution: {integrity: sha512-EDghTDU7aOv2LTsRZvcT1w8mcjUaMhuy+t38iV5I/0Qiu6ixdkRwhLEMul3K/fnB2v9Nwqvb3xpvJfPH+HduDw==}
     peerDependencies:
       postcss: ^8.3.3
-      stylelint: ^15.3.0
+      stylelint: ^15.5.0
     peerDependenciesMeta:
       postcss:
         optional: true
@@ -8743,14 +8743,14 @@ packages:
       postcss: 8.4.23
       postcss-scss: 4.0.6_postcss@8.4.23
       stylelint: 15.6.0
-      stylelint-config-recommended: 11.0.0_stylelint@15.6.0
+      stylelint-config-recommended: 12.0.0_stylelint@15.6.0
       stylelint-scss: 4.6.0_stylelint@15.6.0
     dev: false
 
-  /stylelint-config-recommended/11.0.0_stylelint@15.6.0:
-    resolution: {integrity: sha512-SoGIHNI748OCZn6BxFYT83ytWoYETCINVHV3LKScVAWQQauWdvmdDqJC5YXWjpBbxg2E761Tg5aUGKLFOVhEkA==}
+  /stylelint-config-recommended/12.0.0_stylelint@15.6.0:
+    resolution: {integrity: sha512-x6x8QNARrGO2sG6iURkzqL+Dp+4bJorPMMRNPScdvaUK8PsynriOcMW7AFDKqkWAS5wbue/u8fUT/4ynzcmqdQ==}
     peerDependencies:
-      stylelint: ^15.3.0
+      stylelint: ^15.5.0
     dependencies:
       stylelint: 15.6.0
     dev: false
