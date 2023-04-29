@@ -162,7 +162,7 @@ importers:
       stylelint-high-performance-animation: 1.8.0
       stylelint-no-indistinguishable-colors: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
       stylelint-order: 6.0.3
-      stylelint-scss: 4.7.0
+      stylelint-scss: 5.0.0
       stylelint-selector-tag-no-without-class: 2.0.5
       stylelint-use-nesting: 4.1.0
       typescript: 5.0.4
@@ -176,7 +176,7 @@ importers:
       stylelint-high-performance-animation: 1.8.0_stylelint@15.6.0
       stylelint-no-indistinguishable-colors: github.com/bryanjtc/stylelint-no-indistinguishable-colors/b26a5eaecce9b0a096513e56a46bb49d63d0e97c_stylelint@15.6.0
       stylelint-order: 6.0.3_stylelint@15.6.0
-      stylelint-scss: 4.7.0_stylelint@15.6.0
+      stylelint-scss: 5.0.0_stylelint@15.6.0
       stylelint-selector-tag-no-without-class: 2.0.5_stylelint@15.6.0
       stylelint-use-nesting: 4.1.0_stylelint@15.6.0
     devDependencies:
@@ -8948,6 +8948,18 @@ packages:
 
   /stylelint-scss/4.7.0_stylelint@15.6.0:
     resolution: {integrity: sha512-TSUgIeS0H3jqDZnby1UO1Qv3poi1N8wUYIJY6D1tuUq2MN3lwp/rITVo0wD+1SWTmRm0tNmGO0b7nKInnqF6Hg==}
+    peerDependencies:
+      stylelint: ^14.5.1 || ^15.0.0
+    dependencies:
+      postcss-media-query-parser: 0.2.3
+      postcss-resolve-nested-selector: 0.1.1
+      postcss-selector-parser: 6.0.11
+      postcss-value-parser: 4.2.0
+      stylelint: 15.6.0
+    dev: false
+
+  /stylelint-scss/5.0.0_stylelint@15.6.0:
+    resolution: {integrity: sha512-5Ee5kG3JIcP2jk2PMoFMiNmW/815V+wK5o37X5ke90ihWMpPXI9iyqeA6zEWipWSRXeQc0kqbd7hKqiR+wPKNA==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
     dependencies:
