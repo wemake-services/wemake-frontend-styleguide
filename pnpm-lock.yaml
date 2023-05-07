@@ -18,7 +18,7 @@ importers:
       eslint-import-resolver-typescript: 3.5.5
       eslint-plugin-import: 2.27.5
       eslint-plugin-jest: 27.2.1
-      eslint-plugin-jsdoc: 41.1.2
+      eslint-plugin-jsdoc: 43.2.0
       eslint-plugin-n: 15.7.0
       eslint-plugin-promise: 6.1.1
       eslint-plugin-sonarjs: 0.19.0
@@ -50,7 +50,7 @@ importers:
       eslint-import-resolver-typescript: 3.5.5_p2c4hyvskp6ov3nwaysw2lvi6e
       eslint-plugin-import: 2.27.5_xlmlwace5wgu6h5cchm6cuibti
       eslint-plugin-jest: 27.2.1_mh3lc5gz2r7zh4pzx2eehhlcmu
-      eslint-plugin-jsdoc: 41.1.2_eslint@8.40.0
+      eslint-plugin-jsdoc: 43.2.0_eslint@8.40.0
       eslint-plugin-n: 15.7.0_eslint@8.40.0
       eslint-plugin-promise: 6.1.1_eslint@8.40.0
       eslint-plugin-sonarjs: 0.19.0_eslint@8.40.0
@@ -99,10 +99,10 @@ importers:
   packages/eslint-config-jsdoc:
     specifiers:
       eslint: 8.40.0
-      eslint-plugin-jsdoc: 41.1.2
+      eslint-plugin-jsdoc: 43.2.0
     devDependencies:
       eslint: 8.40.0
-      eslint-plugin-jsdoc: 41.1.2_eslint@8.40.0
+      eslint-plugin-jsdoc: 43.2.0_eslint@8.40.0
 
   packages/eslint-config-typescript:
     specifiers:
@@ -1431,9 +1431,9 @@ packages:
     dependencies:
       postcss-selector-parser: 6.0.12
 
-  /@es-joy/jsdoccomment/0.37.0:
-    resolution: {integrity: sha512-hjK0wnsPCYLlF+HHB4R/RbUjOWeLW2SlarB67+Do5WsKILOkmIZvvPJFbtWSmbypxcjpoECLAMzoao0D4Bg5ZQ==}
-    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
+  /@es-joy/jsdoccomment/0.38.0:
+    resolution: {integrity: sha512-TFac4Bnv0ZYNkEeDnOWHQhaS1elWlvOCQxH06iHeu5iffs+hCaLVIZJwF+FqksQi68R4i66Pu+4DfFGvble+Uw==}
+    engines: {node: '>=16'}
     dependencies:
       comment-parser: 1.3.1
       esquery: 1.5.0
@@ -1914,7 +1914,7 @@ packages:
       p-reduce: 2.1.0
       pacote: 15.1.1
       pify: 5.0.0
-      semver: 7.3.8
+      semver: 7.5.0
       slash: 3.0.0
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 4.0.0
@@ -2056,7 +2056,7 @@ packages:
       promise-all-reject-late: 1.0.1
       promise-call-limit: 1.0.1
       read-package-json-fast: 3.0.2
-      semver: 7.3.8
+      semver: 7.5.0
       ssri: 10.0.1
       treeverse: 3.0.0
       walk-up-path: 1.0.0
@@ -2070,14 +2070,14 @@ packages:
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
     dependencies:
       '@gar/promisify': 1.1.3
-      semver: 7.3.8
+      semver: 7.5.0
     dev: true
 
   /@npmcli/fs/3.1.0:
     resolution: {integrity: sha512-7kZUAaLscfgbwBQRbvdMYaZOWyMEcPTH/tJjnyAWJ/dvvs9Ef+CERx/qJb9GExJpl1qipaDGn7KqHnFGGixd0w==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.0
     dev: true
 
   /@npmcli/git/4.0.4:
@@ -2090,7 +2090,7 @@ packages:
       proc-log: 3.0.0
       promise-inflight: 1.0.1
       promise-retry: 2.0.1
-      semver: 7.3.8
+      semver: 7.5.0
       which: 3.0.0
     transitivePeerDependencies:
       - bluebird
@@ -2122,7 +2122,7 @@ packages:
       cacache: 17.0.5
       json-parse-even-better-errors: 3.0.0
       pacote: 15.1.1
-      semver: 7.3.8
+      semver: 7.5.0
     transitivePeerDependencies:
       - bluebird
       - supports-color
@@ -2968,7 +2968,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.0
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -2989,7 +2989,7 @@ packages:
       debug: 4.3.4
       globby: 11.1.0
       is-glob: 4.0.3
-      semver: 7.3.8
+      semver: 7.5.0
       tsutils: 3.21.0_typescript@5.0.4
       typescript: 5.0.4
     transitivePeerDependencies:
@@ -3010,7 +3010,7 @@ packages:
       eslint: 8.40.0
       eslint-scope: 5.1.1
       eslint-utils: 3.0.0_eslint@8.40.0
-      semver: 7.3.8
+      semver: 7.5.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3030,7 +3030,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.59.2_typescript@5.0.4
       eslint: 8.40.0
       eslint-scope: 5.1.1
-      semver: 7.3.8
+      semver: 7.5.0
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -3531,7 +3531,7 @@ packages:
   /builtins/5.0.1:
     resolution: {integrity: sha512-qwVpFEHNfhYJIzNRBvd2C1kyo6jz3ZSMPyyuR47OPdiKWlbYnZNyDWuyR175qDnAJLiCo5fBBqPb3RiXgWlkOQ==}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.0
     dev: true
 
   /byte-size/7.0.0:
@@ -4619,20 +4619,20 @@ packages:
       - typescript
     dev: true
 
-  /eslint-plugin-jsdoc/41.1.2_eslint@8.40.0:
-    resolution: {integrity: sha512-MePJXdGiPW7AG06CU5GbKzYtKpoHwTq1lKijjq+RwL/cQkZtBZ59Zbv5Ep0RVxSMnq6242249/n+w4XrTZ1Afg==}
-    engines: {node: ^14 || ^16 || ^17 || ^18 || ^19}
+  /eslint-plugin-jsdoc/43.2.0_eslint@8.40.0:
+    resolution: {integrity: sha512-Hst7XUfqh28UmPD52oTXmjaRN3d0KrmOZdgtp4h9/VHUJD3Evoo82ZGXi1TtRDWgWhvqDIRI63O49H0eH7NrZQ==}
+    engines: {node: '>=16'}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0
     dependencies:
-      '@es-joy/jsdoccomment': 0.37.0
+      '@es-joy/jsdoccomment': 0.38.0
       are-docs-informative: 0.0.2
       comment-parser: 1.3.1
       debug: 4.3.4
       escape-string-regexp: 4.0.0
       eslint: 8.40.0
       esquery: 1.5.0
-      semver: 7.3.8
+      semver: 7.5.0
       spdx-expression-parse: 3.0.1
     transitivePeerDependencies:
       - supports-color
@@ -5613,7 +5613,7 @@ packages:
       promzard: 0.3.0
       read: 1.0.7
       read-package-json: 5.0.2
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-license: 3.0.4
       validate-npm-package-name: 4.0.0
     dev: true
@@ -6423,7 +6423,7 @@ packages:
       jest-util: 29.5.0
       natural-compare: 1.4.0
       pretty-format: 29.5.0
-      semver: 7.3.8
+      semver: 7.5.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6786,7 +6786,7 @@ packages:
       npm-package-arg: 10.1.0
       npm-registry-fetch: 14.0.3
       proc-log: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.0
       sigstore: 1.4.0
       ssri: 10.0.1
     transitivePeerDependencies:
@@ -7298,7 +7298,7 @@ packages:
       nopt: 6.0.0
       npmlog: 6.0.2
       rimraf: 3.0.2
-      semver: 7.3.8
+      semver: 7.5.0
       tar: 6.1.13
       which: 2.0.2
     transitivePeerDependencies:
@@ -7355,7 +7355,7 @@ packages:
     dependencies:
       hosted-git-info: 4.1.0
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-license: 3.0.4
 
   /normalize-package-data/4.0.1:
@@ -7364,7 +7364,7 @@ packages:
     dependencies:
       hosted-git-info: 5.2.1
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -7374,7 +7374,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       is-core-module: 2.11.0
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -7399,7 +7399,7 @@ packages:
     resolution: {integrity: sha512-udSGENih/5xKh3Ex+L0PtZcOt0Pa+6ppDLnpG5D49/EhMja3LupaY9E/DtJTxyFBwE09ot7Fc+H4DywnZNWTVA==}
     engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0}
     dependencies:
-      semver: 7.3.8
+      semver: 7.5.0
     dev: true
 
   /npm-normalize-package-bin/1.0.1:
@@ -7422,7 +7422,7 @@ packages:
     dependencies:
       hosted-git-info: 6.1.1
       proc-log: 3.0.0
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-name: 5.0.0
     dev: true
 
@@ -7431,7 +7431,7 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       hosted-git-info: 3.0.8
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-name: 3.0.0
     dev: true
 
@@ -7441,7 +7441,7 @@ packages:
     dependencies:
       hosted-git-info: 5.2.1
       proc-log: 2.0.1
-      semver: 7.3.8
+      semver: 7.5.0
       validate-npm-package-name: 4.0.0
     dev: true
 
@@ -7470,7 +7470,7 @@ packages:
       npm-install-checks: 6.1.0
       npm-normalize-package-bin: 3.0.0
       npm-package-arg: 10.1.0
-      semver: 7.3.8
+      semver: 7.5.0
     dev: true
 
   /npm-registry-fetch/13.3.1:
@@ -8510,6 +8510,14 @@ packages:
 
   /semver/7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
+  /semver/7.5.0:
+    resolution: {integrity: sha512-+XC0AD/R7Q2mPSRuy2Id0+CGTZ98+8f+KvwirxOKIEyid+XSx6HbC63p+O4IndTHuX5Z+JxQ0TghCkO5Cg/2HA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
