@@ -37,18 +37,13 @@ const checks = {
   },
 
   'if-else-loop': {
-    'errors': 13,
+    'errors': 5,
     'messages': [
-      'at-rule-empty-line-before',
-      'at-rule-name-space-after',
-      'scss/at-else-if-parentheses-space-before',
-      'scss/at-if-closing-brace-space-after',
       'scss/at-else-closing-brace-newline-after',
       'scss/at-else-closing-brace-space-after',
-      'block-opening-brace-space-before',
-      'block-opening-brace-space-after',
-      'block-closing-brace-space-before',
-      'no-empty-first-line',
+      'scss/at-else-if-parentheses-space-before',
+      'scss/at-if-closing-brace-space-after',
+      'at-rule-empty-line-before',
     ],
   },
 
@@ -62,7 +57,7 @@ const checks = {
   },
 
   'media-queries': {
-    'errors': 2,
+    'errors': 3,
     'messages': [
       'scss/media-feature-value-dollar-variable',
       'media-feature-name-no-unknown',
@@ -70,13 +65,12 @@ const checks = {
   },
 
   'mixins': {
-    'errors': 5,
+    'errors': 4,
     'messages': [
-      'scss/at-mixin-parentheses-space-before',
-      'scss/at-mixin-pattern',
-      'block-opening-brace-space-before',
-      'scss/at-mixin-argumentless-call-parentheses',
       'scss/at-mixin-named-arguments',
+      'scss/at-mixin-parentheses-space-before',
+      'scss/at-mixin-argumentless-call-parentheses',
+      'scss/at-mixin-pattern',
     ],
   },
 
