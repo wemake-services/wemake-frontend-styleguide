@@ -104,7 +104,7 @@ const checks = {
   },
 
   'selectors': {
-    'errors': 10,
+    'errors': 8,
     'messages': [
       'string-quotes',
       'selector-attribute-quotes',
@@ -112,7 +112,6 @@ const checks = {
       'selector-max-universal',
       'selector-max-compound-selectors',
       'selector-max-specificity',
-      'plugin/selector-tag-no-without-class',
       'csstools/use-nesting',
     ],
   },

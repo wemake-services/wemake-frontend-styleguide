@@ -33,7 +33,6 @@
     "stylelint-no-indistinguishable-colors": "github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package",
     "stylelint-order": "6.0.3",
     "stylelint-scss": "5.0.0",
-    "stylelint-selector-tag-no-without-class": "github:bryanjtc/stylelint-selector-tag-no-without-class#upgrade-package",
     "stylelint-use-nesting": "4.1.0"
   },
   "devDependencies": {

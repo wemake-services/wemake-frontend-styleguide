@@ -237,9 +237,6 @@ importers:
       stylelint-scss:
         specifier: 5.0.0
         version: 5.0.0(stylelint@15.6.1)
-      stylelint-selector-tag-no-without-class:
-        specifier: github:bryanjtc/stylelint-selector-tag-no-without-class#upgrade-package
-        version: github.com/bryanjtc/stylelint-selector-tag-no-without-class/eae120c84b0609131f039183f7436f048b0fb4f2(stylelint@15.6.1)
       stylelint-use-nesting:
         specifier: 4.1.0
         version: 4.1.0(stylelint@15.6.1)
@@ -9356,18 +9353,6 @@ packages:
       stylelint: ^11.1.1 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       colorguard-processor: 1.0.48
-      stylelint: 15.6.1
-    dev: false
-
-  github.com/bryanjtc/stylelint-selector-tag-no-without-class/eae120c84b0609131f039183f7436f048b0fb4f2(stylelint@15.6.1):
-    resolution: {tarball: https://codeload.github.com/bryanjtc/stylelint-selector-tag-no-without-class/tar.gz/eae120c84b0609131f039183f7436f048b0fb4f2}
-    id: github.com/bryanjtc/stylelint-selector-tag-no-without-class/eae120c84b0609131f039183f7436f048b0fb4f2
-    name: stylelint-selector-tag-no-without-class
-    version: 2.0.5
-    peerDependencies:
-      stylelint: '>= 9.x < 16'
-    dependencies:
-      lodash: 4.17.21
       stylelint: 15.6.1
     dev: false
 

@@ -17,7 +17,6 @@ module.exports = {
     'stylelint-color-format',
     'stylelint-high-performance-animation',
     'stylelint-no-indistinguishable-colors',
-    'stylelint-selector-tag-no-without-class',
     'stylelint-use-nesting',
     'stylelint-csstree-validator',
   ],
@@ -157,9 +156,6 @@ module.exports = {
 
     // use different colors
     'plugin/stylelint-no-indistinguishable-colors': true,
-
-    // forbids to use `div` and `span` without class names
-    'plugin/selector-tag-no-without-class': ['div', 'span'],
 
     // always use nesting where possible
     'csstools/use-nesting': 'always',
