@@ -217,8 +217,8 @@ importers:
         specifier: 33.0.0
         version: 33.0.0(stylelint@15.9.0)
       stylelint-csstree-validator:
-        specifier: github:bryanjtc/stylelint-validator#upgrade-package
-        version: github.com/bryanjtc/stylelint-validator/bd56721f03367e77bc440f932a2c1de4a93ae00a(stylelint@15.9.0)
+        specifier: 3.0.0
+        version: 3.0.0(stylelint@15.9.0)
       stylelint-declaration-block-no-ignored-properties:
         specifier: 2.7.0
         version: 2.7.0(stylelint@15.9.0)
@@ -4664,7 +4664,7 @@ packages:
       natural-compare: 1.4.0
       nth-check: 2.1.1
       postcss-selector-parser: 6.0.13
-      semver: 7.5.3
+      semver: 7.5.1
       vue-eslint-parser: 9.3.1(eslint@8.43.0)
       xml-name-validator: 4.0.0
     transitivePeerDependencies:
@@ -8612,6 +8612,16 @@ packages:
       stylelint-config-recommended: 12.0.0(stylelint@15.9.0)
     dev: false
 
+  /stylelint-csstree-validator@3.0.0(stylelint@15.9.0):
+    resolution: {integrity: sha512-/CPYhwchWZbyZK2LVGKvt1ivISYZyRSRhrY4cMArlwYh1DxwygubR0nBv+5upuX23j1qBfJWdv6xx9dsUZF+OA==}
+    engines: {node: ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
+    peerDependencies:
+      stylelint: '>=7.0.0 <16.0.0'
+    dependencies:
+      css-tree: 2.3.1
+      stylelint: 15.9.0
+    dev: false
+
   /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.9.0):
     resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
     engines: {node: '>=6'}
@@ -9476,18 +9486,5 @@ packages:
       stylelint: ^11.1.1 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       colorguard-processor: 1.0.48
-      stylelint: 15.9.0
-    dev: false
-
-  github.com/bryanjtc/stylelint-validator/bd56721f03367e77bc440f932a2c1de4a93ae00a(stylelint@15.9.0):
-    resolution: {tarball: https://codeload.github.com/bryanjtc/stylelint-validator/tar.gz/bd56721f03367e77bc440f932a2c1de4a93ae00a}
-    id: github.com/bryanjtc/stylelint-validator/bd56721f03367e77bc440f932a2c1de4a93ae00a
-    name: stylelint-csstree-validator
-    version: 2.1.0
-    engines: {node: ^12.20.0 || ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
-    peerDependencies:
-      stylelint: '>=7.0.0 <16.0.0'
-    dependencies:
-      css-tree: 2.3.1
       stylelint: 15.9.0
     dev: false
