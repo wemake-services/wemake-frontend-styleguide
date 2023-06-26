@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/eslint-config-javascript",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Shareable configuration for ESLint that we use in wemake.services",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",

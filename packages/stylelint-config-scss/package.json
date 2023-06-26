@@ -1,6 +1,6 @@
 {
   "name": "@wemake-services/stylelint-config-scss",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "Strict shareable config for stylelint and SCSS",
   "main": "index.js",
   "repository": "https://github.com/wemake-services/wemake-frontend-styleguide.git",
