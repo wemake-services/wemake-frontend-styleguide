@@ -90,8 +90,8 @@ importers:
         specifier: 0.13.11
         version: 0.13.11
       stylelint:
-        specifier: 15.10.1
-        version: 15.10.1
+        specifier: 15.10.2
+        version: 15.10.2
       ts-node:
         specifier: 10.9.1
         version: 10.9.1(@swc/core@1.3.70)(@types/node@18.16.19)(typescript@5.1.6)
@@ -209,37 +209,37 @@ importers:
     dependencies:
       stylelint-color-format:
         specifier: 1.1.0
-        version: 1.1.0(stylelint@15.10.1)
+        version: 1.1.0(stylelint@15.10.2)
       stylelint-config-recommended-scss:
         specifier: 12.0.0
-        version: 12.0.0(postcss@8.4.26)(stylelint@15.10.1)
+        version: 12.0.0(postcss@8.4.26)(stylelint@15.10.2)
       stylelint-config-standard:
         specifier: 33.0.0
-        version: 33.0.0(stylelint@15.10.1)
+        version: 33.0.0(stylelint@15.10.2)
       stylelint-csstree-validator:
         specifier: 3.0.0
-        version: 3.0.0(stylelint@15.10.1)
+        version: 3.0.0(stylelint@15.10.2)
       stylelint-declaration-block-no-ignored-properties:
         specifier: 2.7.0
-        version: 2.7.0(stylelint@15.10.1)
+        version: 2.7.0(stylelint@15.10.2)
       stylelint-declaration-strict-value:
         specifier: 1.9.2
-        version: 1.9.2(stylelint@15.10.1)
+        version: 1.9.2(stylelint@15.10.2)
       stylelint-high-performance-animation:
         specifier: 1.8.0
-        version: 1.8.0(stylelint@15.10.1)
+        version: 1.8.0(stylelint@15.10.2)
       stylelint-no-indistinguishable-colors:
         specifier: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
-        version: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.1)
+        version: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.2)
       stylelint-order:
         specifier: 6.0.3
-        version: 6.0.3(stylelint@15.10.1)
+        version: 6.0.3(stylelint@15.10.2)
       stylelint-scss:
         specifier: 5.0.1
-        version: 5.0.1(stylelint@15.10.1)
+        version: 5.0.1(stylelint@15.10.2)
       stylelint-use-nesting:
         specifier: 4.1.0
-        version: 4.1.0(stylelint@15.10.1)
+        version: 4.1.0(stylelint@15.10.2)
     devDependencies:
       '@wemake-services/eslint-config-jest':
         specifier: workspace:^
@@ -257,8 +257,8 @@ importers:
         specifier: 8.4.26
         version: 8.4.26
       stylelint:
-        specifier: 15.10.1
-        version: 15.10.1
+        specifier: 15.10.2
+        version: 15.10.2
       typescript:
         specifier: 5.1.6
         version: 5.1.6
@@ -4027,8 +4027,8 @@ packages:
     resolution: {integrity: sha512-zj5D7X1U2h2zsXOAM8EyUREBnnts6H+Jm+d1M2DbiQQcUtnqgQsMrdo8JW9R80YFUmIdBZeMu5wvYM7hcgWP/Q==}
     dev: false
 
-  /css-functions-list@3.1.0:
-    resolution: {integrity: sha512-/9lCvYZaUbBGvYUgYGFJ4dcYiyqdhSjG7IPVluoV8A1ILjkF7ilmhp1OGUz8n+nmBcu0RNrQAzgD8B6FJbrt2w==}
+  /css-functions-list@3.2.0:
+    resolution: {integrity: sha512-d/jBMPyYybkkLVypgtGv12R+pIFw4/f/IHtCTxWpZc8ofTYOPigIgmA6vu5rMHartZC+WuXhBUHfnyNUIQSYrg==}
     engines: {node: '>=12.22'}
 
   /css-shorthand-properties@1.1.1:
@@ -8560,7 +8560,7 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-color-format@1.1.0(stylelint@15.10.1):
+  /stylelint-color-format@1.1.0(stylelint@15.10.2):
     resolution: {integrity: sha512-3VLzcNjspKuUcZJz6MsIrwf3cQfR1HPXf+skZ11ayvhTQscgmwRz6gVgiqxkbz6TLGMkkVsqP7UkVdBqznkMcQ==}
     engines: {node: '>=7'}
     peerDependencies:
@@ -8568,10 +8568,10 @@ packages:
     dependencies:
       color: 3.2.1
       style-search: 0.1.0
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-config-recommended-scss@12.0.0(postcss@8.4.26)(stylelint@15.10.1):
+  /stylelint-config-recommended-scss@12.0.0(postcss@8.4.26)(stylelint@15.10.2):
     resolution: {integrity: sha512-5Bb2mlGy6WLa30oNeKpZvavv2lowJUsUJO25+OA68GFTemlwd1zbFsL7q0bReKipOSU3sG47hKneZ6Nd+ctrFA==}
     peerDependencies:
       postcss: ^8.3.3
@@ -8582,77 +8582,77 @@ packages:
     dependencies:
       postcss: 8.4.26
       postcss-scss: 4.0.6(postcss@8.4.26)
-      stylelint: 15.10.1
-      stylelint-config-recommended: 12.0.0(stylelint@15.10.1)
-      stylelint-scss: 5.0.1(stylelint@15.10.1)
+      stylelint: 15.10.2
+      stylelint-config-recommended: 12.0.0(stylelint@15.10.2)
+      stylelint-scss: 5.0.1(stylelint@15.10.2)
     dev: false
 
-  /stylelint-config-recommended@12.0.0(stylelint@15.10.1):
+  /stylelint-config-recommended@12.0.0(stylelint@15.10.2):
     resolution: {integrity: sha512-x6x8QNARrGO2sG6iURkzqL+Dp+4bJorPMMRNPScdvaUK8PsynriOcMW7AFDKqkWAS5wbue/u8fUT/4ynzcmqdQ==}
     peerDependencies:
       stylelint: ^15.5.0
     dependencies:
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-config-standard@33.0.0(stylelint@15.10.1):
+  /stylelint-config-standard@33.0.0(stylelint@15.10.2):
     resolution: {integrity: sha512-eyxnLWoXImUn77+ODIuW9qXBDNM+ALN68L3wT1lN2oNspZ7D9NVGlNHb2QCUn4xDug6VZLsh0tF8NyoYzkgTzg==}
     peerDependencies:
       stylelint: ^15.5.0
     dependencies:
-      stylelint: 15.10.1
-      stylelint-config-recommended: 12.0.0(stylelint@15.10.1)
+      stylelint: 15.10.2
+      stylelint-config-recommended: 12.0.0(stylelint@15.10.2)
     dev: false
 
-  /stylelint-csstree-validator@3.0.0(stylelint@15.10.1):
+  /stylelint-csstree-validator@3.0.0(stylelint@15.10.2):
     resolution: {integrity: sha512-/CPYhwchWZbyZK2LVGKvt1ivISYZyRSRhrY4cMArlwYh1DxwygubR0nBv+5upuX23j1qBfJWdv6xx9dsUZF+OA==}
     engines: {node: ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
     peerDependencies:
       stylelint: '>=7.0.0 <16.0.0'
     dependencies:
       css-tree: 2.3.1
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.10.1):
+  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.10.2):
     resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
     engines: {node: '>=6'}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-declaration-strict-value@1.9.2(stylelint@15.10.1):
+  /stylelint-declaration-strict-value@1.9.2(stylelint@15.10.2):
     resolution: {integrity: sha512-Z/2yr7g4tq2iGOUWhZLzHL2g2GJYJGcPkfjDh++zI8ukLxW0tcLGJjo64XYCDjja6YcECPDUWbpN+OAoAtAYvw==}
     peerDependencies:
       stylelint: '>=7 <=15'
     dependencies:
       css-values: 0.1.0
       shortcss: 0.1.3
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-high-performance-animation@1.8.0(stylelint@15.10.1):
+  /stylelint-high-performance-animation@1.8.0(stylelint@15.10.2):
     resolution: {integrity: sha512-wxHt+F7Z54mtGZpbdMwUtpfQwr81uiml39EFCCdZAbVnEO7Wl0Mh5ncmgbxH42xpB5z79eIgHI62qtKfUmWzhg==}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       postcss-value-parser: 4.2.0
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-order@6.0.3(stylelint@15.10.1):
+  /stylelint-order@6.0.3(stylelint@15.10.2):
     resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0
     dependencies:
       postcss: 8.4.26
       postcss-sorting: 8.0.2(postcss@8.4.26)
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-scss@5.0.1(stylelint@15.10.1):
+  /stylelint-scss@5.0.1(stylelint@15.10.2):
     resolution: {integrity: sha512-n87iCRZrr2J7//I/QFsDXxFLnHKw633U4qvWZ+mOW6KDAp/HLj06H+6+f9zOuTYy+MdGdTuCSDROCpQIhw5fvQ==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
@@ -8661,20 +8661,20 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint-use-nesting@4.1.0(stylelint@15.10.1):
+  /stylelint-use-nesting@4.1.0(stylelint@15.10.2):
     resolution: {integrity: sha512-DDI+T/8kGIxdcfPClxp/oS2cFSWvd+hoV54clF7lnrlSvYHOQouaxgMOuPmkIQig0suss/PrAw5GwBYoSu8WoQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       stylelint: '>= 10'
     dependencies:
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
 
-  /stylelint@15.10.1:
-    resolution: {integrity: sha512-CYkzYrCFfA/gnOR+u9kJ1PpzwG10WLVnoxHDuBA/JiwGqdM9+yx9+ou6SE/y9YHtfv1mcLo06fdadHTOx4gBZQ==}
+  /stylelint@15.10.2:
+    resolution: {integrity: sha512-UxqSb3hB74g4DTO45QhUHkJMjKKU//lNUAOWyvPBVPZbCknJ5HjOWWZo+UDuhHa9FLeVdHBZXxu43eXkjyIPWg==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -8685,7 +8685,7 @@ packages:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 8.2.0
-      css-functions-list: 3.1.0
+      css-functions-list: 3.2.0
       css-tree: 2.3.1
       debug: 4.3.4
       fast-glob: 3.3.0
@@ -9466,7 +9466,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.1):
+  github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.2):
     resolution: {tarball: https://codeload.github.com/bryanjtc/stylelint-no-indistinguishable-colors/tar.gz/a4242c77f892aff8939a6b7899b9aafe72ee7d43}
     id: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43
     name: stylelint-no-indistinguishable-colors
@@ -9475,5 +9475,5 @@ packages:
       stylelint: ^11.1.1 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       colorguard-processor: 1.0.48
-      stylelint: 15.10.1
+      stylelint: 15.10.2
     dev: false
