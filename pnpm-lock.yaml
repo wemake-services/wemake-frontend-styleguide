@@ -33,8 +33,8 @@ importers:
         specifier: 5.62.0
         version: 5.62.0(eslint@8.45.0)(typescript@5.1.6)
       core-js:
-        specifier: 3.31.1
-        version: 3.31.1
+        specifier: 3.32.0
+        version: 3.32.0
       eslint:
         specifier: 8.45.0
         version: 8.45.0
@@ -3940,8 +3940,8 @@ packages:
       browserslist: 4.21.9
     dev: true
 
-  /core-js@3.31.1:
-    resolution: {integrity: sha512-2sKLtfq1eFST7l7v62zaqXacPc7uG8ZAya8ogijLhTtaKNcpzpB4TMoTw2Si+8GYKRwFPMMtUT0263QFWFfqyQ==}
+  /core-js@3.32.0:
+    resolution: {integrity: sha512-rd4rYZNlF3WuoYuRIDEmbR/ga9CeuWX9U05umAvgrrZoHY4Z++cp/xwPQMvUpBB4Ag6J8KfD80G0zwCyaSxDww==}
     requiresBuild: true
     dev: true
 
