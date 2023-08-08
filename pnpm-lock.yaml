@@ -226,8 +226,8 @@ importers:
         specifier: 1.9.2
         version: 1.9.2(stylelint@15.10.2)
       stylelint-high-performance-animation:
-        specifier: 1.8.0
-        version: 1.8.0(stylelint@15.10.2)
+        specifier: 1.9.0
+        version: 1.9.0(stylelint@15.10.2)
       stylelint-no-indistinguishable-colors:
         specifier: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
         version: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.2)
@@ -8926,8 +8926,8 @@ packages:
       stylelint: 15.10.2
     dev: false
 
-  /stylelint-high-performance-animation@1.8.0(stylelint@15.10.2):
-    resolution: {integrity: sha512-wxHt+F7Z54mtGZpbdMwUtpfQwr81uiml39EFCCdZAbVnEO7Wl0Mh5ncmgbxH42xpB5z79eIgHI62qtKfUmWzhg==}
+  /stylelint-high-performance-animation@1.9.0(stylelint@15.10.2):
+    resolution: {integrity: sha512-tUN8YqIRFRCsMLLI1wnyODP6+H5Lc63NEaUcOt1lqNaEEgd0tGgA4miY2JuL8eSHvgmGkmZPZTn1Dgek05O3uQ==}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
