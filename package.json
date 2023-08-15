@@ -42,7 +42,7 @@
     "lerna": "6.6.2",
     "node-notifier": "10.0.1",
     "nx": "16.6.0",
-    "postcss": "8.4.27",
+    "postcss": "8.4.28",
     "regenerator-runtime": "0.14.0",
     "stylelint": "15.10.2",
     "ts-node": "10.9.1",
