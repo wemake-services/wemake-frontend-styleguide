@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "stylelint-color-format": "1.1.0",
-    "stylelint-config-recommended-scss": "12.0.0",
+    "stylelint-config-recommended-scss": "13.0.0",
     "stylelint-config-standard": "33.0.0",
     "stylelint-csstree-validator": "3.0.0",
     "stylelint-declaration-block-no-ignored-properties": "2.7.0",
