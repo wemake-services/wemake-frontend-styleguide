@@ -40,7 +40,7 @@ importers:
         version: 8.49.0
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.0.2)(eslint-plugin-promise@6.1.1)(eslint@8.49.0)
+        version: 17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-promise@6.1.1)(eslint@8.49.0)
       eslint-import-resolver-typescript:
         specifier: 3.6.0
         version: 3.6.0(@typescript-eslint/parser@5.62.0)(eslint-plugin-import@2.28.1)(eslint@8.49.0)
@@ -54,8 +54,8 @@ importers:
         specifier: 41.1.2
         version: 41.1.2(eslint@8.49.0)
       eslint-plugin-n:
-        specifier: 16.0.2
-        version: 16.0.2(eslint@8.49.0)
+        specifier: 16.1.0
+        version: 16.1.0(eslint@8.49.0)
       eslint-plugin-promise:
         specifier: 6.1.1
         version: 6.1.1(eslint@8.49.0)
@@ -109,13 +109,13 @@ importers:
         version: 8.49.0
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.0.2)(eslint-plugin-promise@6.1.1)(eslint@8.49.0)
+        version: 17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-promise@6.1.1)(eslint@8.49.0)
       eslint-plugin-import:
         specifier: 2.28.1
         version: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.0)(eslint@8.49.0)
       eslint-plugin-n:
-        specifier: 16.0.2
-        version: 16.0.2(eslint@8.49.0)
+        specifier: 16.1.0
+        version: 16.1.0(eslint@8.49.0)
       eslint-plugin-promise:
         specifier: 6.1.1
         version: 6.1.1(eslint@8.49.0)
@@ -4394,7 +4394,7 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  /eslint-config-standard@17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.0.2)(eslint-plugin-promise@6.1.1)(eslint@8.49.0):
+  /eslint-config-standard@17.1.0(eslint-plugin-import@2.28.1)(eslint-plugin-n@16.1.0)(eslint-plugin-promise@6.1.1)(eslint@8.49.0):
     resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4405,7 +4405,7 @@ packages:
     dependencies:
       eslint: 8.49.0
       eslint-plugin-import: 2.28.1(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.6.0)(eslint@8.49.0)
-      eslint-plugin-n: 16.0.2(eslint@8.49.0)
+      eslint-plugin-n: 16.1.0(eslint@8.49.0)
       eslint-plugin-promise: 6.1.1(eslint@8.49.0)
     dev: true
 
@@ -4559,8 +4559,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-n@16.0.2(eslint@8.49.0):
-    resolution: {integrity: sha512-Y66uDfUNbBzypsr0kELWrIz+5skicECrLUqlWuXawNSLUq3ltGlCwu6phboYYOTSnoTdHgTLrc+5Ydo6KjzZog==}
+  /eslint-plugin-n@16.1.0(eslint@8.49.0):
+    resolution: {integrity: sha512-3wv/TooBst0N4ND+pnvffHuz9gNPmk/NkLwAxOt2JykTl/hcuECe6yhTtLJcZjIxtZwN+GX92ACp/QTLpHA3Hg==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       eslint: '>=7.0.0'
@@ -4569,6 +4569,7 @@ packages:
       builtins: 5.0.1
       eslint: 8.49.0
       eslint-plugin-es-x: 7.1.0(eslint@8.49.0)
+      get-tsconfig: 4.7.0
       ignore: 5.2.4
       is-core-module: 2.13.0
       minimatch: 3.1.2
@@ -5161,6 +5162,12 @@ packages:
 
   /get-tsconfig@4.5.0:
     resolution: {integrity: sha512-MjhiaIWCJ1sAU4pIQ5i5OfOuHHxVo1oYeNsWTON7jxYkod8pHocXeh+SSbmu5OZZZK73B6cbJ2XADzXehLyovQ==}
+    dev: true
+
+  /get-tsconfig@4.7.0:
+    resolution: {integrity: sha512-pmjiZ7xtB8URYm74PlGJozDNyhvsVLUcpBa8DZBG3bWHwaHa9bPiRpiSfovw+fjhwONSCWKRyk+JQHEGZmMrzw==}
+    dependencies:
+      resolve-pkg-maps: 1.0.0
     dev: true
 
   /git-raw-commits@2.0.11:
@@ -8253,6 +8260,10 @@ packages:
   /resolve-from@5.0.0:
     resolution: {integrity: sha512-qYg9KP24dD5qka9J47d0aVky0N+b4fTU89LN9iDnjB5waksiC49rvMB0PrUJQGoTmH50XPiqOvAjDfaijGxYZw==}
     engines: {node: '>=8'}
+
+  /resolve-pkg-maps@1.0.0:
+    resolution: {integrity: sha512-seS2Tj26TBVOC2NIc2rOe2y2ZO7efxITtLZcGSOnHHNOQ7CkiUBfw0Iw2ck6xkIhPwLhKNLS8BO+hEpngQlqzw==}
+    dev: true
 
   /resolve.exports@2.0.0:
     resolution: {integrity: sha512-6K/gDlqgQscOlg9fSRpWstA8sYe8rbELsSTNpx+3kTrsVCzvSl0zIvRErM7fdl9ERWDsKnrLnwB+Ne89918XOg==}
