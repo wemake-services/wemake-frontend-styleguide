@@ -90,8 +90,8 @@ importers:
         specifier: 0.14.0
         version: 0.14.0
       stylelint:
-        specifier: 15.10.3
-        version: 15.10.3
+        specifier: 15.11.0
+        version: 15.11.0
       ts-node:
         specifier: 10.9.1
         version: 10.9.1(@swc/core@1.3.93)(@types/node@18.18.5)(typescript@5.2.2)
@@ -209,37 +209,37 @@ importers:
     dependencies:
       stylelint-color-format:
         specifier: 1.1.0
-        version: 1.1.0(stylelint@15.10.3)
+        version: 1.1.0(stylelint@15.11.0)
       stylelint-config-recommended-scss:
         specifier: 13.0.0
-        version: 13.0.0(postcss@8.4.31)(stylelint@15.10.3)
+        version: 13.0.0(postcss@8.4.31)(stylelint@15.11.0)
       stylelint-config-standard:
         specifier: 34.0.0
-        version: 34.0.0(stylelint@15.10.3)
+        version: 34.0.0(stylelint@15.11.0)
       stylelint-csstree-validator:
         specifier: 3.0.0
-        version: 3.0.0(stylelint@15.10.3)
+        version: 3.0.0(stylelint@15.11.0)
       stylelint-declaration-block-no-ignored-properties:
         specifier: 2.7.0
-        version: 2.7.0(stylelint@15.10.3)
+        version: 2.7.0(stylelint@15.11.0)
       stylelint-declaration-strict-value:
         specifier: 1.9.2
-        version: 1.9.2(stylelint@15.10.3)
+        version: 1.9.2(stylelint@15.11.0)
       stylelint-high-performance-animation:
         specifier: 1.9.0
-        version: 1.9.0(stylelint@15.10.3)
+        version: 1.9.0(stylelint@15.11.0)
       stylelint-no-indistinguishable-colors:
         specifier: github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package
-        version: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.3)
+        version: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.11.0)
       stylelint-order:
         specifier: 6.0.3
-        version: 6.0.3(stylelint@15.10.3)
+        version: 6.0.3(stylelint@15.11.0)
       stylelint-scss:
         specifier: 5.2.1
-        version: 5.2.1(stylelint@15.10.3)
+        version: 5.2.1(stylelint@15.11.0)
       stylelint-use-nesting:
         specifier: 4.1.0
-        version: 4.1.0(stylelint@15.10.3)
+        version: 4.1.0(stylelint@15.11.0)
     devDependencies:
       '@wemake-services/eslint-config-jest':
         specifier: workspace:^
@@ -257,8 +257,8 @@ importers:
         specifier: 8.4.31
         version: 8.4.31
       stylelint:
-        specifier: 15.10.3
-        version: 15.10.3
+        specifier: 15.11.0
+        version: 15.11.0
       typescript:
         specifier: 5.2.2
         version: 5.2.2
@@ -4055,9 +4055,9 @@ packages:
     resolution: {integrity: sha512-zj5D7X1U2h2zsXOAM8EyUREBnnts6H+Jm+d1M2DbiQQcUtnqgQsMrdo8JW9R80YFUmIdBZeMu5wvYM7hcgWP/Q==}
     dev: false
 
-  /css-functions-list@3.2.0:
-    resolution: {integrity: sha512-d/jBMPyYybkkLVypgtGv12R+pIFw4/f/IHtCTxWpZc8ofTYOPigIgmA6vu5rMHartZC+WuXhBUHfnyNUIQSYrg==}
-    engines: {node: '>=12.22'}
+  /css-functions-list@3.2.1:
+    resolution: {integrity: sha512-Nj5YcaGgBtuUmn1D7oHqPW0c9iui7xsTsj5lIX8ZgevdfhmjFfKB3r8moHJtNJnctnYXJyYX5I1pp90HM4TPgQ==}
+    engines: {node: '>=12 || >=16'}
 
   /css-shorthand-properties@1.1.1:
     resolution: {integrity: sha512-Md+Juc7M3uOdbAFwOYlTrccIZ7oCFuzrhKYQjdeUEW/sE1hv17Jp/Bws+ReOPpGVBTYCBoYo+G17V5Qo8QQ75A==}
@@ -4962,6 +4962,12 @@ packages:
     dependencies:
       flat-cache: 3.0.4
 
+  /file-entry-cache@7.0.1:
+    resolution: {integrity: sha512-uLfFktPmRetVCbHe5UPuekWrQ6hENufnA46qEGbfACkK5drjTTdQYUragRgMjHldcbYG+nslUerqMPjbBSHXjQ==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      flat-cache: 3.1.1
+
   /file-url@3.0.0:
     resolution: {integrity: sha512-g872QGsHexznxkIAdK8UiZRe7SkE6kvylShU4Nsj8NvfvZag7S0QuQ4IgvPDkk75HxgjIVDwycFTDAgIiO4nDA==}
     engines: {node: '>=8'}
@@ -5008,6 +5014,14 @@ packages:
       flatted: 3.2.7
       rimraf: 3.0.2
 
+  /flat-cache@3.1.1:
+    resolution: {integrity: sha512-/qM2b3LUIaIgviBQovTLvijfyOQXPtSRnRK26ksj2J7rzPIecePUIpJsZ4T02Qg+xiAEKIs5K8dsHEd+VaKa/Q==}
+    engines: {node: '>=12.0.0'}
+    dependencies:
+      flatted: 3.2.9
+      keyv: 4.5.4
+      rimraf: 3.0.2
+
   /flat@5.0.2:
     resolution: {integrity: sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==}
     hasBin: true
@@ -5015,6 +5029,9 @@ packages:
 
   /flatted@3.2.7:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
+
+  /flatted@3.2.9:
+    resolution: {integrity: sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==}
 
   /follow-redirects@1.15.2:
     resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
@@ -6417,6 +6434,9 @@ packages:
     hasBin: true
     dev: true
 
+  /json-buffer@3.0.1:
+    resolution: {integrity: sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==}
+
   /json-parse-better-errors@1.0.2:
     resolution: {integrity: sha512-mrqyZKfX5EhL7hvqcV6WG1yYjnjeuYDzDhhcAAUrq8Po85NBQBJP+ZDUT75qZQ98IkUoBqdkExkukOU7Ts2wrw==}
     dev: true
@@ -6484,6 +6504,11 @@ packages:
     resolution: {integrity: sha512-MbEkhMEa9p7bVD/U29cTM6zUHcLPWwSZjnSquOu++6GyKfoc3aGNdsp2uLQ3Zq0ocg60MzTxwB9qjqwgoQu3+g==}
     dev: true
 
+  /keyv@4.5.4:
+    resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
+    dependencies:
+      json-buffer: 3.0.1
+
   /kind-of@6.0.3:
     resolution: {integrity: sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==}
     engines: {node: '>=0.10.0'}
@@ -6495,6 +6520,10 @@ packages:
 
   /known-css-properties@0.28.0:
     resolution: {integrity: sha512-9pSL5XB4J+ifHP0e0jmmC98OGC1nL8/JjS+fi6mnTlIf//yt/MfVLtKg7S6nCtj/8KTcWX7nRlY0XywoYY1ISQ==}
+    dev: false
+
+  /known-css-properties@0.29.0:
+    resolution: {integrity: sha512-Ne7wqW7/9Cz54PDt4I3tcV+hAyat8ypyOGzYRJQfdxnnjeWsTxt1cy8pjvvKeI5kfXuyvULyeeAvwvvtAX3ayQ==}
 
   /lerna@6.6.2(@swc/core@1.3.93):
     resolution: {integrity: sha512-W4qrGhcdutkRdHEaDf9eqp7u4JvI+1TwFy5woX6OI8WPe4PYBdxuILAsvhp614fUG41rKSGDKlOh+AWzdSidTg==}
@@ -8709,7 +8738,7 @@ packages:
   /style-search@0.1.0:
     resolution: {integrity: sha512-Dj1Okke1C3uKKwQcetra4jSuk0DqbzbYtXipzFlFMZtowbF1x7BKJwB9AayVMyFARvU8EDrZdcax4At/452cAg==}
 
-  /stylelint-color-format@1.1.0(stylelint@15.10.3):
+  /stylelint-color-format@1.1.0(stylelint@15.11.0):
     resolution: {integrity: sha512-3VLzcNjspKuUcZJz6MsIrwf3cQfR1HPXf+skZ11ayvhTQscgmwRz6gVgiqxkbz6TLGMkkVsqP7UkVdBqznkMcQ==}
     engines: {node: '>=7'}
     peerDependencies:
@@ -8717,10 +8746,10 @@ packages:
     dependencies:
       color: 3.2.1
       style-search: 0.1.0
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-config-recommended-scss@13.0.0(postcss@8.4.31)(stylelint@15.10.3):
+  /stylelint-config-recommended-scss@13.0.0(postcss@8.4.31)(stylelint@15.11.0):
     resolution: {integrity: sha512-7AmMIsHTsuwUQm7I+DD5BGeIgCvqYZ4BpeYJJpb1cUXQwrJAKjA+GBotFZgUEGP8lAM+wmd91ovzOi8xfAyWEw==}
     peerDependencies:
       postcss: ^8.3.3
@@ -8731,79 +8760,79 @@ packages:
     dependencies:
       postcss: 8.4.31
       postcss-scss: 4.0.7(postcss@8.4.31)
-      stylelint: 15.10.3
-      stylelint-config-recommended: 13.0.0(stylelint@15.10.3)
-      stylelint-scss: 5.2.1(stylelint@15.10.3)
+      stylelint: 15.11.0
+      stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
+      stylelint-scss: 5.2.1(stylelint@15.11.0)
     dev: false
 
-  /stylelint-config-recommended@13.0.0(stylelint@15.10.3):
+  /stylelint-config-recommended@13.0.0(stylelint@15.11.0):
     resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       stylelint: ^15.10.0
     dependencies:
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-config-standard@34.0.0(stylelint@15.10.3):
+  /stylelint-config-standard@34.0.0(stylelint@15.11.0):
     resolution: {integrity: sha512-u0VSZnVyW9VSryBG2LSO+OQTjN7zF9XJaAJRX/4EwkmU0R2jYwmBSN10acqZisDitS0CLiEiGjX7+Hrq8TAhfQ==}
     engines: {node: ^14.13.1 || >=16.0.0}
     peerDependencies:
       stylelint: ^15.10.0
     dependencies:
-      stylelint: 15.10.3
-      stylelint-config-recommended: 13.0.0(stylelint@15.10.3)
+      stylelint: 15.11.0
+      stylelint-config-recommended: 13.0.0(stylelint@15.11.0)
     dev: false
 
-  /stylelint-csstree-validator@3.0.0(stylelint@15.10.3):
+  /stylelint-csstree-validator@3.0.0(stylelint@15.11.0):
     resolution: {integrity: sha512-/CPYhwchWZbyZK2LVGKvt1ivISYZyRSRhrY4cMArlwYh1DxwygubR0nBv+5upuX23j1qBfJWdv6xx9dsUZF+OA==}
     engines: {node: ^14.13.0 || >=15.0.0, npm: '>=7.0.0'}
     peerDependencies:
       stylelint: '>=7.0.0 <16.0.0'
     dependencies:
       css-tree: 2.3.1
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.10.3):
+  /stylelint-declaration-block-no-ignored-properties@2.7.0(stylelint@15.11.0):
     resolution: {integrity: sha512-44SpI9+9Oc1ICuwwRfwS/3npQ2jPobDSTnwWdNgZGryGqQCp17CgEIWjCv1BgUOSzND3RqywNCNLKvO1AOxbfg==}
     engines: {node: '>=6'}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-declaration-strict-value@1.9.2(stylelint@15.10.3):
+  /stylelint-declaration-strict-value@1.9.2(stylelint@15.11.0):
     resolution: {integrity: sha512-Z/2yr7g4tq2iGOUWhZLzHL2g2GJYJGcPkfjDh++zI8ukLxW0tcLGJjo64XYCDjja6YcECPDUWbpN+OAoAtAYvw==}
     peerDependencies:
       stylelint: '>=7 <=15'
     dependencies:
       css-values: 0.1.0
       shortcss: 0.1.3
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-high-performance-animation@1.9.0(stylelint@15.10.3):
+  /stylelint-high-performance-animation@1.9.0(stylelint@15.11.0):
     resolution: {integrity: sha512-tUN8YqIRFRCsMLLI1wnyODP6+H5Lc63NEaUcOt1lqNaEEgd0tGgA4miY2JuL8eSHvgmGkmZPZTn1Dgek05O3uQ==}
     peerDependencies:
       stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       postcss-value-parser: 4.2.0
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-order@6.0.3(stylelint@15.10.3):
+  /stylelint-order@6.0.3(stylelint@15.11.0):
     resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0
     dependencies:
       postcss: 8.4.31
       postcss-sorting: 8.0.2(postcss@8.4.31)
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-scss@5.2.1(stylelint@15.10.3):
+  /stylelint-scss@5.2.1(stylelint@15.11.0):
     resolution: {integrity: sha512-ZoTJUM85/qqpQHfEppjW/St//8s6p9Qsg8deWlYlr56F9iUgC9vXeIDQvH4odkRRJLTLFQzYMALSOFCQ3MDkgw==}
     peerDependencies:
       stylelint: ^14.5.1 || ^15.0.0
@@ -8813,20 +8842,20 @@ packages:
       postcss-resolve-nested-selector: 0.1.1
       postcss-selector-parser: 6.0.13
       postcss-value-parser: 4.2.0
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint-use-nesting@4.1.0(stylelint@15.10.3):
+  /stylelint-use-nesting@4.1.0(stylelint@15.11.0):
     resolution: {integrity: sha512-DDI+T/8kGIxdcfPClxp/oS2cFSWvd+hoV54clF7lnrlSvYHOQouaxgMOuPmkIQig0suss/PrAw5GwBYoSu8WoQ==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
       stylelint: '>= 10'
     dependencies:
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
 
-  /stylelint@15.10.3:
-    resolution: {integrity: sha512-aBQMMxYvFzJJwkmg+BUUg3YfPyeuCuKo2f+LOw7yYbU8AZMblibwzp9OV4srHVeQldxvSFdz0/Xu8blq2AesiA==}
+  /stylelint@15.11.0:
+    resolution: {integrity: sha512-78O4c6IswZ9TzpcIiQJIN49K3qNoXTM8zEJzhaTE/xRTCZswaovSEVIa/uwbOltZrk16X4jAxjaOhzz/hTm1Kw==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -8837,12 +8866,12 @@ packages:
       balanced-match: 2.0.0
       colord: 2.9.3
       cosmiconfig: 8.2.0
-      css-functions-list: 3.2.0
+      css-functions-list: 3.2.1
       css-tree: 2.3.1
       debug: 4.3.4
       fast-glob: 3.3.1
       fastest-levenshtein: 1.0.16
-      file-entry-cache: 6.0.1
+      file-entry-cache: 7.0.1
       global-modules: 2.0.0
       globby: 11.1.0
       globjoin: 0.1.4
@@ -8851,7 +8880,7 @@ packages:
       import-lazy: 4.0.0
       imurmurhash: 0.1.4
       is-plain-object: 5.0.0
-      known-css-properties: 0.28.0
+      known-css-properties: 0.29.0
       mathml-tag-names: 2.1.3
       meow: 10.1.5
       micromatch: 4.0.5
@@ -9663,7 +9692,7 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.10.3):
+  github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43(stylelint@15.11.0):
     resolution: {tarball: https://codeload.github.com/bryanjtc/stylelint-no-indistinguishable-colors/tar.gz/a4242c77f892aff8939a6b7899b9aafe72ee7d43}
     id: github.com/bryanjtc/stylelint-no-indistinguishable-colors/a4242c77f892aff8939a6b7899b9aafe72ee7d43
     name: stylelint-no-indistinguishable-colors
@@ -9672,5 +9701,5 @@ packages:
       stylelint: ^11.1.1 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0
     dependencies:
       colorguard-processor: 1.0.48
-      stylelint: 15.10.3
+      stylelint: 15.11.0
     dev: false
