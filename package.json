@@ -43,7 +43,7 @@
     "node-notifier": "10.0.1",
     "nx": "17.2.5",
     "postcss": "8.4.32",
-    "regenerator-runtime": "0.14.0",
+    "regenerator-runtime": "0.14.1",
     "stylelint": "15.11.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3",
