@@ -29,7 +29,7 @@
     "stylelint-csstree-validator": "3.0.0",
     "stylelint-declaration-block-no-ignored-properties": "2.8.0",
     "stylelint-declaration-strict-value": "1.9.2",
-    "stylelint-high-performance-animation": "1.9.0",
+    "stylelint-high-performance-animation": "1.10.0",
     "stylelint-no-indistinguishable-colors": "github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package",
     "stylelint-order": "6.0.4",
     "stylelint-scss": "6.0.0",
