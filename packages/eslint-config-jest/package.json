@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "eslint": "8.56.0",
-    "eslint-plugin-jest": "27.6.0",
+    "eslint-plugin-jest": "27.6.1",
     "typescript": "5.3.3"
   },
   "engines": {
