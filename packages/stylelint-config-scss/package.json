@@ -40,7 +40,7 @@
     "eslint": "8.56.0",
     "eslint-plugin-jest": "27.6.3",
     "jest": "29.7.0",
-    "postcss": "8.4.34",
+    "postcss": "8.4.35",
     "stylelint": "15.11.0",
     "typescript": "5.3.3"
   },
