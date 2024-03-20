@@ -46,7 +46,7 @@
     "regenerator-runtime": "0.14.1",
     "stylelint": "15.11.0",
     "ts-node": "10.9.2",
-    "typescript": "5.4.2",
+    "typescript": "5.4.3",
     "vue-eslint-parser": "9.4.2"
   },
   "engines": {
