@@ -37,7 +37,7 @@
   },
   "gitHead": "b63f4ebdb923c0f9e876de25ed3df131ec3f9975",
   "devDependencies": {
-    "@types/node": "20.12.3",
+    "@types/node": "20.12.4",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "@wemake-services/eslint-config-jest": "workspace:^",
