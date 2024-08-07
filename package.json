@@ -20,7 +20,7 @@
     "@babel/core": "7.25.2",
     "@babel/eslint-parser": "7.25.1",
     "@babel/preset-env": "7.25.3",
-    "@swc/core": "1.5.5",
+    "@swc/core": "1.7.6",
     "@swc/jest": "0.2.36",
     "@types/node": "20.12.11",
     "@typescript-eslint/eslint-plugin": "5.62.0",
