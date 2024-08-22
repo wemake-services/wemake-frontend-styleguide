@@ -18,11 +18,11 @@ importers:
         specifier: 7.25.4
         version: 7.25.4(@babel/core@7.25.2)
       '@swc/core':
-        specifier: 1.7.6
-        version: 1.7.6
+        specifier: 1.7.14
+        version: 1.7.14
       '@swc/jest':
         specifier: 0.2.36
-        version: 0.2.36(@swc/core@1.7.6)
+        version: 0.2.36(@swc/core@1.7.14)
       '@types/node':
         specifier: 20.14.14
         version: 20.14.14
@@ -76,13 +76,13 @@ importers:
         version: 7.1.0(jest@29.7.0)
       lerna:
         specifier: 6.6.2
-        version: 6.6.2(@swc/core@1.7.6)
+        version: 6.6.2(@swc/core@1.7.14)
       node-notifier:
         specifier: 10.0.1
         version: 10.0.1
       nx:
         specifier: 18.3.5
-        version: 18.3.5(@swc/core@1.7.6)
+        version: 18.3.5(@swc/core@1.7.14)
       postcss:
         specifier: 8.4.41
         version: 8.4.41
@@ -94,7 +94,7 @@ importers:
         version: 15.11.0
       ts-node:
         specifier: 10.9.2
-        version: 10.9.2(@swc/core@1.7.6)(@types/node@20.14.14)(typescript@5.5.4)
+        version: 10.9.2(@swc/core@1.7.14)(@types/node@20.14.14)(typescript@5.5.4)
       typescript:
         specifier: 5.5.4
         version: 5.5.4
@@ -2341,10 +2341,10 @@ packages:
       - supports-color
     dev: true
 
-  /@nrwl/cli@15.8.9(@swc/core@1.7.6):
+  /@nrwl/cli@15.8.9(@swc/core@1.7.14):
     resolution: {integrity: sha512-b0lGAXMqyIXyJHCpVyqnm8hCFSRARDiWkSzE3R7dVLTuu0Z9vdnrNUctMipjlzZk10Ipd8iggsjrToMbDcL7dA==}
     dependencies:
-      nx: 15.8.9(@swc/core@1.7.6)
+      nx: 15.8.9(@swc/core@1.7.14)
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -2359,7 +2359,7 @@ packages:
       '@phenomnomnominal/tsquery': 4.1.1(typescript@4.9.5)
       ejs: 3.1.8
       ignore: 5.2.4
-      nx: 15.8.9(@swc/core@1.7.6)
+      nx: 15.8.9(@swc/core@1.7.14)
       semver: 7.3.4
       tslib: 2.5.0
     transitivePeerDependencies:
@@ -2447,22 +2447,22 @@ packages:
     dev: true
     optional: true
 
-  /@nrwl/tao@15.8.9(@swc/core@1.7.6):
+  /@nrwl/tao@15.8.9(@swc/core@1.7.14):
     resolution: {integrity: sha512-pJF1ISvRaqdMHQFAQvccsiUJCaegn4CCX9GDfvdTTOPpWD2WS/vq+5o7bOWJ14E0jtn+92MfLisK7Z+CSuyoWg==}
     hasBin: true
     dependencies:
-      nx: 15.8.9(@swc/core@1.7.6)
+      nx: 15.8.9(@swc/core@1.7.14)
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
       - debug
     dev: true
 
-  /@nrwl/tao@18.3.5(@swc/core@1.7.6):
+  /@nrwl/tao@18.3.5(@swc/core@1.7.14):
     resolution: {integrity: sha512-gB7Vxa6FReZZEGva03Eh+84W8BSZOjsNyXboglOINu6d8iZZ0eotSXGziKgjpkj3feZ1ofKZMs0PRObVAOROVw==}
     hasBin: true
     dependencies:
-      nx: 18.3.5(@swc/core@1.7.6)
+      nx: 18.3.5(@swc/core@1.7.14)
       tslib: 2.5.0
     transitivePeerDependencies:
       - '@swc-node/register'
@@ -2729,8 +2729,8 @@ packages:
       '@sinonjs/commons': 2.0.0
     dev: true
 
-  /@swc/core-darwin-arm64@1.7.6:
-    resolution: {integrity: sha512-6lYHey84ZzsdtC7UuPheM4Rm0Inzxm6Sb8U6dmKc4eCx8JL0LfWG4LC5RsdsrTxnjTsbriWlnhZBffh8ijUHIQ==}
+  /@swc/core-darwin-arm64@1.7.14:
+    resolution: {integrity: sha512-V0OUXjOH+hdGxDYG8NkQzy25mKOpcNKFpqtZEzLe5V/CpLJPnpg1+pMz70m14s9ZFda9OxsjlvPbg1FLUwhgIQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [darwin]
@@ -2738,8 +2738,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-darwin-x64@1.7.6:
-    resolution: {integrity: sha512-Fyl+8aH9O5rpx4O7r2KnsPpoi32iWoKOYKiipeTbGjQ/E95tNPxbmsz4yqE8Ovldcga60IPJ5OKQA3HWRiuzdw==}
+  /@swc/core-darwin-x64@1.7.14:
+    resolution: {integrity: sha512-9iFvUnxG6FC3An5ogp5jbBfQuUmTTwy8KMB+ZddUoPB3NR1eV+Y9vOh/tfWcenSJbgOKDLgYC5D/b1mHAprsrQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [darwin]
@@ -2747,8 +2747,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm-gnueabihf@1.7.6:
-    resolution: {integrity: sha512-2WxYTqFaOx48GKC2cbO1/IntA+w+kfCFy436Ij7qRqqtV/WAvTM9TC1OmiFbqq436rSot52qYmX8fkwdB5UcLQ==}
+  /@swc/core-linux-arm-gnueabihf@1.7.14:
+    resolution: {integrity: sha512-zGJsef9qPivKSH8Vv4F/HiBXBTHZ5Hs3ZjVGo/UIdWPJF8fTL9OVADiRrl34Q7zOZEtGXRwEKLUW1SCQcbDvZA==}
     engines: {node: '>=10'}
     cpu: [arm]
     os: [linux]
@@ -2756,8 +2756,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-gnu@1.7.6:
-    resolution: {integrity: sha512-TBEGMSe0LhvPe4S7E68c7VzgT3OMu4VTmBLS7B2aHv4v8uZO92Khpp7L0WqgYU1y5eMjk+XLDLi4kokiNHv/Hg==}
+  /@swc/core-linux-arm64-gnu@1.7.14:
+    resolution: {integrity: sha512-AxV3MPsoI7i4B8FXOew3dx3N8y00YoJYvIPfxelw07RegeCEH3aHp2U2DtgbP/NV1ugZMx0TL2Z2DEvocmA51g==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -2765,8 +2765,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-arm64-musl@1.7.6:
-    resolution: {integrity: sha512-QI8QGL0HGT42tj7F1A+YAzhGkJjUcvvTfI1e2m704W0Enl2/UIK9v5D1zvQzYwusRyKuaQfbeBRYDh0NcLOGLg==}
+  /@swc/core-linux-arm64-musl@1.7.14:
+    resolution: {integrity: sha512-JDLdNjUj3zPehd4+DrQD8Ltb3B5lD8D05IwePyDWw+uR/YPc7w/TX1FUVci5h3giJnlMCJRvi1IQYV7K1n7KtQ==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [linux]
@@ -2774,8 +2774,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-gnu@1.7.6:
-    resolution: {integrity: sha512-61AYVzhjuNQAVIKKWOJu3H0/pFD28RYJGxnGg3YMhvRLRyuWNyY5Nyyj2WkKcz/ON+g38Arlz00NT1LDIViRLg==}
+  /@swc/core-linux-x64-gnu@1.7.14:
+    resolution: {integrity: sha512-Siy5OvPCLLWmMdx4msnEs8HvEVUEigSn0+3pbLjv78iwzXd0qSBNHUPZyC1xeurVaUbpNDxZTpPRIwpqNE2+Og==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -2783,8 +2783,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-linux-x64-musl@1.7.6:
-    resolution: {integrity: sha512-hQFznpfLK8XajfAAN9Cjs0w/aVmO7iu9VZvInyrTCRcPqxV5O+rvrhRxKvC1LRMZXr5M6JRSRtepp5w+TK4kAw==}
+  /@swc/core-linux-x64-musl@1.7.14:
+    resolution: {integrity: sha512-FtEGm9mwtRYQNK43WMtUIadxHs/ja2rnDurB99os0ZoFTGG2IHuht2zD97W0wB8JbqEabT1XwSG9Y5wmN+ciEQ==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [linux]
@@ -2792,8 +2792,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-arm64-msvc@1.7.6:
-    resolution: {integrity: sha512-Aqsd9afykVMuekzjm4X4TDqwxmG4CrzoOSFe0hZrn9SMio72l5eAPnMtYoe5LsIqtjV8MNprLfXaNbjHjTegmA==}
+  /@swc/core-win32-arm64-msvc@1.7.14:
+    resolution: {integrity: sha512-Jp8KDlfq7Ntt2/BXr0y344cYgB1zf0DaLzDZ1ZJR6rYlAzWYSccLYcxHa97VGnsYhhPspMpmCvHid97oe2hl4A==}
     engines: {node: '>=10'}
     cpu: [arm64]
     os: [win32]
@@ -2801,8 +2801,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-ia32-msvc@1.7.6:
-    resolution: {integrity: sha512-9h0hYnOeRVNeQgHQTvD1Im67faNSSzBZ7Adtxyu9urNLfBTJilMllFd2QuGHlKW5+uaT6ZH7ZWDb+c/enx7Lcg==}
+  /@swc/core-win32-ia32-msvc@1.7.14:
+    resolution: {integrity: sha512-I+cFsXF0OU0J9J4zdWiQKKLURO5dvCujH9Jr8N0cErdy54l9d4gfIxdctfTF+7FyXtWKLTCkp+oby9BQhkFGWA==}
     engines: {node: '>=10'}
     cpu: [ia32]
     os: [win32]
@@ -2810,8 +2810,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core-win32-x64-msvc@1.7.6:
-    resolution: {integrity: sha512-izeoB8glCSe6IIDQmrVm6bvR9muk9TeKgmtY7b6l1BwL4BFnTUk4dMmpbntT90bEVQn3JPCaPtUG4HfL8VuyuA==}
+  /@swc/core-win32-x64-msvc@1.7.14:
+    resolution: {integrity: sha512-NNrprQCK6d28mG436jVo2TD+vACHseUECacEBGZ9Ef0qfOIWS1XIt2MisQKG0Oea2VvLFl6tF/V4Lnx/H0Sn3Q==}
     engines: {node: '>=10'}
     cpu: [x64]
     os: [win32]
@@ -2819,8 +2819,8 @@ packages:
     dev: true
     optional: true
 
-  /@swc/core@1.7.6:
-    resolution: {integrity: sha512-FZxyao9eQks1MRmUshgsZTmlg/HB2oXK5fghkoWJm/1CU2q2kaJlVDll2as5j+rmWiwkp0Gidlq8wlXcEEAO+g==}
+  /@swc/core@1.7.14:
+    resolution: {integrity: sha512-9aeXeifnyuvc2pcuuhPQgVUwdpGEzZ+9nJu0W8/hNl/aESFsJGR5i9uQJRGu0atoNr01gK092fvmqMmQAPcKow==}
     engines: {node: '>=10'}
     requiresBuild: true
     peerDependencies:
@@ -2832,30 +2832,30 @@ packages:
       '@swc/counter': 0.1.3
       '@swc/types': 0.1.12
     optionalDependencies:
-      '@swc/core-darwin-arm64': 1.7.6
-      '@swc/core-darwin-x64': 1.7.6
-      '@swc/core-linux-arm-gnueabihf': 1.7.6
-      '@swc/core-linux-arm64-gnu': 1.7.6
-      '@swc/core-linux-arm64-musl': 1.7.6
-      '@swc/core-linux-x64-gnu': 1.7.6
-      '@swc/core-linux-x64-musl': 1.7.6
-      '@swc/core-win32-arm64-msvc': 1.7.6
-      '@swc/core-win32-ia32-msvc': 1.7.6
-      '@swc/core-win32-x64-msvc': 1.7.6
+      '@swc/core-darwin-arm64': 1.7.14
+      '@swc/core-darwin-x64': 1.7.14
+      '@swc/core-linux-arm-gnueabihf': 1.7.14
+      '@swc/core-linux-arm64-gnu': 1.7.14
+      '@swc/core-linux-arm64-musl': 1.7.14
+      '@swc/core-linux-x64-gnu': 1.7.14
+      '@swc/core-linux-x64-musl': 1.7.14
+      '@swc/core-win32-arm64-msvc': 1.7.14
+      '@swc/core-win32-ia32-msvc': 1.7.14
+      '@swc/core-win32-x64-msvc': 1.7.14
     dev: true
 
   /@swc/counter@0.1.3:
     resolution: {integrity: sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==}
     dev: true
 
-  /@swc/jest@0.2.36(@swc/core@1.7.6):
+  /@swc/jest@0.2.36(@swc/core@1.7.14):
     resolution: {integrity: sha512-8X80dp81ugxs4a11z1ka43FPhP+/e+mJNXJSxiNYk8gIX/jPBtY4gQTrKu/KIoco8bzKuPI5lUxjfLiGsfvnlw==}
     engines: {npm: '>= 7.0.0'}
     peerDependencies:
       '@swc/core': '*'
     dependencies:
       '@jest/create-cache-key-function': 29.7.0
-      '@swc/core': 1.7.6
+      '@swc/core': 1.7.14
       '@swc/counter': 0.1.3
       jsonc-parser: 3.2.0
     dev: true
@@ -6231,7 +6231,7 @@ packages:
       pretty-format: 29.7.0
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.2(@swc/core@1.7.6)(@types/node@20.14.14)(typescript@5.5.4)
+      ts-node: 10.9.2(@swc/core@1.7.14)(@types/node@20.14.14)(typescript@5.5.4)
     transitivePeerDependencies:
       - babel-plugin-macros
       - supports-color
@@ -6681,7 +6681,7 @@ packages:
     resolution: {integrity: sha512-tBECoUqNFbyAY4RrbqsBQqDFpGXAEbdD5QKr8kACx3+rnArmuuR22nKQWKazvp07N9yjTyDZaw/20UIH8tL9DQ==}
     dev: false
 
-  /lerna@6.6.2(@swc/core@1.7.6):
+  /lerna@6.6.2(@swc/core@1.7.14):
     resolution: {integrity: sha512-W4qrGhcdutkRdHEaDf9eqp7u4JvI+1TwFy5woX6OI8WPe4PYBdxuILAsvhp614fUG41rKSGDKlOh+AWzdSidTg==}
     engines: {node: ^14.17.0 || >=16.0.0}
     hasBin: true
@@ -6733,7 +6733,7 @@ packages:
       npm-packlist: 5.1.1
       npm-registry-fetch: 14.0.3
       npmlog: 6.0.2
-      nx: 15.8.9(@swc/core@1.7.6)
+      nx: 15.8.9(@swc/core@1.7.14)
       p-map: 4.0.0
       p-map-series: 2.1.0
       p-pipe: 3.1.0
@@ -7574,7 +7574,7 @@ packages:
       boolbase: 1.0.0
     dev: true
 
-  /nx@15.8.9(@swc/core@1.7.6):
+  /nx@15.8.9(@swc/core@1.7.14):
     resolution: {integrity: sha512-wUrOx320IMDNQ6WIB4Sm5BbsPDpgp661pmlQZzacsulHq38D+LeSZM96Zaj0RZPVlGZU0l3X/cZP9ACzAQwdTw==}
     hasBin: true
     requiresBuild: true
@@ -7587,10 +7587,10 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 15.8.9(@swc/core@1.7.6)
-      '@nrwl/tao': 15.8.9(@swc/core@1.7.6)
+      '@nrwl/cli': 15.8.9(@swc/core@1.7.14)
+      '@nrwl/tao': 15.8.9(@swc/core@1.7.14)
       '@parcel/watcher': 2.0.4
-      '@swc/core': 1.7.6
+      '@swc/core': 1.7.14
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
@@ -7637,7 +7637,7 @@ packages:
       - debug
     dev: true
 
-  /nx@18.3.5(@swc/core@1.7.6):
+  /nx@18.3.5(@swc/core@1.7.14):
     resolution: {integrity: sha512-wWcvwoTgiT5okdrG0RIWm1tepC17bDmSpw+MrOxnjfBjARQNTURkiq4U6cxjCVsCxNHxCrlAaBSQLZeBgJZTzQ==}
     hasBin: true
     requiresBuild: true
@@ -7650,8 +7650,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/tao': 18.3.5(@swc/core@1.7.6)
-      '@swc/core': 1.7.6
+      '@nrwl/tao': 18.3.5(@swc/core@1.7.14)
+      '@swc/core': 1.7.14
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.46
       '@zkochan/js-yaml': 0.0.6
@@ -9319,7 +9319,7 @@ packages:
       typescript: 5.5.4
     dev: true
 
-  /ts-node@10.9.2(@swc/core@1.7.6)(@types/node@20.14.14)(typescript@5.5.4):
+  /ts-node@10.9.2(@swc/core@1.7.14)(@types/node@20.14.14)(typescript@5.5.4):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -9334,7 +9334,7 @@ packages:
         optional: true
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
-      '@swc/core': 1.7.6
+      '@swc/core': 1.7.14
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
