@@ -238,8 +238,8 @@ importers:
         specifier: 6.5.0
         version: 6.5.0(stylelint@15.11.0)
       stylelint-use-nesting:
-        specifier: 4.1.0
-        version: 4.1.0(stylelint@15.11.0)
+        specifier: 5.1.2
+        version: 5.1.2(stylelint@15.11.0)
     devDependencies:
       '@wemake-services/eslint-config-jest':
         specifier: workspace:^
@@ -9067,11 +9067,11 @@ packages:
       stylelint: 15.11.0
     dev: false
 
-  /stylelint-use-nesting@4.1.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-DDI+T/8kGIxdcfPClxp/oS2cFSWvd+hoV54clF7lnrlSvYHOQouaxgMOuPmkIQig0suss/PrAw5GwBYoSu8WoQ==}
-    engines: {node: '>=16.0.0'}
+  /stylelint-use-nesting@5.1.2(stylelint@15.11.0):
+    resolution: {integrity: sha512-MGSHQnpMif1f/FRMZT7yetTwqK2spGz/pimNBIznPLFQK3kewUgY/seWkQxWWYmvOe0qxaXoOrl+ZIjgJvSTRw==}
+    engines: {node: '>=20.0.0'}
     peerDependencies:
-      stylelint: '>= 10'
+      stylelint: '>= 16'
     dependencies:
       stylelint: 15.11.0
     dev: false

@@ -33,7 +33,7 @@
     "stylelint-no-indistinguishable-colors": "github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package",
     "stylelint-order": "6.0.4",
     "stylelint-scss": "6.5.0",
-    "stylelint-use-nesting": "4.1.0"
+    "stylelint-use-nesting": "5.1.2"
   },
   "devDependencies": {
     "@wemake-services/eslint-config-jest": "workspace:^",
