@@ -32,7 +32,7 @@
     "eslint-plugin-import": "2.30.0",
     "eslint-plugin-jest": "28.8.3",
     "eslint-plugin-jsdoc": "41.1.2",
-    "eslint-plugin-n": "17.10.2",
+    "eslint-plugin-n": "17.10.3",
     "eslint-plugin-promise": "7.1.0",
     "eslint-plugin-sonarjs": "0.25.1",
     "eslint-plugin-unicorn": "49.0.0",
