@@ -29,7 +29,7 @@
     "eslint-config-standard": "17.1.0",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-n": "17.14.0",
-    "eslint-plugin-promise": "7.1.0",
+    "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-sonarjs": "0.25.1",
     "eslint-plugin-unicorn": "49.0.0"
   },
