@@ -223,8 +223,8 @@ importers:
         specifier: 2.8.0
         version: 2.8.0(stylelint@15.11.0)
       stylelint-declaration-strict-value:
-        specifier: 1.10.6
-        version: 1.10.6(stylelint@15.11.0)
+        specifier: 1.10.7
+        version: 1.10.7(stylelint@15.11.0)
       stylelint-high-performance-animation:
         specifier: 1.10.0
         version: 1.10.0(stylelint@15.11.0)
@@ -9120,8 +9120,8 @@ packages:
       stylelint: 15.11.0
     dev: false
 
-  /stylelint-declaration-strict-value@1.10.6(stylelint@15.11.0):
-    resolution: {integrity: sha512-aZGEW4Ee26Tx4UvpQJbcElVXZ42EleujEByiyKDTT7t83EeSe9t0lAG3OOLJnnvLjz/dQnp+L+3IYTMeQI51vQ==}
+  /stylelint-declaration-strict-value@1.10.7(stylelint@15.11.0):
+    resolution: {integrity: sha512-FlMvc3uoQtMcItW3Zh8lHJ7oN2KGns3vZDCaTZoGFRiRIjImQoxO+6gAeRf+Dgi0nXFICIPq9xxFsMi8zuYUsg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: '>=7 <=16'
