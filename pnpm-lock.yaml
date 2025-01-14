@@ -40,7 +40,7 @@ importers:
         version: 8.57.1
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.14.0)(eslint-plugin-promise@7.2.1)(eslint@8.57.1)
+        version: 17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.15.1)(eslint-plugin-promise@7.2.1)(eslint@8.57.1)
       eslint-import-resolver-typescript:
         specifier: 3.7.0
         version: 3.7.0(eslint-plugin-import@2.31.0)(eslint@8.57.1)
@@ -54,8 +54,8 @@ importers:
         specifier: 41.1.2
         version: 41.1.2(eslint@8.57.1)
       eslint-plugin-n:
-        specifier: 17.14.0
-        version: 17.14.0(eslint@8.57.1)
+        specifier: 17.15.1
+        version: 17.15.1(eslint@8.57.1)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@8.57.1)
@@ -109,13 +109,13 @@ importers:
         version: 8.57.1
       eslint-config-standard:
         specifier: 17.1.0
-        version: 17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.14.0)(eslint-plugin-promise@7.2.1)(eslint@8.57.1)
+        version: 17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.15.1)(eslint-plugin-promise@7.2.1)(eslint@8.57.1)
       eslint-plugin-import:
         specifier: 2.31.0
         version: 2.31.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.7.0)(eslint@8.57.1)
       eslint-plugin-n:
-        specifier: 17.14.0
-        version: 17.14.0(eslint@8.57.1)
+        specifier: 17.15.1
+        version: 17.15.1(eslint@8.57.1)
       eslint-plugin-promise:
         specifier: 7.2.1
         version: 7.2.1(eslint@8.57.1)
@@ -1661,7 +1661,7 @@ packages:
       debug: 4.3.7
       espree: 9.6.1
       globals: 13.24.0
-      ignore: 5.2.4
+      ignore: 5.3.2
       import-fresh: 3.3.0
       js-yaml: 4.1.0
       minimatch: 3.1.2
@@ -2326,7 +2326,7 @@ packages:
     dependencies:
       '@phenomnomnominal/tsquery': 4.1.1(typescript@4.9.5)
       ejs: 3.1.8
-      ignore: 5.2.4
+      ignore: 5.3.2
       nx: 15.8.9(@swc/core@1.10.7)
       semver: 7.3.4
       tslib: 2.5.0
@@ -4644,7 +4644,7 @@ packages:
       semver: 7.6.3
     dev: true
 
-  /eslint-config-standard@17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.14.0)(eslint-plugin-promise@7.2.1)(eslint@8.57.1):
+  /eslint-config-standard@17.1.0(eslint-plugin-import@2.31.0)(eslint-plugin-n@17.15.1)(eslint-plugin-promise@7.2.1)(eslint@8.57.1):
     resolution: {integrity: sha512-IwHwmaBNtDK4zDHQukFDW5u/aTb8+meQWZvNFWkiGmbWjD6bqyuSSBxxXKkCftCUzc1zwCH2m/baCNDLGmuO5Q==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
@@ -4655,7 +4655,7 @@ packages:
     dependencies:
       eslint: 8.57.1
       eslint-plugin-import: 2.31.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@3.7.0)(eslint@8.57.1)
-      eslint-plugin-n: 17.14.0(eslint@8.57.1)
+      eslint-plugin-n: 17.15.1(eslint@8.57.1)
       eslint-plugin-promise: 7.2.1(eslint@8.57.1)
     dev: true
 
@@ -4816,8 +4816,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-n@17.14.0(eslint@8.57.1):
-    resolution: {integrity: sha512-maxPLMEA0rPmRpoOlxEclKng4UpDe+N5BJS4t24I3UKnN109Qcivnfs37KMy84G0af3bxjog5lKctP5ObsvcTA==}
+  /eslint-plugin-n@17.15.1(eslint@8.57.1):
+    resolution: {integrity: sha512-KFw7x02hZZkBdbZEFQduRGH4VkIH4MW97ClsbAM4Y4E6KguBJWGfWG1P4HEIpZk2bkoWf0bojpnjNAhYQP8beA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       eslint: '>=8.23.0'
@@ -5559,7 +5559,7 @@ packages:
       array-union: 2.1.0
       dir-glob: 3.0.1
       fast-glob: 3.3.2
-      ignore: 5.2.4
+      ignore: 5.3.2
       merge2: 1.4.1
       slash: 3.0.0
 
@@ -5761,7 +5761,6 @@ packages:
   /ignore@5.3.2:
     resolution: {integrity: sha512-hsBTNUqQTDwkWtcdYI2i06Y/nUBEsNEDJKjWdigLvegy8kDuJAS8uRlpkkcQpyEXL0Z/pjDy5HBmMjRCJ2gq+g==}
     engines: {node: '>= 4'}
-    dev: true
 
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
@@ -7668,7 +7667,7 @@ packages:
       flat: 5.0.2
       fs-extra: 11.1.0
       glob: 7.1.4
-      ignore: 5.2.4
+      ignore: 5.3.2
       js-yaml: 4.1.0
       jsonc-parser: 3.2.0
       lines-and-columns: 2.0.3
