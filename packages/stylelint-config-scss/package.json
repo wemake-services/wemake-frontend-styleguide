@@ -32,7 +32,7 @@
     "stylelint-high-performance-animation": "1.10.0",
     "stylelint-no-indistinguishable-colors": "github:bryanjtc/stylelint-no-indistinguishable-colors#upgrade-package",
     "stylelint-order": "6.0.4",
-    "stylelint-scss": "6.11.0",
+    "stylelint-scss": "6.11.1",
     "stylelint-use-nesting": "4.1.0"
   },
   "devDependencies": {

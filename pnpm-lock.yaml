@@ -235,8 +235,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4(stylelint@15.11.0)
       stylelint-scss:
-        specifier: 6.11.0
-        version: 6.11.0(stylelint@15.11.0)
+        specifier: 6.11.1
+        version: 6.11.1(stylelint@15.11.0)
       stylelint-use-nesting:
         specifier: 4.1.0
         version: 4.1.0(stylelint@15.11.0)
@@ -8168,8 +8168,8 @@ packages:
       cssesc: 3.0.0
       util-deprecate: 1.0.2
 
-  /postcss-selector-parser@7.0.0:
-    resolution: {integrity: sha512-9RbEr1Y7FFfptd/1eEdntyjMwLeghW1bHX9GWjXo19vx4ytPQhANltvVxDggzJl7mnWM+dX28kb6cyS/4iQjlQ==}
+  /postcss-selector-parser@7.1.0:
+    resolution: {integrity: sha512-8sLjZwK0R+JlxlYcTuVnyT2v+htpdrjDOKuMcOVdYjt52Lh8hWRYpxBPoKx/Zg+bcjc3wx6fmQevMmUztS/ccA==}
     engines: {node: '>=4'}
     dependencies:
       cssesc: 3.0.0
@@ -9148,8 +9148,8 @@ packages:
       stylelint: 15.11.0
     dev: false
 
-  /stylelint-scss@6.11.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-AvJ6LVzz2iXHxPlPTR9WVy73FC/vmohH54VySNlCKX1NIXNAeuzy/VbIkMJLMyw/xKYqkgY4kAgB+qy5BfCaCg==}
+  /stylelint-scss@6.11.1(stylelint@15.11.0):
+    resolution: {integrity: sha512-e4rYo0UY+BIMtGeGanghrvHTjcryxgZbyFxUedp8dLFqC4P70aawNdYjRrQxbnKhu3BNr4+lt5e/53tcKXiwFA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.2
@@ -9160,7 +9160,7 @@ packages:
       mdn-data: 2.15.0
       postcss-media-query-parser: 0.2.3
       postcss-resolve-nested-selector: 0.1.6
-      postcss-selector-parser: 7.0.0
+      postcss-selector-parser: 7.1.0
       postcss-value-parser: 4.2.0
       stylelint: 15.11.0
     dev: false
