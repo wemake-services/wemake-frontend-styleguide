@@ -44,7 +44,7 @@
     "nx": "20.6.4",
     "postcss": "8.5.3",
     "regenerator-runtime": "0.14.1",
-    "stylelint": "15.11.0",
+    "stylelint": "16.17.0",
     "ts-node": "10.9.2",
     "typescript": "5.8.2",
     "vue-eslint-parser": "9.4.3"
