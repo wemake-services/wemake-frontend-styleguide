@@ -22,7 +22,7 @@
     "@babel/preset-env": "7.27.2",
     "@swc/core": "1.11.24",
     "@swc/jest": "0.2.38",
-    "@types/node": "22.15.17",
+    "@types/node": "22.15.31",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
     "core-js": "3.42.0",
