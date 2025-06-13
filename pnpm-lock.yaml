@@ -235,8 +235,8 @@ importers:
         specifier: 6.0.4
         version: 6.0.4(stylelint@15.11.0)
       stylelint-scss:
-        specifier: 6.12.0
-        version: 6.12.0(stylelint@15.11.0)
+        specifier: 6.12.1
+        version: 6.12.1(stylelint@15.11.0)
       stylelint-use-nesting:
         specifier: 4.1.0
         version: 4.1.0(stylelint@15.11.0)
@@ -9364,8 +9364,8 @@ packages:
       stylelint: 15.11.0
     dev: false
 
-  /stylelint-scss@6.12.0(stylelint@15.11.0):
-    resolution: {integrity: sha512-U7CKhi1YNkM1pXUXl/GMUXi8xKdhl4Ayxdyceie1nZ1XNIdaUgMV6OArpooWcDzEggwgYD0HP/xIgVJo9a655w==}
+  /stylelint-scss@6.12.1(stylelint@15.11.0):
+    resolution: {integrity: sha512-UJUfBFIvXfly8WKIgmqfmkGKPilKB4L5j38JfsDd+OCg2GBdU0vGUV08Uw82tsRZzd4TbsUURVVNGeOhJVF7pA==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
       stylelint: ^16.0.2
