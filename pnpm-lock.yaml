@@ -60,8 +60,8 @@ importers:
         specifier: 7.2.1
         version: 7.2.1(eslint@8.57.1)
       eslint-plugin-sonarjs:
-        specifier: 0.25.1
-        version: 0.25.1(eslint@8.57.1)
+        specifier: 3.0.2
+        version: 3.0.2(eslint@8.57.1)
       eslint-plugin-unicorn:
         specifier: 49.0.0
         version: 49.0.0(eslint@8.57.1)
@@ -120,8 +120,8 @@ importers:
         specifier: 7.2.1
         version: 7.2.1(eslint@8.57.1)
       eslint-plugin-sonarjs:
-        specifier: 0.25.1
-        version: 0.25.1(eslint@8.57.1)
+        specifier: 3.0.2
+        version: 3.0.2(eslint@8.57.1)
       eslint-plugin-unicorn:
         specifier: 49.0.0
         version: 49.0.0(eslint@8.57.1)
@@ -3950,6 +3950,11 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
+  /bytes@3.1.2:
+    resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
+    engines: {node: '>= 0.8'}
+    dev: true
+
   /cacache@16.1.3:
     resolution: {integrity: sha512-/+Emcj9DAXxX4cwlLmRI9c166RuL3w30zp4R7Joiv2cQTtTtA+jeuCAjH3ZlGnYS3tKENSrKhAzVVP9GVyzeYQ==}
     engines: {node: ^12.13.0 || ^14.15.0 || >=16.0.0}
@@ -5133,13 +5138,21 @@ packages:
       eslint: 8.57.1
     dev: true
 
-  /eslint-plugin-sonarjs@0.25.1(eslint@8.57.1):
-    resolution: {integrity: sha512-5IOKvj/GMBNqjxBdItfotfRHo7w48496GOu1hxdeXuD0mB1JBlDCViiLHETDTfA8pDAVSBimBEQoetRXYceQEw==}
-    engines: {node: '>=16'}
+  /eslint-plugin-sonarjs@3.0.2(eslint@8.57.1):
+    resolution: {integrity: sha512-LxjbfwI7ypENeTmGyKmDyNux3COSkMi7H/6Cal5StSLQ6edf0naP45SZR43OclaNR7WfhVTZdhOn63q3/Y6puQ==}
     peerDependencies:
-      eslint: ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
+      eslint: ^8.0.0 || ^9.0.0
     dependencies:
+      '@eslint-community/regexpp': 4.12.1
+      builtin-modules: 3.3.0
+      bytes: 3.1.2
       eslint: 8.57.1
+      functional-red-black-tree: 1.0.1
+      jsx-ast-utils: 3.3.5
+      minimatch: 9.0.5
+      scslre: 0.3.0
+      semver: 7.7.1
+      typescript: 5.8.3
     dev: true
 
   /eslint-plugin-unicorn@49.0.0(eslint@8.57.1):
@@ -5643,6 +5656,10 @@ packages:
       define-properties: 1.2.1
       es-abstract: 1.23.3
       functions-have-names: 1.2.3
+    dev: true
+
+  /functional-red-black-tree@1.0.1:
+    resolution: {integrity: sha512-dsKNQNdj6xA3T+QlADDA7mOSlX0qiMINjn0cgr+eGHGsbSHzTabcIogz2+p/iqP1Xs6EP/sS2SbqH+brGTbq0g==}
     dev: true
 
   /functions-have-names@1.2.3:
@@ -7041,6 +7058,16 @@ packages:
   /jsonparse@1.3.1:
     resolution: {integrity: sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==}
     engines: {'0': node >= 0.2.0}
+    dev: true
+
+  /jsx-ast-utils@3.3.5:
+    resolution: {integrity: sha512-ZZow9HBI5O6EPgSJLUb8n2NKgmVWTwCvHGwFuJlMjvLFqlGG6pjirPhtdsseaLZjSibD8eegzmYpUZwoIlj2cQ==}
+    engines: {node: '>=4.0'}
+    dependencies:
+      array-includes: 3.1.8
+      array.prototype.flat: 1.3.2
+      object.assign: 4.1.5
+      object.values: 1.2.0
     dev: true
 
   /just-diff-apply@5.5.0:
@@ -8832,6 +8859,13 @@ packages:
       indent-string: 5.0.0
       strip-indent: 4.0.0
 
+  /refa@0.12.1:
+    resolution: {integrity: sha512-J8rn6v4DBb2nnFqkqwy6/NnTYMcgLA+sLr0iIO41qpv0n+ngb7ksag2tMRl0inb1bbO/esUwzW1vbJi7K0sI0g==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+    dependencies:
+      '@eslint-community/regexpp': 4.12.1
+    dev: true
+
   /regenerate-unicode-properties@10.2.0:
     resolution: {integrity: sha512-DqHn3DwbmmPVzeKj9woBadqmXxLvQoQIwu7nopMc72ztvxVmVk2SBhSnx67zuye5TP+lJsb/TBQsjLKhnDf3MA==}
     engines: {node: '>=4'}
@@ -8845,6 +8879,14 @@ packages:
 
   /regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
+    dev: true
+
+  /regexp-ast-analysis@0.7.1:
+    resolution: {integrity: sha512-sZuz1dYW/ZsfG17WSAG7eS85r5a0dDsvg+7BiiYR5o6lKCAtUrEwdmRmaGF6rwVj3LcmAeYkOWKEPlbPzN3Y3A==}
+    engines: {node: ^12.0.0 || ^14.0.0 || >=16.0.0}
+    dependencies:
+      '@eslint-community/regexpp': 4.12.1
+      refa: 0.12.1
     dev: true
 
   /regexp-tree@0.1.27:
@@ -9030,6 +9072,15 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    dev: true
+
+  /scslre@0.3.0:
+    resolution: {integrity: sha512-3A6sD0WYP7+QrjbfNA2FN3FsOaGGFoekCVgTyypy53gPxhbkCIjtO6YWgdrfM+n/8sI8JeXZOIxsHjMTNxQ4nQ==}
+    engines: {node: ^14.0.0 || >=16.0.0}
+    dependencies:
+      '@eslint-community/regexpp': 4.12.1
+      refa: 0.12.1
+      regexp-ast-analysis: 0.7.1
     dev: true
 
   /semver@5.7.1:
