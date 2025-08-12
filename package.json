@@ -41,7 +41,7 @@
     "jest-preset-stylelint": "7.3.0",
     "lerna": "6.6.2",
     "node-notifier": "10.0.1",
-    "nx": "21.3.7",
+    "nx": "21.3.11",
     "postcss": "8.5.6",
     "regenerator-runtime": "0.14.1",
     "stylelint": "15.11.0",
