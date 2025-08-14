@@ -38,7 +38,7 @@
     "eslint-plugin-unicorn": "49.0.0",
     "eslint-plugin-vue": "10.4.0",
     "jest": "30.0.5",
-    "jest-preset-stylelint": "7.3.0",
+    "jest-preset-stylelint": "8.0.0",
     "lerna": "6.6.2",
     "node-notifier": "10.0.1",
     "nx": "21.3.11",
