@@ -39,7 +39,7 @@
     "eslint-plugin-vue": "10.4.0",
     "jest": "30.0.5",
     "jest-preset-stylelint": "8.0.0",
-    "lerna": "6.6.2",
+    "lerna": "8.2.3",
     "node-notifier": "10.0.1",
     "nx": "21.3.11",
     "postcss": "8.5.6",
