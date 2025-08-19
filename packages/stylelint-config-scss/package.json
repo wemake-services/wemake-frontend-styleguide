@@ -41,7 +41,7 @@
     "eslint-plugin-jest": "29.0.1",
     "jest": "30.0.5",
     "postcss": "8.5.6",
-    "stylelint": "15.11.0",
+    "stylelint": "16.23.1",
     "typescript": "5.9.2"
   },
   "engines": {
