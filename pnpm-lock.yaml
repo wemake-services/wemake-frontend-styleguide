@@ -186,8 +186,8 @@ importers:
         specifier: '>=8.0.0'
         version: 8.0.0(eslint@8.57.1)
       is-arrayish:
-        specifier: 0.3.2
-        version: 0.3.2
+        specifier: 0.3.4
+        version: 0.3.4
     devDependencies:
       '@wemake-services/eslint-config-jest':
         specifier: workspace:^
@@ -6480,8 +6480,8 @@ packages:
   /is-arrayish@0.2.1:
     resolution: {integrity: sha512-zz06S8t0ozoDXMG+ube26zeCTNXcKIPJZJi8hBrF4idCLms4CG9QtK7qBl1boi5ODzFpjswb5JPmHCbMpjaYzg==}
 
-  /is-arrayish@0.3.2:
-    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
+  /is-arrayish@0.3.4:
+    resolution: {integrity: sha512-m6UrgzFVUYawGBh1dUsWR5M2Clqic9RVXC/9f8ceNlv2IcO9j9J/z8UoCLPqtsPBFNzEpfR3xftohbfqDx8EQA==}
     dev: false
 
   /is-async-function@2.1.1:
@@ -9683,7 +9683,7 @@ packages:
   /simple-swizzle@0.2.2:
     resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
     dependencies:
-      is-arrayish: 0.3.2
+      is-arrayish: 0.3.4
     dev: false
 
   /slash@3.0.0:
