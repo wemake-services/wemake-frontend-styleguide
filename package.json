@@ -31,7 +31,7 @@
     "eslint-import-resolver-typescript": "4.4.4",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-jest": "29.0.1",
-    "eslint-plugin-jsdoc": "41.1.2",
+    "eslint-plugin-jsdoc": "58.1.1",
     "eslint-plugin-n": "17.23.0",
     "eslint-plugin-promise": "7.2.1",
     "eslint-plugin-sonarjs": "0.25.1",
