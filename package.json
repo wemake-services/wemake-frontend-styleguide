@@ -25,7 +25,7 @@
     "@types/node": "22.18.12",
     "@typescript-eslint/eslint-plugin": "5.62.0",
     "@typescript-eslint/parser": "5.62.0",
-    "core-js": "3.45.1",
+    "core-js": "3.46.0",
     "eslint": "8.57.1",
     "eslint-config-standard": "17.1.0",
     "eslint-import-resolver-typescript": "4.4.4",
