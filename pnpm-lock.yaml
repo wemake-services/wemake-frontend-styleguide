@@ -48,8 +48,8 @@ importers:
         specifier: 2.32.0
         version: 2.32.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.1)
       eslint-plugin-jest:
-        specifier: 29.0.1
-        version: 29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
+        specifier: 29.12.1
+        version: 29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
       eslint-plugin-jsdoc:
         specifier: 41.1.2
         version: 41.1.2(eslint@8.57.1)
@@ -132,8 +132,8 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-plugin-jest:
-        specifier: 29.0.1
-        version: 29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
+        specifier: 29.12.1
+        version: 29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -171,8 +171,8 @@ importers:
         specifier: 2.32.0
         version: 2.32.0(@typescript-eslint/parser@5.62.0)(eslint-import-resolver-typescript@4.4.4)(eslint@8.57.1)
       eslint-plugin-jest:
-        specifier: 29.0.1
-        version: 29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
+        specifier: 29.12.1
+        version: 29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
       jest:
         specifier: 30.2.0
         version: 30.2.0(@types/node@22.19.3)(node-notifier@10.0.1)(ts-node@10.9.2)
@@ -196,8 +196,8 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-plugin-jest:
-        specifier: 29.0.1
-        version: 29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
+        specifier: 29.12.1
+        version: 29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
       jest:
         specifier: 30.2.0
         version: 30.2.0(@types/node@22.19.3)(node-notifier@10.0.1)(ts-node@10.9.2)
@@ -248,8 +248,8 @@ importers:
         specifier: 8.57.1
         version: 8.57.1
       eslint-plugin-jest:
-        specifier: 29.0.1
-        version: 29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
+        specifier: 29.12.1
+        version: 29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3)
       jest:
         specifier: 30.2.0
         version: 30.2.0(@types/node@22.19.3)(node-notifier@10.0.1)(ts-node@10.9.2)
@@ -5210,8 +5210,8 @@ packages:
       - supports-color
     dev: true
 
-  /eslint-plugin-jest@29.0.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3):
-    resolution: {integrity: sha512-EE44T0OSMCeXhDrrdsbKAhprobKkPtJTbQz5yEktysNpHeDZTAL1SfDTNKmcFfJkY6yrQLtTKZALrD3j/Gpmiw==}
+  /eslint-plugin-jest@29.12.1(@typescript-eslint/eslint-plugin@5.62.0)(eslint@8.57.1)(jest@30.2.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-Rxo7r4jSANMBkXLICJKS0gjacgyopfNAsoS0e3R9AHnjoKuQOaaPfmsDJPi8UWwygI099OV/K/JhpYRVkxD4AA==}
     engines: {node: ^20.12.0 || ^22.0.0 || >=24.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^8.0.0
