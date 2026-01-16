@@ -72,8 +72,8 @@ importers:
         specifier: 30.2.0
         version: 30.2.0(@types/node@24.10.9)(node-notifier@10.0.1)(ts-node@10.9.2)
       jest-preset-stylelint:
-        specifier: 8.0.0
-        version: 8.0.0(jest@30.2.0)
+        specifier: 9.0.0
+        version: 9.0.0(jest@30.2.0)(stylelint@15.11.0)
       lerna:
         specifier: 6.6.2
         version: 6.6.2(@swc/core@1.15.8)
@@ -7233,13 +7233,15 @@ packages:
       jest-resolve: 30.2.0
     dev: true
 
-  /jest-preset-stylelint@8.0.0(jest@30.2.0):
-    resolution: {integrity: sha512-9pROWG0Kb7da6+p57e1WznD19sIM6zp3c5O3NWqd95pl1Ulmo9GvfdtX7kJjhuGikeEhNfa3DodRwAQFyek30g==}
+  /jest-preset-stylelint@9.0.0(jest@30.2.0)(stylelint@15.11.0):
+    resolution: {integrity: sha512-c/wGpHdKRHFRhVxQV3SDeO+8S79V7NIucbI8NnWYwK9wTUdimSJ7U4HZiDBMdqZqw7SUeAjAZqleAJTY5SSD0Q==}
     engines: {node: '>=20.19.0'}
     peerDependencies:
-      jest: ^30.0.2
+      jest: ^30.2.0
+      stylelint: ^17.0.0
     dependencies:
       jest: 30.2.0(@types/node@24.10.9)(node-notifier@10.0.1)(ts-node@10.9.2)
+      stylelint: 15.11.0
     dev: true
 
   /jest-regex-util@30.0.1:
