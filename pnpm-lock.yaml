@@ -66,8 +66,8 @@ importers:
         specifier: 49.0.0
         version: 49.0.0(eslint@8.57.1)
       eslint-plugin-vue:
-        specifier: 10.7.0
-        version: 10.7.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(vue-eslint-parser@10.2.0)
+        specifier: 10.8.0
+        version: 10.8.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(vue-eslint-parser@10.2.0)
       jest:
         specifier: 30.2.0
         version: 30.2.0(@types/node@24.10.13)(node-notifier@10.0.1)(ts-node@10.9.2)
@@ -5369,13 +5369,13 @@ packages:
       strip-indent: 3.0.0
     dev: true
 
-  /eslint-plugin-vue@10.7.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(vue-eslint-parser@10.2.0):
-    resolution: {integrity: sha512-r2XFCK4qlo1sxEoAMIoTTX0PZAdla0JJDt1fmYiworZUX67WeEGqm+JbyAg3M+pGiJ5U6Mp5WQbontXWtIW7TA==}
+  /eslint-plugin-vue@10.8.0(@typescript-eslint/parser@5.62.0)(eslint@8.57.1)(vue-eslint-parser@10.2.0):
+    resolution: {integrity: sha512-f1J/tcbnrpgC8suPN5AtdJ5MQjuXbSU9pGRSSYAuF3SHoiYCOdEX6O22pLaRyLHXvDcOe+O5ENgc1owQ587agA==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
     peerDependencies:
       '@stylistic/eslint-plugin': ^2.0.0 || ^3.0.0 || ^4.0.0 || ^5.0.0
       '@typescript-eslint/parser': ^7.0.0 || ^8.0.0
-      eslint: ^8.57.0 || ^9.0.0
+      eslint: ^8.57.0 || ^9.0.0 || ^10.0.0
       vue-eslint-parser: ^10.0.0
     peerDependenciesMeta:
       '@stylistic/eslint-plugin':
